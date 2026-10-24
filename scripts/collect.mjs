@@ -150,6 +150,72 @@ await source('gecko_solana','https://api.geckoterminal.com/api/v2/networks/solan
  }))};return d.data.length;
 });
 
+
+// Kamino: estratégias de liquidez automatizada, não confundir com staking/lending.
+await source('kamino_liquidity','https://api.kamino.finance/strategies?env=mainnet-beta&status=LIVE',d=>{
+ const list=Array.isArray(d)?d:Array.isArray(d?.data)?d.data:Array.isArray(d?.strategies)?d.strategies:[];
+ if(!list.length)throw Error('Kamino: formato inesperado ou sem estratégias LIVE');
+ state.metrics.kamino_liquidity={observation_time:date,url:'https://api.kamino.finance/strategies?env=mainnet-beta&status=LIVE',strategies:list.slice(0,150).map(v=>({address:v.address||v.strategy||null,type:v.type||null,status:v.status||null,token_a_mint:v.tokenAMint||null,token_b_mint:v.tokenBMint||null,share_mint:v.shareMint||null})),note:'Catálogo oficial de estratégias Kamino; endpoint não comprova TVL/APY. Não atribuir rendimento ou risco sem outras métricas verificáveis.'};
+ return list.length;
+});
+
+
+// RADAR SOCIAL CRYPTO — fontes publicas sem scraping de X nem inferencia de causalidade.
+// Publicacoes sao sinais de pesquisa, nao fatos validados. Limite de 48 horas.
+const socialTerms=/\b(bitcoin|btc|ethereum|eth|solana|sol|defi|stablecoin|liquidity|dex|airdrop|token|crypto|etf|jupiter|meteora|kamino|hyperliquid|hype|rwa|staking|sec|fed)\b/i;
+const cryptoTopics=['bitcoin','solana','defi'];
+const socialItems=[];
+const lookback=48*3600000;
+function socialAdd(v){
+ if(!v.url||!v.published_at||!v.text)return;
+ const ms=Date.parse(v.published_at);if(!Number.isFinite(ms)||ms>Date.now()+600000||Date.now()-ms>lookback)return;
+ const clean=String(v.text).replace(/<[^>]*>/g,' ').replace(/\s+/g,' ').trim().slice(0,650);
+ if(clean.length<22||!socialTerms.test(clean))return;
+ socialItems.push({...v,text:clean,kind:'publicacao nao verificada'});
+}
+for(const topic of cryptoTopics){
+ await source('social_bluesky_'+topic,'https://public.api.bsky.app/xrpc/app.bsky.feed.searchPosts?q='+encodeURIComponent(topic)+'&limit=30&sort=latest',d=>{
+  if(!Array.isArray(d.posts))throw Error('Bluesky: payload invalido');
+  for(const post of d.posts){
+   const author=post.author?.handle,uri=post.uri?.split('/').pop();
+   if(!author||!uri)continue;
+   socialAdd({platform:'Bluesky',topic,author:'@'+author,text:post.record?.text||'',published_at:post.record?.createdAt||post.indexedAt,
+    url:'https://bsky.app/profile/'+encodeURIComponent(author)+'/post/'+encodeURIComponent(uri),
+    engagement:{likes:Number(post.likeCount)||0,reposts:Number(post.repostCount)||0,replies:Number(post.replyCount)||0}});
+  }return d.posts.length;
+ });
+}
+for(const topic of ['bitcoin','defi']){
+ await source('social_mastodon_'+topic,'https://mastodon.social/api/v1/timelines/tag/'+topic+'?limit=35',d=>{
+  if(!Array.isArray(d))throw Error('Mastodon: payload invalido');
+  for(const post of d){if(post.reblog)continue;
+   socialAdd({platform:'Mastodon',topic,author:'@'+(post.account?.acct||'desconhecido'),text:post.content||'',published_at:post.created_at,
+    url:post.url||post.uri,engagement:{likes:Number(post.favourites_count)||0,reposts:Number(post.reblogs_count)||0,replies:Number(post.replies_count)||0}});
+  }return d.length;
+ });
+}
+// Pontuacao de triagem: apenas engajamento e correspondencia textual; nao eh credibilidade nem previsao.
+const latest=new Map();for(const p of socialItems){
+ const key=p.url;if(!latest.has(key))latest.set(key,p);
+}
+const list=[...latest.values()].sort((a,b)=>Date.parse(b.published_at)-Date.parse(a.published_at)).slice(0,90);
+state.metrics.social_radar={observation_time:date,posts:list,window_hours:48,
+ status:'Fontes publicas Bluesky/Mastodon; X nao conectado sem API autorizada',
+ sources:['https://docs.bsky.app/docs/api/app-bsky-feed-search-posts','https://docs.joinmastodon.org/methods/timelines/'],
+ disclaimer:'Atividade social nao constitui prova de fatos, fluxo financeiro, manipulacao ou causalidade de precos.'};
+
+
+// RADAR NARRATIVAS 1.11 — correlacao descritiva, não inferência causal.
+// Mantém amostra agregada de menções públicas; cada postagem pode citar diversos ativos.
+const narrativePatterns={BTC:/\b(?:bitcoin|btc)\b/i,ETH:/\b(?:ethereum|eth)\b/i,SOL:/\b(?:solana|sol)\b/i,JUP:/\b(?:jupiter|jup)\b/i,HYPE:/\b(?:hyperliquid|hype)\b/i,KMNO:/\b(?:kamino|kmno)\b/i};
+const narrativeRows={};for(const [symbol,regex] of Object.entries(narrativePatterns)){
+ const matching=list.filter(p=>regex.test(String(p.text||'')));
+ narrativeRows[symbol]={mentions:matching.length,distinct_authors:new Set(matching.map(p=>p.platform+'|'+p.author)).size,
+  interactions:matching.reduce((n,p)=>n+['likes','reposts','replies'].reduce((a,k)=>a+(Number(p.engagement?.[k])||0),0),0)};
+}
+state.metrics.narratives={observation_time:date,window_hours:48,assets:narrativeRows,
+ methodology:'Correspondência textual em posts públicos coletados por Bluesky e Mastodon. Sem inferência de causalidade ou recomendação.'};
+
 // Preserve history for trend comparisons without exploding repository size.
 state.history.unshift({collected_at:date,fear_greed:state.sources.fear_greed?.ok?state.metrics.fear_greed?.value:null,tvl_usd:state.sources.defillama?.ok?state.metrics.defi?.total_tvl_usd:null,dex_volume_usd:state.sources.dex_volumes?.ok?state.metrics.dex_volume?.total24h:null,stablecoins_usd:state.sources.stablecoins?.ok?state.metrics.stablecoins?.total_usd:null,btc:state.sources.market_spot?.ok?state.metrics.market?.tickers?.BTCUSDT?.price:null,sol:state.sources.market_spot?.ok?state.metrics.market?.tickers?.SOLUSDT?.price:null,derivatives:Object.fromEntries(Object.entries(state.metrics.derivatives||{}).map(([k,v])=>[k,{oi:v.open_interest_base??null,funding:v.funding_rate??null}]))});state.history=state.history.filter(h=>h.collected_at && Date.parse(h.collected_at)>=Date.now()-48*3600000).slice(0,192);
 state.events=state.events.filter(e=>e.date&&Date.parse(e.date)>=Date.now()-48*3600000).slice(0,160);state.updated_at=date;
