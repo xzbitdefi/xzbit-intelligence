@@ -80,6 +80,76 @@ await source('yield_pools','https://yields.llama.fi/pools',d=>{
  return selected.length;
 });}
 
+
+// FONTES COMPLEMENTARES 1.11: índices agregados e candles reais, sem credenciais.
+// Cada fonte é independente; falhas aparecem no estado, nunca em números inventados.
+await source('global_market','https://api.coinpaprika.com/v1/global',d=>{
+  const cap=Number(d.market_cap_usd),dominance=Number(d.bitcoin_dominance_percentage);
+  if(!Number.isFinite(cap)||cap<=0)throw Error('Market cap global ausente');
+  state.metrics.global_market={
+    market_cap_usd:cap,
+    volume_24h_usd:Number.isFinite(Number(d.volume_24h_usd))?Number(d.volume_24h_usd):null,
+    btc_dominance_pct:Number.isFinite(dominance)?dominance:null,
+    observation_time:date,
+    url:'https://api.coinpaprika.com/v1/global'
+  };
+  return 1;
+});
+for(const pair of ['BTCUSDT','SOLUSDT','ETHUSDT']){
+ await source('candles_'+pair.toLowerCase(),`https://data-api.binance.vision/api/v3/klines?symbol=${pair}&interval=1h&limit=72`,d=>{
+   if(!Array.isArray(d)||d.length<24)throw Error('Candles insuficientes');
+   state.metrics.candles??={};
+   state.metrics.candles[pair]=d.map(c=>({
+     time:new Date(Number(c[0])).toISOString(),open:Number(c[1]),high:Number(c[2]),
+     low:Number(c[3]),close:Number(c[4]),volume:Number(c[5])
+   })).filter(c=>Number.isFinite(c.close)&&Number.isFinite(c.volume));
+   return state.metrics.candles[pair].length;
+ });
+}
+
+
+// SOLANA / DEFI — consulta passiva, nenhuma chave privada e nenhuma transação.
+await source('meteora_dlmm','https://dlmm.datapi.meteora.ag/pools?page=1&page_size=100&sort_by=volume_24h:desc',d=>{
+ const items=Array.isArray(d)?d:Array.isArray(d?.data)?d.data:Array.isArray(d?.pools)?d.pools:Array.isArray(d?.results)?d.results:[];
+ if(!items.length)throw Error('Formato de resposta Meteora desconhecido ou vazio');
+ state.metrics.meteora={observation_time:date,pools:items.slice(0,100).map(p=>({
+   address:p.address||p.pool_address||p.pubkey||null,
+   name:p.name||p.pool_name||p.symbol||null,
+   token_x:p.token_x?.symbol||p.token_x_symbol||null,
+   token_y:p.token_y?.symbol||p.token_y_symbol||null,
+   tvl_usd:Number.isFinite(Number(p.tvl_usd??p.tvl))?Number(p.tvl_usd??p.tvl):null,
+   volume_24h_usd:Number.isFinite(Number(p.volume_24h_usd??p.volume_24h))?Number(p.volume_24h_usd??p.volume_24h):null,
+   fees_24h_usd:Number.isFinite(Number(p.fees_24h_usd??p.fees_24h))?Number(p.fees_24h_usd??p.fees_24h):null,
+   apy:p.apy!=null&&Number.isFinite(Number(p.apy))?Number(p.apy):null,
+   apr:p.apr!=null&&Number.isFinite(Number(p.apr))?Number(p.apr):null,
+   bin_step:p.bin_step??p.binStep??null,
+   age_hours:p.created_at||p.createdAt?Math.max(0,(Date.now()-Date.parse(p.created_at||p.createdAt))/3600000):null,
+   token_x_mint:p.token_x?.address||p.token_x_mint||null,
+   token_y_mint:p.token_y?.address||p.token_y_mint||null
+ })),url:'https://dlmm.datapi.meteora.ag/swagger-ui/',note:'Métricas apenas quando presentes na resposta; APY não calculado a partir de volume.'};
+ return items.length;
+});
+const jupMints={SOL:'So11111111111111111111111111111111111111112',USDC:'EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v',JUP:'JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN'};
+await source('jupiter_price','https://api.jup.ag/price/v3?ids='+Object.values(jupMints).join(','),d=>{
+ if(!d||typeof d!=='object'||Array.isArray(d))throw Error('Formato Jupiter inválido');
+ const prices={};for(const [symbol,mint] of Object.entries(jupMints)){
+   const p=d[mint];if(p&&Number.isFinite(Number(p.usdPrice)))prices[symbol]={usd:Number(p.usdPrice),change24h:Number.isFinite(Number(p.priceChange24h))?Number(p.priceChange24h):null,liquidity:Number.isFinite(Number(p.liquidity))?Number(p.liquidity):null,blockId:p.blockId??null,mint};
+ }
+ if(!Object.keys(prices).length)throw Error('Jupiter não devolveu preços');
+ state.metrics.jupiter={observation_time:date,prices,url:'https://developers.jup.ag/docs/price'};return Object.keys(prices).length;
+});
+await source('gecko_solana','https://api.geckoterminal.com/api/v2/networks/solana/trending_pools?page=1',d=>{
+ if(!Array.isArray(d?.data))throw Error('GeckoTerminal: payload inválido');
+ state.metrics.gecko_solana={observation_time:date,pools:d.data.slice(0,20).map(p=>({
+  id:p.id,network:p.relationships?.network?.data?.id||'solana',name:p.attributes?.name||null,
+  address:p.attributes?.address||null,
+  reserve_usd:Number.isFinite(Number(p.attributes?.reserve_in_usd))?Number(p.attributes.reserve_in_usd):null,
+  volume_24h_usd:Number.isFinite(Number(p.attributes?.volume_usd?.h24))?Number(p.attributes.volume_usd.h24):null,
+  price_change_24h_pct:Number.isFinite(Number(p.attributes?.price_change_percentage?.h24))?Number(p.attributes.price_change_percentage.h24):null,
+  url:p.attributes?.address?'https://www.geckoterminal.com/solana/pools/'+encodeURIComponent(p.attributes.address):'https://www.geckoterminal.com/solana/pools'
+ }))};return d.data.length;
+});
+
 // Preserve history for trend comparisons without exploding repository size.
 state.history.unshift({collected_at:date,fear_greed:state.sources.fear_greed?.ok?state.metrics.fear_greed?.value:null,tvl_usd:state.sources.defillama?.ok?state.metrics.defi?.total_tvl_usd:null,dex_volume_usd:state.sources.dex_volumes?.ok?state.metrics.dex_volume?.total24h:null,stablecoins_usd:state.sources.stablecoins?.ok?state.metrics.stablecoins?.total_usd:null,btc:state.sources.market_spot?.ok?state.metrics.market?.tickers?.BTCUSDT?.price:null,sol:state.sources.market_spot?.ok?state.metrics.market?.tickers?.SOLUSDT?.price:null,derivatives:Object.fromEntries(Object.entries(state.metrics.derivatives||{}).map(([k,v])=>[k,{oi:v.open_interest_base??null,funding:v.funding_rate??null}]))});state.history=state.history.filter(h=>h.collected_at && Date.parse(h.collected_at)>=Date.now()-48*3600000).slice(0,192);
 state.events=state.events.filter(e=>e.date&&Date.parse(e.date)>=Date.now()-48*3600000).slice(0,160);state.updated_at=date;
