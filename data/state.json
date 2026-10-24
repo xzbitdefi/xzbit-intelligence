@@ -1,8 +1,1120 @@
 {
   "version": 1,
-  "updated_at": null,
-  "sources": {},
-  "events": [],
-  "metrics": {},
-  "history": []
+  "updated_at": "2026-10-24T14:27:45.140Z",
+  "sources": {
+    "cisa": {
+      "ok": true,
+      "last_success": "2026-10-24T14:27:45.140Z",
+      "last_attempt": "2026-10-24T14:27:45.140Z",
+      "count": 1756,
+      "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"
+    },
+    "fear_greed": {
+      "ok": true,
+      "last_success": "2026-10-24T14:27:45.140Z",
+      "last_attempt": "2026-10-24T14:27:45.140Z",
+      "count": 2,
+      "url": "https://api.alternative.me/fng/?limit=2&format=json"
+    },
+    "defillama": {
+      "ok": true,
+      "last_success": "2026-10-24T14:27:45.140Z",
+      "last_attempt": "2026-10-24T14:27:45.140Z",
+      "count": 421,
+      "url": "https://api.llama.fi/v2/chains"
+    },
+    "dexscreener": {
+      "ok": true,
+      "last_success": "2026-10-24T14:27:45.140Z",
+      "last_attempt": "2026-10-24T14:27:45.140Z",
+      "count": 30,
+      "url": "https://api.dexscreener.com/token-boosts/latest/v1"
+    }
+  },
+  "events": [
+    {
+      "id": "00f2f7927bb09d867503",
+      "first_seen": "2026-10-24T14:27:45.140Z",
+      "confidence": "fonte primaria",
+      "status": "exploração conhecida; impacto financeiro não confirmado",
+      "origin": "CISA KEV",
+      "key": "CVE-2020-29583",
+      "category": "cyber",
+      "title": "CVE-2020-29583 — Zyxel / Multiple Products",
+      "summary": "Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
+      "date": "2021-11-03",
+      "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "score": 72,
+      "evidence": {
+        "cve": "CVE-2020-29583",
+        "vendor": "Zyxel",
+        "product": "Multiple Products",
+        "ransomware": "Unknown"
+      }
+    },
+    {
+      "id": "b46d37065ba3991a6f59",
+      "first_seen": "2026-10-24T14:27:45.140Z",
+      "confidence": "fonte primaria",
+      "status": "exploração conhecida; impacto financeiro não confirmado",
+      "origin": "CISA KEV",
+      "key": "CVE-2019-8394",
+      "category": "cyber",
+      "title": "CVE-2019-8394 — Zoho / ManageEngine",
+      "summary": "Zoho ManageEngine ServiceDesk Plus (SDP) File Upload Vulnerability",
+      "date": "2021-11-03",
+      "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "score": 72,
+      "evidence": {
+        "cve": "CVE-2019-8394",
+        "vendor": "Zoho",
+        "product": "ManageEngine",
+        "ransomware": "Unknown"
+      }
+    },
+    {
+      "id": "80e17a29555c9bb4c1eb",
+      "first_seen": "2026-10-24T14:27:45.140Z",
+      "confidence": "fonte primaria",
+      "status": "exploração conhecida; impacto financeiro não confirmado",
+      "origin": "CISA KEV",
+      "key": "CVE-2020-10189",
+      "category": "cyber",
+      "title": "CVE-2020-10189 — Zoho / ManageEngine",
+      "summary": "Zoho ManageEngine Desktop Central File Upload Vulnerability",
+      "date": "2021-11-03",
+      "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "score": 72,
+      "evidence": {
+        "cve": "CVE-2020-10189",
+        "vendor": "Zoho",
+        "product": "ManageEngine",
+        "ransomware": "Unknown"
+      }
+    },
+    {
+      "id": "65a211db7d255eddd954",
+      "first_seen": "2026-10-24T14:27:45.140Z",
+      "confidence": "fonte primaria",
+      "status": "exploração conhecida; impacto financeiro não confirmado",
+      "origin": "CISA KEV",
+      "key": "CVE-2021-40539",
+      "category": "cyber",
+      "title": "CVE-2021-40539 — Zoho / ManageEngine",
+      "summary": "Zoho ManageEngine ADSelfService Plus Authentication Bypass Vulnerability",
+      "date": "2021-11-03",
+      "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "score": 85,
+      "evidence": {
+        "cve": "CVE-2021-40539",
+        "vendor": "Zoho",
+        "product": "ManageEngine",
+        "ransomware": "Known"
+      }
+    },
+    {
+      "id": "b5e39932a98130baa479",
+      "first_seen": "2026-10-24T14:27:45.140Z",
+      "confidence": "fonte primaria",
+      "status": "exploração conhecida; impacto financeiro não confirmado",
+      "origin": "CISA KEV",
+      "key": "CVE-2021-27561",
+      "category": "cyber",
+      "title": "CVE-2021-27561 — Yealink / Device Management",
+      "summary": "Yealink Device Management Server-Side Request Forgery (SSRF) Vulnerability",
+      "date": "2021-11-03",
+      "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "score": 72,
+      "evidence": {
+        "cve": "CVE-2021-27561",
+        "vendor": "Yealink",
+        "product": "Device Management",
+        "ransomware": "Unknown"
+      }
+    },
+    {
+      "id": "84419013f6dc19cedf66",
+      "first_seen": "2026-10-24T14:27:45.140Z",
+      "confidence": "fonte primaria",
+      "status": "exploração conhecida; impacto financeiro não confirmado",
+      "origin": "CISA KEV",
+      "key": "CVE-2019-9978",
+      "category": "cyber",
+      "title": "CVE-2019-9978 — WordPress / Social Warfare Plugin",
+      "summary": "WordPress Social Warfare Plugin Cross-Site Scripting (XSS) Vulnerability",
+      "date": "2021-11-03",
+      "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "score": 72,
+      "evidence": {
+        "cve": "CVE-2019-9978",
+        "vendor": "WordPress",
+        "product": "Social Warfare Plugin",
+        "ransomware": "Unknown"
+      }
+    },
+    {
+      "id": "8871a95ee85ace68888a",
+      "first_seen": "2026-10-24T14:27:45.140Z",
+      "confidence": "fonte primaria",
+      "status": "exploração conhecida; impacto financeiro não confirmado",
+      "origin": "CISA KEV",
+      "key": "CVE-2020-11738",
+      "category": "cyber",
+      "title": "CVE-2020-11738 — WordPress / Snap Creek Duplicator Plugin",
+      "summary": "WordPress Snap Creek Duplicator Plugin File Download Vulnerability",
+      "date": "2021-11-03",
+      "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "score": 72,
+      "evidence": {
+        "cve": "CVE-2020-11738",
+        "vendor": "WordPress",
+        "product": "Snap Creek Duplicator Plugin",
+        "ransomware": "Unknown"
+      }
+    },
+    {
+      "id": "634789b324bf32a23a90",
+      "first_seen": "2026-10-24T14:27:45.140Z",
+      "confidence": "fonte primaria",
+      "status": "exploração conhecida; impacto financeiro não confirmado",
+      "origin": "CISA KEV",
+      "key": "CVE-2020-25213",
+      "category": "cyber",
+      "title": "CVE-2020-25213 — WordPress / File Manager Plugin",
+      "summary": "WordPress File Manager Plugin Remote Code Execution Vulnerability",
+      "date": "2021-11-03",
+      "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "score": 72,
+      "evidence": {
+        "cve": "CVE-2020-25213",
+        "vendor": "WordPress",
+        "product": "File Manager Plugin",
+        "ransomware": "Unknown"
+      }
+    },
+    {
+      "id": "0f789e4ccdd9067dc504",
+      "first_seen": "2026-10-24T14:27:45.140Z",
+      "confidence": "fonte primaria",
+      "status": "exploração conhecida; impacto financeiro não confirmado",
+      "origin": "CISA KEV",
+      "key": "CVE-2020-4006",
+      "category": "cyber",
+      "title": "CVE-2020-4006 — VMware / Multiple Products",
+      "summary": "Multiple VMware Products Command Injection Vulnerability",
+      "date": "2021-11-03",
+      "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "score": 72,
+      "evidence": {
+        "cve": "CVE-2020-4006",
+        "vendor": "VMware",
+        "product": "Multiple Products",
+        "ransomware": "Unknown"
+      }
+    },
+    {
+      "id": "1fdc039a10a055e18f19",
+      "first_seen": "2026-10-24T14:27:45.140Z",
+      "confidence": "fonte primaria",
+      "status": "exploração conhecida; impacto financeiro não confirmado",
+      "origin": "CISA KEV",
+      "key": "CVE-2021-21985",
+      "category": "cyber",
+      "title": "CVE-2021-21985 — VMware / vCenter Server",
+      "summary": "VMware vCenter Server Improper Input Validation Vulnerability",
+      "date": "2021-11-03",
+      "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "score": 85,
+      "evidence": {
+        "cve": "CVE-2021-21985",
+        "vendor": "VMware",
+        "product": "vCenter Server",
+        "ransomware": "Known"
+      }
+    },
+    {
+      "id": "16344fec97feff2ff689",
+      "first_seen": "2026-10-24T14:27:45.140Z",
+      "confidence": "fonte primaria",
+      "status": "exploração conhecida; impacto financeiro não confirmado",
+      "origin": "CISA KEV",
+      "key": "CVE-2021-21972",
+      "category": "cyber",
+      "title": "CVE-2021-21972 — VMware / vCenter Server",
+      "summary": "VMware vCenter Server Remote Code Execution Vulnerability",
+      "date": "2021-11-03",
+      "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "score": 85,
+      "evidence": {
+        "cve": "CVE-2021-21972",
+        "vendor": "VMware",
+        "product": "vCenter Server",
+        "ransomware": "Known"
+      }
+    },
+    {
+      "id": "ead98dc4e3e2d8459312",
+      "first_seen": "2026-10-24T14:27:45.140Z",
+      "confidence": "fonte primaria",
+      "status": "exploração conhecida; impacto financeiro não confirmado",
+      "origin": "CISA KEV",
+      "key": "CVE-2020-3952",
+      "category": "cyber",
+      "title": "CVE-2020-3952 — VMware / vCenter Server",
+      "summary": "VMware vCenter Server Information Disclosure Vulnerability",
+      "date": "2021-11-03",
+      "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "score": 72,
+      "evidence": {
+        "cve": "CVE-2020-3952",
+        "vendor": "VMware",
+        "product": "vCenter Server",
+        "ransomware": "Unknown"
+      }
+    },
+    {
+      "id": "a591ac50756164199283",
+      "first_seen": "2026-10-24T14:27:45.140Z",
+      "confidence": "fonte primaria",
+      "status": "exploração conhecida; impacto financeiro não confirmado",
+      "origin": "CISA KEV",
+      "key": "CVE-2021-22005",
+      "category": "cyber",
+      "title": "CVE-2021-22005 — VMware / vCenter Server",
+      "summary": "VMware vCenter Server File Upload Vulnerability",
+      "date": "2021-11-03",
+      "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "score": 85,
+      "evidence": {
+        "cve": "CVE-2021-22005",
+        "vendor": "VMware",
+        "product": "vCenter Server",
+        "ransomware": "Known"
+      }
+    },
+    {
+      "id": "5c396cdd75766a83c434",
+      "first_seen": "2026-10-24T14:27:45.140Z",
+      "confidence": "fonte primaria",
+      "status": "exploração conhecida; impacto financeiro não confirmado",
+      "origin": "CISA KEV",
+      "key": "CVE-2020-3950",
+      "category": "cyber",
+      "title": "CVE-2020-3950 — VMware / Multiple Products",
+      "summary": "VMware Multiple Products Privilege Escalation Vulnerability",
+      "date": "2021-11-03",
+      "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "score": 72,
+      "evidence": {
+        "cve": "CVE-2020-3950",
+        "vendor": "VMware",
+        "product": "Multiple Products",
+        "ransomware": "Unknown"
+      }
+    },
+    {
+      "id": "750cbbe065190aa5a0ad",
+      "first_seen": "2026-10-24T14:27:45.140Z",
+      "confidence": "fonte primaria",
+      "status": "exploração conhecida; impacto financeiro não confirmado",
+      "origin": "CISA KEV",
+      "key": "CVE-2020-3992",
+      "category": "cyber",
+      "title": "CVE-2020-3992 — VMware / ESXi",
+      "summary": "VMware ESXi OpenSLP Use-After-Free Vulnerability",
+      "date": "2021-11-03",
+      "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "score": 85,
+      "evidence": {
+        "cve": "CVE-2020-3992",
+        "vendor": "VMware",
+        "product": "ESXi",
+        "ransomware": "Known"
+      }
+    },
+    {
+      "id": "024a2d431699a1bed9d7",
+      "first_seen": "2026-10-24T14:27:45.140Z",
+      "confidence": "fonte primaria",
+      "status": "exploração conhecida; impacto financeiro não confirmado",
+      "origin": "CISA KEV",
+      "key": "CVE-2019-5544",
+      "category": "cyber",
+      "title": "CVE-2019-5544 — VMware / VMware ESXi and Horizon DaaS",
+      "summary": "VMware ESXi and Horizon DaaS OpenSLP Heap-Based Buffer Overflow Vulnerability",
+      "date": "2021-11-03",
+      "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "score": 85,
+      "evidence": {
+        "cve": "CVE-2019-5544",
+        "vendor": "VMware",
+        "product": "VMware ESXi and Horizon DaaS",
+        "ransomware": "Known"
+      }
+    },
+    {
+      "id": "64ad8bff144d7feb45b6",
+      "first_seen": "2026-10-24T14:27:45.140Z",
+      "confidence": "fonte primaria",
+      "status": "exploração conhecida; impacto financeiro não confirmado",
+      "origin": "CISA KEV",
+      "key": "CVE-2020-17496",
+      "category": "cyber",
+      "title": "CVE-2020-17496 — vBulletin / vBulletin",
+      "summary": "vBulletin PHP Module Remote Code Execution Vulnerability",
+      "date": "2021-11-03",
+      "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "score": 72,
+      "evidence": {
+        "cve": "CVE-2020-17496",
+        "vendor": "vBulletin",
+        "product": "vBulletin",
+        "ransomware": "Unknown"
+      }
+    },
+    {
+      "id": "423e5bbae55cfc86a46b",
+      "first_seen": "2026-10-24T14:27:45.140Z",
+      "confidence": "fonte primaria",
+      "status": "exploração conhecida; impacto financeiro não confirmado",
+      "origin": "CISA KEV",
+      "key": "CVE-2019-16759",
+      "category": "cyber",
+      "title": "CVE-2019-16759 — vBulletin / vBulletin",
+      "summary": "vBulletin PHP Module Remote Code Execution Vulnerability",
+      "date": "2021-11-03",
+      "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "score": 72,
+      "evidence": {
+        "cve": "CVE-2019-16759",
+        "vendor": "vBulletin",
+        "product": "vBulletin",
+        "ransomware": "Unknown"
+      }
+    },
+    {
+      "id": "5339902b4f208e5ad33b",
+      "first_seen": "2026-10-24T14:27:45.140Z",
+      "confidence": "fonte primaria",
+      "status": "exploração conhecida; impacto financeiro não confirmado",
+      "origin": "CISA KEV",
+      "key": "CVE-2020-5847",
+      "category": "cyber",
+      "title": "CVE-2020-5847 — Unraid / Unraid",
+      "summary": "Unraid Remote Code Execution Vulnerability",
+      "date": "2021-11-03",
+      "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "score": 72,
+      "evidence": {
+        "cve": "CVE-2020-5847",
+        "vendor": "Unraid",
+        "product": "Unraid",
+        "ransomware": "Unknown"
+      }
+    },
+    {
+      "id": "522519d62baad1620190",
+      "first_seen": "2026-10-24T14:27:45.140Z",
+      "confidence": "fonte primaria",
+      "status": "exploração conhecida; impacto financeiro não confirmado",
+      "origin": "CISA KEV",
+      "key": "CVE-2020-5849",
+      "category": "cyber",
+      "title": "CVE-2020-5849 — Unraid / Unraid",
+      "summary": "Unraid Authentication Bypass Vulnerability",
+      "date": "2021-11-03",
+      "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "score": 72,
+      "evidence": {
+        "cve": "CVE-2020-5849",
+        "vendor": "Unraid",
+        "product": "Unraid",
+        "ransomware": "Unknown"
+      }
+    },
+    {
+      "id": "27638b05552d3195e82e",
+      "first_seen": "2026-10-24T14:27:45.140Z",
+      "confidence": "fonte primaria",
+      "status": "exploração conhecida; impacto financeiro não confirmado",
+      "origin": "CISA KEV",
+      "key": "CVE-2019-20085",
+      "category": "cyber",
+      "title": "CVE-2019-20085 — TVT / NVMS-1000",
+      "summary": "TVT NVMS-1000 Directory Traversal Vulnerability",
+      "date": "2021-11-03",
+      "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "score": 72,
+      "evidence": {
+        "cve": "CVE-2019-20085",
+        "vendor": "TVT",
+        "product": "NVMS-1000",
+        "ransomware": "Unknown"
+      }
+    },
+    {
+      "id": "de8afa994f2411ae2919",
+      "first_seen": "2026-10-24T14:27:45.140Z",
+      "confidence": "fonte primaria",
+      "status": "exploração conhecida; impacto financeiro não confirmado",
+      "origin": "CISA KEV",
+      "key": "CVE-2021-36741",
+      "category": "cyber",
+      "title": "CVE-2021-36741 — Trend Micro / Apex One, Apex One as a Service, and Worry-Free Business Security",
+      "summary": "Trend Micro Multiple Products Improper Input Validation Vulnerability",
+      "date": "2021-11-03",
+      "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "score": 72,
+      "evidence": {
+        "cve": "CVE-2021-36741",
+        "vendor": "Trend Micro",
+        "product": "Apex One, Apex One as a Service, and Worry-Free Business Security",
+        "ransomware": "Unknown"
+      }
+    },
+    {
+      "id": "9a85d3171aa16d2afb13",
+      "first_seen": "2026-10-24T14:27:45.140Z",
+      "confidence": "fonte primaria",
+      "status": "exploração conhecida; impacto financeiro não confirmado",
+      "origin": "CISA KEV",
+      "key": "CVE-2021-36742",
+      "category": "cyber",
+      "title": "CVE-2021-36742 — Trend Micro / Apex One, Apex One as a Service, and Worry-Free Business Security",
+      "summary": "Trend Micro Multiple Products Improper Input Validation Vulnerability",
+      "date": "2021-11-03",
+      "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "score": 72,
+      "evidence": {
+        "cve": "CVE-2021-36742",
+        "vendor": "Trend Micro",
+        "product": "Apex One, Apex One as a Service, and Worry-Free Business Security",
+        "ransomware": "Unknown"
+      }
+    },
+    {
+      "id": "728ccc9b3ac1119d9fcc",
+      "first_seen": "2026-10-24T14:27:45.140Z",
+      "confidence": "fonte primaria",
+      "status": "exploração conhecida; impacto financeiro não confirmado",
+      "origin": "CISA KEV",
+      "key": "CVE-2020-8599",
+      "category": "cyber",
+      "title": "CVE-2020-8599 — Trend Micro / Apex One and OfficeScan",
+      "summary": "Trend Micro Apex One and OfficeScan Authentication Bypass Vulnerability",
+      "date": "2021-11-03",
+      "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "score": 72,
+      "evidence": {
+        "cve": "CVE-2020-8599",
+        "vendor": "Trend Micro",
+        "product": "Apex One and OfficeScan",
+        "ransomware": "Unknown"
+      }
+    },
+    {
+      "id": "cf5ff10eda03fe6fe5d9",
+      "first_seen": "2026-10-24T14:27:45.140Z",
+      "confidence": "fonte primaria",
+      "status": "exploração conhecida; impacto financeiro não confirmado",
+      "origin": "CISA KEV",
+      "key": "CVE-2020-24557",
+      "category": "cyber",
+      "title": "CVE-2020-24557 — Trend Micro / Apex One, OfficeScan, and Worry-Free Business Security",
+      "summary": "Trend Micro Multiple Products Improper Access Control Vulnerability",
+      "date": "2021-11-03",
+      "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "score": 72,
+      "evidence": {
+        "cve": "CVE-2020-24557",
+        "vendor": "Trend Micro",
+        "product": "Apex One, OfficeScan, and Worry-Free Business Security",
+        "ransomware": "Unknown"
+      }
+    },
+    {
+      "id": "7ccf95ec73441c22921a",
+      "first_seen": "2026-10-24T14:27:45.140Z",
+      "confidence": "fonte primaria",
+      "status": "exploração conhecida; impacto financeiro não confirmado",
+      "origin": "CISA KEV",
+      "key": "CVE-2020-8468",
+      "category": "cyber",
+      "title": "CVE-2020-8468 — Trend Micro / Apex One, OfficeScan and Worry-Free Business Security Agents",
+      "summary": "Trend Micro Multiple Products Content Validation Escape Vulnerability",
+      "date": "2021-11-03",
+      "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "score": 72,
+      "evidence": {
+        "cve": "CVE-2020-8468",
+        "vendor": "Trend Micro",
+        "product": "Apex One, OfficeScan and Worry-Free Business Security Agents",
+        "ransomware": "Unknown"
+      }
+    },
+    {
+      "id": "708721e860c8ba1f0aed",
+      "first_seen": "2026-10-24T14:27:45.140Z",
+      "confidence": "fonte primaria",
+      "status": "exploração conhecida; impacto financeiro não confirmado",
+      "origin": "CISA KEV",
+      "key": "CVE-2020-8467",
+      "category": "cyber",
+      "title": "CVE-2020-8467 — Trend Micro / Apex One and OfficeScan",
+      "summary": "Trend Micro Apex One and OfficeScan Remote Code Execution Vulnerability",
+      "date": "2021-11-03",
+      "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "score": 72,
+      "evidence": {
+        "cve": "CVE-2020-8467",
+        "vendor": "Trend Micro",
+        "product": "Apex One and OfficeScan",
+        "ransomware": "Unknown"
+      }
+    },
+    {
+      "id": "509d86faf9798eae6f13",
+      "first_seen": "2026-10-24T14:27:45.140Z",
+      "confidence": "fonte primaria",
+      "status": "exploração conhecida; impacto financeiro não confirmado",
+      "origin": "CISA KEV",
+      "key": "CVE-2019-18187",
+      "category": "cyber",
+      "title": "CVE-2019-18187 — Trend Micro / OfficeScan",
+      "summary": "Trend Micro OfficeScan Directory Traversal Vulnerability",
+      "date": "2021-11-03",
+      "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "score": 72,
+      "evidence": {
+        "cve": "CVE-2019-18187",
+        "vendor": "Trend Micro",
+        "product": "OfficeScan",
+        "ransomware": "Unknown"
+      }
+    },
+    {
+      "id": "6af090c71466cb01dff4",
+      "first_seen": "2026-10-24T14:27:45.140Z",
+      "confidence": "fonte primaria",
+      "status": "exploração conhecida; impacto financeiro não confirmado",
+      "origin": "CISA KEV",
+      "key": "CVE-2019-9082",
+      "category": "cyber",
+      "title": "CVE-2019-9082 — ThinkPHP / ThinkPHP",
+      "summary": "ThinkPHP Remote Code Execution Vulnerability",
+      "date": "2021-11-03",
+      "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "score": 72,
+      "evidence": {
+        "cve": "CVE-2019-9082",
+        "vendor": "ThinkPHP",
+        "product": "ThinkPHP",
+        "ransomware": "Unknown"
+      }
+    },
+    {
+      "id": "fafaff4592667fe66189",
+      "first_seen": "2026-10-24T14:27:45.140Z",
+      "confidence": "fonte primaria",
+      "status": "exploração conhecida; impacto financeiro não confirmado",
+      "origin": "CISA KEV",
+      "key": "CVE-2018-20062",
+      "category": "cyber",
+      "title": "CVE-2018-20062 — ThinkPHP / noneCms",
+      "summary": "ThinkPHP \"noneCms\" Remote Code Execution Vulnerability",
+      "date": "2021-11-03",
+      "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "score": 72,
+      "evidence": {
+        "cve": "CVE-2018-20062",
+        "vendor": "ThinkPHP",
+        "product": "noneCms",
+        "ransomware": "Unknown"
+      }
+    },
+    {
+      "id": "a8dfde9dd2b69c590f03",
+      "first_seen": "2026-10-24T14:27:45.140Z",
+      "confidence": "fonte primaria",
+      "status": "exploração conhecida; impacto financeiro não confirmado",
+      "origin": "CISA KEV",
+      "key": "CVE-2018-14558",
+      "category": "cyber",
+      "title": "CVE-2018-14558 — Tenda / AC7, AC9, and AC10 Routers",
+      "summary": "Tenda AC7, AC9, and AC10 Routers Command Injection Vulnerability",
+      "date": "2021-11-03",
+      "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "score": 72,
+      "evidence": {
+        "cve": "CVE-2018-14558",
+        "vendor": "Tenda",
+        "product": "AC7, AC9, and AC10 Routers",
+        "ransomware": "Unknown"
+      }
+    },
+    {
+      "id": "8ab84e6ec36b92b156ad",
+      "first_seen": "2026-10-24T14:27:45.140Z",
+      "confidence": "fonte primaria",
+      "status": "exploração conhecida; impacto financeiro não confirmado",
+      "origin": "CISA KEV",
+      "key": "CVE-2020-10987",
+      "category": "cyber",
+      "title": "CVE-2020-10987 — Tenda / AC1900 Router AC15 Model",
+      "summary": "Tenda AC1900 Router AC15 Model Remote Code Execution Vulnerability",
+      "date": "2021-11-03",
+      "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "score": 72,
+      "evidence": {
+        "cve": "CVE-2020-10987",
+        "vendor": "Tenda",
+        "product": "AC1900 Router AC15 Model",
+        "ransomware": "Unknown"
+      }
+    },
+    {
+      "id": "17bb3d57cfcf5d99fc13",
+      "first_seen": "2026-10-24T14:27:45.140Z",
+      "confidence": "fonte primaria",
+      "status": "exploração conhecida; impacto financeiro não confirmado",
+      "origin": "CISA KEV",
+      "key": "CVE-2021-31755",
+      "category": "cyber",
+      "title": "CVE-2021-31755 — Tenda / AC11 Router",
+      "summary": "Tenda AC11 Router Stack Buffer Overflow Vulnerability",
+      "date": "2021-11-03",
+      "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "score": 72,
+      "evidence": {
+        "cve": "CVE-2021-31755",
+        "vendor": "Tenda",
+        "product": "AC11 Router",
+        "ransomware": "Unknown"
+      }
+    },
+    {
+      "id": "36c6679b4fa16f3991d6",
+      "first_seen": "2026-10-24T14:27:45.140Z",
+      "confidence": "fonte primaria",
+      "status": "exploração conhecida; impacto financeiro não confirmado",
+      "origin": "CISA KEV",
+      "key": "CVE-2017-9248",
+      "category": "cyber",
+      "title": "CVE-2017-9248 — Progress / ASP.NET AJAX and Sitefinity",
+      "summary": "Progress Telerik UI for ASP.NET AJAX and Sitefinity Cryptographic Weakness Vulnerability",
+      "date": "2021-11-03",
+      "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "score": 72,
+      "evidence": {
+        "cve": "CVE-2017-9248",
+        "vendor": "Progress",
+        "product": "ASP.NET AJAX and Sitefinity",
+        "ransomware": "Unknown"
+      }
+    },
+    {
+      "id": "5e4852845abb5b02d978",
+      "first_seen": "2026-10-24T14:27:45.140Z",
+      "confidence": "fonte primaria",
+      "status": "exploração conhecida; impacto financeiro não confirmado",
+      "origin": "CISA KEV",
+      "key": "CVE-2019-18988",
+      "category": "cyber",
+      "title": "CVE-2019-18988 — TeamViewer / Desktop",
+      "summary": "TeamViewer Desktop Bypass Remote Login Vulnerability",
+      "date": "2021-11-03",
+      "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "score": 72,
+      "evidence": {
+        "cve": "CVE-2019-18988",
+        "vendor": "TeamViewer",
+        "product": "Desktop",
+        "ransomware": "Unknown"
+      }
+    },
+    {
+      "id": "d170b3f50dfccbe33bf7",
+      "first_seen": "2026-10-24T14:27:45.140Z",
+      "confidence": "fonte primaria",
+      "status": "exploração conhecida; impacto financeiro não confirmado",
+      "origin": "CISA KEV",
+      "key": "CVE-2017-6327",
+      "category": "cyber",
+      "title": "CVE-2017-6327 — Symantec / Symantec Messaging Gateway",
+      "summary": "Symantec Messaging Gateway Remote Code Execution Vulnerability",
+      "date": "2021-11-03",
+      "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "score": 72,
+      "evidence": {
+        "cve": "CVE-2017-6327",
+        "vendor": "Symantec",
+        "product": "Symantec Messaging Gateway",
+        "ransomware": "Unknown"
+      }
+    },
+    {
+      "id": "a8017decbeb55c466850",
+      "first_seen": "2026-10-24T14:27:45.140Z",
+      "confidence": "fonte primaria",
+      "status": "exploração conhecida; impacto financeiro não confirmado",
+      "origin": "CISA KEV",
+      "key": "CVE-2020-10181",
+      "category": "cyber",
+      "title": "CVE-2020-10181 — Sumavision / Enhanced Multimedia Router (EMR)",
+      "summary": "Sumavision EMR Cross-Site Request Forgery (CSRF) Vulnerability",
+      "date": "2021-11-03",
+      "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "score": 72,
+      "evidence": {
+        "cve": "CVE-2020-10181",
+        "vendor": "Sumavision",
+        "product": "Enhanced Multimedia Router (EMR)",
+        "ransomware": "Unknown"
+      }
+    },
+    {
+      "id": "1707d71e72f84864bf73",
+      "first_seen": "2026-10-24T14:27:45.140Z",
+      "confidence": "fonte primaria",
+      "status": "exploração conhecida; impacto financeiro não confirmado",
+      "origin": "CISA KEV",
+      "key": "CVE-2020-12271",
+      "category": "cyber",
+      "title": "CVE-2020-12271 — Sophos / SFOS",
+      "summary": "Sophos SFOS SQL Injection Vulnerability",
+      "date": "2021-11-03",
+      "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "score": 85,
+      "evidence": {
+        "cve": "CVE-2020-12271",
+        "vendor": "Sophos",
+        "product": "SFOS",
+        "ransomware": "Known"
+      }
+    },
+    {
+      "id": "57c29eb7e76a8b5f8d2c",
+      "first_seen": "2026-10-24T14:27:45.140Z",
+      "confidence": "fonte primaria",
+      "status": "exploração conhecida; impacto financeiro não confirmado",
+      "origin": "CISA KEV",
+      "key": "CVE-2021-20016",
+      "category": "cyber",
+      "title": "CVE-2021-20016 — SonicWall / SSLVPN SMA100",
+      "summary": "SonicWall SSLVPN SMA100 SQL Injection Vulnerability",
+      "date": "2021-11-03",
+      "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "score": 85,
+      "evidence": {
+        "cve": "CVE-2021-20016",
+        "vendor": "SonicWall",
+        "product": "SSLVPN SMA100",
+        "ransomware": "Known"
+      }
+    },
+    {
+      "id": "54befb012c8721d5be86",
+      "first_seen": "2026-10-24T14:27:45.140Z",
+      "confidence": "fonte primaria",
+      "status": "exploração conhecida; impacto financeiro não confirmado",
+      "origin": "CISA KEV",
+      "key": "CVE-2021-20023",
+      "category": "cyber",
+      "title": "CVE-2021-20023 — SonicWall / SonicWall Email Security",
+      "summary": "SonicWall Email Security Path Traversal Vulnerability",
+      "date": "2021-11-03",
+      "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "score": 85,
+      "evidence": {
+        "cve": "CVE-2021-20023",
+        "vendor": "SonicWall",
+        "product": "SonicWall Email Security",
+        "ransomware": "Known"
+      }
+    },
+    {
+      "id": "0ce0b03ddb6c08b70419",
+      "first_seen": "2026-10-24T14:27:45.140Z",
+      "confidence": "fonte primaria",
+      "status": "exploração conhecida; impacto financeiro não confirmado",
+      "origin": "CISA KEV",
+      "key": "CVE-2021-20022",
+      "category": "cyber",
+      "title": "CVE-2021-20022 — SonicWall / SonicWall Email Security",
+      "summary": "SonicWall Email Security Unrestricted Upload of File Vulnerability",
+      "date": "2021-11-03",
+      "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "score": 85,
+      "evidence": {
+        "cve": "CVE-2021-20022",
+        "vendor": "SonicWall",
+        "product": "SonicWall Email Security",
+        "ransomware": "Known"
+      }
+    },
+    {
+      "id": "efef75c18d3e204ba16e",
+      "first_seen": "2026-10-24T14:27:45.140Z",
+      "confidence": "fonte primaria",
+      "status": "exploração conhecida; impacto financeiro não confirmado",
+      "origin": "CISA KEV",
+      "key": "CVE-2019-7481",
+      "category": "cyber",
+      "title": "CVE-2019-7481 — SonicWall / SMA100",
+      "summary": "SonicWall SMA100 SQL Injection Vulnerability",
+      "date": "2021-11-03",
+      "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "score": 85,
+      "evidence": {
+        "cve": "CVE-2019-7481",
+        "vendor": "SonicWall",
+        "product": "SMA100",
+        "ransomware": "Known"
+      }
+    },
+    {
+      "id": "76e1be4ebd9606e647e5",
+      "first_seen": "2026-10-24T14:27:45.140Z",
+      "confidence": "fonte primaria",
+      "status": "exploração conhecida; impacto financeiro não confirmado",
+      "origin": "CISA KEV",
+      "key": "CVE-2021-20021",
+      "category": "cyber",
+      "title": "CVE-2021-20021 — SonicWall / SonicWall Email Security",
+      "summary": "SonicWall Email Security Improper Privilege Management Vulnerability",
+      "date": "2021-11-03",
+      "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "score": 85,
+      "evidence": {
+        "cve": "CVE-2021-20021",
+        "vendor": "SonicWall",
+        "product": "SonicWall Email Security",
+        "ransomware": "Known"
+      }
+    },
+    {
+      "id": "a274bbc12dbab0eb6c99",
+      "first_seen": "2026-10-24T14:27:45.140Z",
+      "confidence": "fonte primaria",
+      "status": "exploração conhecida; impacto financeiro não confirmado",
+      "origin": "CISA KEV",
+      "key": "CVE-2020-10199",
+      "category": "cyber",
+      "title": "CVE-2020-10199 — Sonatype / Nexus Repository",
+      "summary": "Sonatype Nexus Repository Remote Code Execution Vulnerability",
+      "date": "2021-11-03",
+      "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "score": 72,
+      "evidence": {
+        "cve": "CVE-2020-10199",
+        "vendor": "Sonatype",
+        "product": "Nexus Repository",
+        "ransomware": "Unknown"
+      }
+    },
+    {
+      "id": "2a9991d5435e2d2fbc28",
+      "first_seen": "2026-10-24T14:27:45.140Z",
+      "confidence": "fonte primaria",
+      "status": "exploração conhecida; impacto financeiro não confirmado",
+      "origin": "CISA KEV",
+      "key": "CVE-2016-3643",
+      "category": "cyber",
+      "title": "CVE-2016-3643 — SolarWinds / Virtualization Manager",
+      "summary": "SolarWinds Virtualization Manager Privilege Escalation Vulnerability",
+      "date": "2021-11-03",
+      "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "score": 72,
+      "evidence": {
+        "cve": "CVE-2016-3643",
+        "vendor": "SolarWinds",
+        "product": "Virtualization Manager",
+        "ransomware": "Unknown"
+      }
+    }
+  ],
+  "metrics": {
+    "fear_greed": {
+      "value": 51,
+      "label": "Neutral",
+      "previous": 50,
+      "observation_time": "2026-10-24T00:00:00.000Z",
+      "url": "https://alternative.me/crypto/fear-and-greed-index/"
+    },
+    "defi": {
+      "total_tvl_usd": 89542182816.59799,
+      "top_chains": [
+        {
+          "name": "Ethereum",
+          "tvl_usd": 49120671690.919365
+        },
+        {
+          "name": "Base",
+          "tvl_usd": 6059519831.733216
+        },
+        {
+          "name": "Solana",
+          "tvl_usd": 5763581284.996174
+        },
+        {
+          "name": "BSC",
+          "tvl_usd": 5762894550.58999
+        },
+        {
+          "name": "Tron",
+          "tvl_usd": 5511118972.037585
+        },
+        {
+          "name": "Bitcoin",
+          "tvl_usd": 4319212272.097665
+        },
+        {
+          "name": "Hyperliquid L1",
+          "tvl_usd": 2367053425.9947023
+        },
+        {
+          "name": "Arbitrum",
+          "tvl_usd": 1450767276.2196362
+        },
+        {
+          "name": "Robinhood Chain",
+          "tvl_usd": 1135492605.035579
+        },
+        {
+          "name": "Monad",
+          "tvl_usd": 989670529.0414875
+        },
+        {
+          "name": "Polygon",
+          "tvl_usd": 723547870.878918
+        },
+        {
+          "name": "Arc",
+          "tvl_usd": 629103680.7707701
+        }
+      ],
+      "observation_time": "2026-10-24T14:27:45.140Z",
+      "url": "https://defillama.com/chains",
+      "note": "Soma dos TVLs reportados por cadeia; não representa fluxo líquido nem necessariamente TVL consolidado sem dupla contagem."
+    },
+    "dex": {
+      "boosted": [
+        {
+          "chain": "solana",
+          "address": "CbTbAY45Tfp8Lbk2ovjkS7wthxNka19MbGbGAZAdpump",
+          "amount": 100,
+          "url": "https://dexscreener.com/solana/cbtbay45tfp8lbk2ovjks7wthxnka19mbgbgazadpump",
+          "description": "The viral moustache baby, reimagined as an Inu. Born looking employed."
+        },
+        {
+          "chain": "solana",
+          "address": "6NuMQ89vN7ikEMzhTMMoEJXzLN7s5pusByw1FgtBmJjv",
+          "amount": 30,
+          "url": "https://dexscreener.com/solana/6numq89vn7ikemzhtmmoejxzln7s5pusbyw1fgtbmjjv",
+          "description": "Created by the Super Intelligence of Asgard Agents.\n\nThe story: ASGARD is the ecosystem token of Asgard Agents, a team of AI agents building and running a business togeth"
+        },
+        {
+          "chain": "solana",
+          "address": "4ZSAUdtLAMH16wmwC2Vg2wtJrnGJRBsQPGN6au9Dpump",
+          "amount": 10,
+          "url": "https://dexscreener.com/solana/4zsaudtlamh16wmwc2vg2wtjrngjrbsqpgn6au9dpump",
+          "description": "Dogecoin Đ"
+        },
+        {
+          "chain": "solana",
+          "address": "8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump",
+          "amount": 100,
+          "url": "https://dexscreener.com/solana/8xg89xt8ve34skiyqyums46mycresca2f362uscrpump",
+          "description": "Meet $GLITCH — the GTA 6-inspired memecoin on Solana. A flamingo, an ATM that never stops paying, and a community bringing GTA-style chaos on-chain.\n\nBuilt around the hyp"
+        },
+        {
+          "chain": "solana",
+          "address": "DwidGryQSsj8iCR3vPLtsod3UKagkTojp7LmHtrFpump",
+          "amount": 100,
+          "url": "https://dexscreener.com/solana/dwidgryqssj8icr3vpltsod3ukagktojp7lmhtrfpump",
+          "description": "Elon wif sword"
+        },
+        {
+          "chain": "ethereum",
+          "address": "0xbe7f040CaeDE88af6d1A418c04aF1EF4d2a7a938",
+          "amount": 10,
+          "url": "https://dexscreener.com/ethereum/0xbe7f040caede88af6d1a418c04af1ef4d2a7a938",
+          "description": "ETHFUN () is a community token on Ethereum. Fixed total supply of 420,000,000 EFUN. Traded on Uniswap. Official channels: X and Telegram."
+        },
+        {
+          "chain": "solana",
+          "address": "3X2xbBx6ShSVkhP2RoHGZbrQWZpxx5mdjG2PaAXzpump",
+          "amount": 10,
+          "url": "https://dexscreener.com/solana/3x2xbbx6shsvkhp2rohgzbrqwzpxx5mdjg2paaxzpump",
+          "description": "Jeff_FunnyGuy"
+        },
+        {
+          "chain": "solana",
+          "address": "HqaUT1abZq6WkeRpCYD7yHNdcxgu6biXejNkeJUNpump",
+          "amount": 10,
+          "url": "https://dexscreener.com/solana/hqaut1abzq6wkerpcyd7yhndcxgu6bixejnkejunpump",
+          "description": "The Perpetual Trading Protocol Built for Memecoin Traders.\nLong & Short Memecoins up to 1000x • Stake $VIRTUAL • Earn USDC •Buy-Back & Burn $VIRTUAL."
+        },
+        {
+          "chain": "solana",
+          "address": "BPUDuDxG2xyeKyDQ3bqDyPvTmCjXado5ETcGKV1wKhhC",
+          "amount": 10,
+          "url": "https://dexscreener.com/solana/bpududxg2xyekydq3bqdypvtmcjxado5etcgkv1wkhhc",
+          "description": "We are the lowest supply Memecoin on Solana!! \n21,000 Max Supply."
+        },
+        {
+          "chain": "solana",
+          "address": "7Yiy7urdzLosM34A1PvP4ZkgpfLXXAzsgNgsAJSRcpW5",
+          "amount": 10,
+          "url": "https://dexscreener.com/solana/7yiy7urdzlosm34a1pvp4zkgpflxxazsgngsajsrcpw5",
+          "description": "On June 27, 2024, Keith Gill posted a cartoon dog. Four days later, his Chewy position became public: 9,001,000 shares.\n\nThat’s where our mascot’s story begins."
+        },
+        {
+          "chain": "solana",
+          "address": "GorDnf8Xfp9bWm9XCuzi7NXy7i5x5MRYZecrVbrWxVoA",
+          "amount": 10,
+          "url": "https://dexscreener.com/solana/gordnf8xfp9bwm9xcuzi7nxy7i5x5mryzecrvbrwxvoa",
+          "description": "He wears a pumpkin because the market took his skull. Now he lights the way for every holder walking through the dark."
+        },
+        {
+          "chain": "solana",
+          "address": "A75Xx6SeftAmWduv9KGwb2GCjXUAhxozcCUCys9jpump",
+          "amount": 10,
+          "url": "https://dexscreener.com/solana/a75xx6seftamwduv9kgwb2gcjxuahxozccucys9jpump",
+          "description": "It's $HELL, the dog of $AMD - official partner of Rockstar Games."
+        },
+        {
+          "chain": "robinhood",
+          "address": "0x7E187fE67ae04c1B1738f01B424656390E45E1C9",
+          "amount": 100,
+          "url": "https://dexscreener.com/robinhood/0x7e187fe67ae04c1b1738f01b424656390e45e1c9",
+          "description": "New vault from dev of $SEMI which reached 9m mcap.\n\nTETRA is a token on Robinhood Chain backed by a reserve of SPY, GLD, USO and WETH (25% each) plus USDG. Anyone can bur"
+        },
+        {
+          "chain": "solana",
+          "address": "A1dBcuk3L55hYmmw2YUpYcMVjpEfE9oLcvtP3qBVpump",
+          "amount": 10,
+          "url": "https://dexscreener.com/solana/a1dbcuk3l55hymmw2yupycmvjpefe9olcvtp3qbvpump",
+          "description": ""
+        },
+        {
+          "chain": "robinhood",
+          "address": "0x7A1cB947D393334F443C0CCb3644E205107E25cc",
+          "amount": 10,
+          "url": "https://dexscreener.com/robinhood/0x7a1cb947d393334f443c0ccb3644e205107e25cc",
+          "description": "🇫🇷 La France a désormais son token communautaire !\n\nQue tu sois sur Solana, Ethereum, Base, BNB ou Robinhood Chain, tu fais partie de la même communauté.\n\nPeu importe t"
+        }
+      ],
+      "observation_time": "2026-10-24T14:27:45.140Z",
+      "url": "https://docs.dexscreener.com/api/reference",
+      "note": "Boosts são promoções pagas; não são evidência de tendência, investimento ou oportunidade."
+    }
+  },
+  "history": [
+    {
+      "collected_at": "2026-10-24T14:27:45.140Z",
+      "fear_greed": 51,
+      "tvl_usd": 89542182816.59799
+    }
+  ]
 }
