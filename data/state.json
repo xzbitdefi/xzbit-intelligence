@@ -1,220 +1,107 @@
 {
   "version": 1,
-  "updated_at": "2026-10-24T15:10:39.702Z",
+  "updated_at": "2026-10-24T15:47:58.538Z",
   "sources": {
     "cisa": {
       "ok": true,
-      "last_success": "2026-10-24T15:10:39.702Z",
-      "last_attempt": "2026-10-24T15:10:39.702Z",
+      "last_success": "2026-10-24T15:47:58.538Z",
+      "last_attempt": "2026-10-24T15:47:58.538Z",
       "count": 1756,
       "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"
     },
     "fear_greed": {
       "ok": true,
-      "last_success": "2026-10-24T15:10:39.702Z",
-      "last_attempt": "2026-10-24T15:10:39.702Z",
+      "last_success": "2026-10-24T15:47:58.538Z",
+      "last_attempt": "2026-10-24T15:47:58.538Z",
       "count": 2,
       "url": "https://api.alternative.me/fng/?limit=2&format=json"
     },
     "defillama": {
       "ok": true,
-      "last_success": "2026-10-24T15:10:39.702Z",
-      "last_attempt": "2026-10-24T15:10:39.702Z",
+      "last_success": "2026-10-24T15:47:58.538Z",
+      "last_attempt": "2026-10-24T15:47:58.538Z",
       "count": 421,
       "url": "https://api.llama.fi/v2/chains"
     },
     "dexscreener": {
       "ok": true,
-      "last_success": "2026-10-24T15:10:39.702Z",
-      "last_attempt": "2026-10-24T15:10:39.702Z",
-      "count": 30,
+      "last_success": "2026-10-24T15:47:58.538Z",
+      "last_attempt": "2026-10-24T15:47:58.538Z",
+      "count": 29,
       "url": "https://api.dexscreener.com/token-boosts/latest/v1"
     },
     "market_spot": {
       "ok": true,
-      "last_success": "2026-10-24T15:10:39.702Z",
-      "last_attempt": "2026-10-24T15:10:39.702Z",
+      "last_success": "2026-10-24T15:47:58.538Z",
+      "last_attempt": "2026-10-24T15:47:58.538Z",
       "count": 3,
       "url": "https://data-api.binance.vision/api/v3/ticker/24hr"
     },
     "defi_protocols": {
       "ok": true,
-      "last_success": "2026-10-24T15:10:39.702Z",
-      "last_attempt": "2026-10-24T15:10:39.702Z",
+      "last_success": "2026-10-24T15:47:58.538Z",
+      "last_attempt": "2026-10-24T15:47:58.538Z",
       "count": 5552,
       "url": "https://api.llama.fi/protocols"
     },
     "dex_volumes": {
       "ok": true,
-      "last_success": "2026-10-24T15:10:39.702Z",
-      "last_attempt": "2026-10-24T15:10:39.702Z",
+      "last_success": "2026-10-24T15:47:58.538Z",
+      "last_attempt": "2026-10-24T15:47:58.538Z",
       "count": 1569,
       "url": "https://api.llama.fi/overview/dexs?excludeTotalDataChart=true&excludeTotalDataChartBreakdown=true"
     },
     "stablecoins": {
       "ok": false,
-      "last_attempt": "2026-10-24T15:10:39.702Z",
+      "last_attempt": "2026-10-24T15:47:58.538Z",
       "error": "HTTP 404",
       "url": "https://api.llama.fi/stablecoins?includePrices=true"
     },
     "futures_BTCUSDT": {
       "ok": false,
-      "last_attempt": "2026-10-24T15:10:39.702Z",
+      "last_attempt": "2026-10-24T15:47:58.538Z",
       "error": "HTTP 451",
       "url": "https://fapi.binance.com/fapi/v1/premiumIndex?symbol=BTCUSDT"
     },
     "oi_BTCUSDT": {
       "ok": false,
-      "last_attempt": "2026-10-24T15:10:39.702Z",
+      "last_attempt": "2026-10-24T15:47:58.538Z",
       "error": "HTTP 451",
       "url": "https://fapi.binance.com/fapi/v1/openInterest?symbol=BTCUSDT"
     },
     "futures_ETHUSDT": {
       "ok": false,
-      "last_attempt": "2026-10-24T15:10:39.702Z",
+      "last_attempt": "2026-10-24T15:47:58.538Z",
       "error": "HTTP 451",
       "url": "https://fapi.binance.com/fapi/v1/premiumIndex?symbol=ETHUSDT"
     },
     "oi_ETHUSDT": {
       "ok": false,
-      "last_attempt": "2026-10-24T15:10:39.702Z",
+      "last_attempt": "2026-10-24T15:47:58.538Z",
       "error": "HTTP 451",
       "url": "https://fapi.binance.com/fapi/v1/openInterest?symbol=ETHUSDT"
     },
     "futures_SOLUSDT": {
       "ok": false,
-      "last_attempt": "2026-10-24T15:10:39.702Z",
+      "last_attempt": "2026-10-24T15:47:58.538Z",
       "error": "HTTP 451",
       "url": "https://fapi.binance.com/fapi/v1/premiumIndex?symbol=SOLUSDT"
     },
     "oi_SOLUSDT": {
       "ok": false,
-      "last_attempt": "2026-10-24T15:10:39.702Z",
+      "last_attempt": "2026-10-24T15:47:58.538Z",
       "error": "HTTP 451",
       "url": "https://fapi.binance.com/fapi/v1/openInterest?symbol=SOLUSDT"
+    },
+    "yield_pools": {
+      "ok": true,
+      "last_success": "2026-10-24T15:47:58.538Z",
+      "last_attempt": "2026-10-24T15:47:58.538Z",
+      "count": 100,
+      "url": "https://yields.llama.fi/pools"
     }
   },
   "events": [
-    {
-      "id": "3de5623378cc0f8c256d",
-      "first_seen": "2026-10-24T14:57:59.499Z",
-      "confidence": "fonte primaria",
-      "status": "exploração conhecida; impacto financeiro não confirmado",
-      "origin": "CISA KEV",
-      "key": "CVE-2026-110936",
-      "category": "cyber",
-      "title": "CVE-2026-110936 — Siemens / Software Center",
-      "summary": "Siemens Software Center Uncontrolled Search Path Element Vulnerability",
-      "date": "2026-10-20",
-      "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "score": 72,
-      "evidence": {
-        "cve": "CVE-2026-110936",
-        "vendor": "Siemens",
-        "product": "Software Center",
-        "ransomware": "Unknown"
-      }
-    },
-    {
-      "id": "a56462222c5f0492b1d7",
-      "first_seen": "2026-10-24T14:57:59.499Z",
-      "confidence": "fonte primaria",
-      "status": "exploração conhecida; impacto financeiro não confirmado",
-      "origin": "CISA KEV",
-      "key": "CVE-2026-96652",
-      "category": "cyber",
-      "title": "CVE-2026-96652 — Plex / Media Server",
-      "summary": "Plex Media Server Server-Side Request Forgery (SSRF) Vulnerability",
-      "date": "2026-10-20",
-      "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "score": 72,
-      "evidence": {
-        "cve": "CVE-2026-96652",
-        "vendor": "Plex",
-        "product": "Media Server",
-        "ransomware": "Unknown"
-      }
-    },
-    {
-      "id": "d9b75547a3ba55caf641",
-      "first_seen": "2026-10-24T14:57:59.499Z",
-      "confidence": "fonte primaria",
-      "status": "exploração conhecida; impacto financeiro não confirmado",
-      "origin": "CISA KEV",
-      "key": "CVE-2026-96654",
-      "category": "cyber",
-      "title": "CVE-2026-96654 — Plex / Media Server",
-      "summary": "Plex Media Server Improper Neutralization of Encoded URI Schemes in a Web Page Vulnerability",
-      "date": "2026-10-20",
-      "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "score": 72,
-      "evidence": {
-        "cve": "CVE-2026-96654",
-        "vendor": "Plex",
-        "product": "Media Server",
-        "ransomware": "Unknown"
-      }
-    },
-    {
-      "id": "66d038fa2d47b4f6107a",
-      "first_seen": "2026-10-24T14:57:59.499Z",
-      "confidence": "fonte primaria",
-      "status": "exploração conhecida; impacto financeiro não confirmado",
-      "origin": "CISA KEV",
-      "key": "CVE-2026-96655",
-      "category": "cyber",
-      "title": "CVE-2026-96655 — Plex / Media Server",
-      "summary": "Plex Media Server Server-Side Request Forgery (SSRF) Vulnerability",
-      "date": "2026-10-20",
-      "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "score": 72,
-      "evidence": {
-        "cve": "CVE-2026-96655",
-        "vendor": "Plex",
-        "product": "Media Server",
-        "ransomware": "Unknown"
-      }
-    },
-    {
-      "id": "32c18e9fbe7042dc5512",
-      "first_seen": "2026-10-24T14:57:59.499Z",
-      "confidence": "fonte primaria",
-      "status": "exploração conhecida; impacto financeiro não confirmado",
-      "origin": "CISA KEV",
-      "key": "CVE-2026-96656",
-      "category": "cyber",
-      "title": "CVE-2026-96656 — Plex / Media Server",
-      "summary": "Plex Media Server External Control of File Name or Path Vulnerability",
-      "date": "2026-10-20",
-      "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "score": 72,
-      "evidence": {
-        "cve": "CVE-2026-96656",
-        "vendor": "Plex",
-        "product": "Media Server",
-        "ransomware": "Unknown"
-      }
-    },
-    {
-      "id": "9194cc7b23a502676ab3",
-      "first_seen": "2026-10-24T14:57:59.499Z",
-      "confidence": "fonte primaria",
-      "status": "exploração conhecida; impacto financeiro não confirmado",
-      "origin": "CISA KEV",
-      "key": "CVE-2026-106931",
-      "category": "cyber",
-      "title": "CVE-2026-106931 — EG Secure Solutions / SiteGuard Server Edition",
-      "summary": "EG Secure Solutions SiteGuard Server Edition OS Command Injection Vulnerability",
-      "date": "2026-10-20",
-      "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "score": 72,
-      "evidence": {
-        "cve": "CVE-2026-106931",
-        "vendor": "EG Secure Solutions",
-        "product": "SiteGuard Server Edition",
-        "ransomware": "Unknown"
-      }
-    },
     {
       "id": "11b142fc9b4329b7ebfa",
       "first_seen": "2026-10-24T14:57:59.499Z",
@@ -254,906 +141,6 @@
         "product": "VeloCloud Orchestrator",
         "ransomware": "Unknown"
       }
-    },
-    {
-      "id": "00f2f7927bb09d867503",
-      "first_seen": "2026-10-24T14:27:45.140Z",
-      "confidence": "fonte primaria",
-      "status": "exploração conhecida; impacto financeiro não confirmado",
-      "origin": "CISA KEV",
-      "key": "CVE-2020-29583",
-      "category": "cyber",
-      "title": "CVE-2020-29583 — Zyxel / Multiple Products",
-      "summary": "Zyxel Multiple Products Use of Hard-Coded Credentials Vulnerability",
-      "date": "2021-11-03",
-      "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "score": 72,
-      "evidence": {
-        "cve": "CVE-2020-29583",
-        "vendor": "Zyxel",
-        "product": "Multiple Products",
-        "ransomware": "Unknown"
-      }
-    },
-    {
-      "id": "b46d37065ba3991a6f59",
-      "first_seen": "2026-10-24T14:27:45.140Z",
-      "confidence": "fonte primaria",
-      "status": "exploração conhecida; impacto financeiro não confirmado",
-      "origin": "CISA KEV",
-      "key": "CVE-2019-8394",
-      "category": "cyber",
-      "title": "CVE-2019-8394 — Zoho / ManageEngine",
-      "summary": "Zoho ManageEngine ServiceDesk Plus (SDP) File Upload Vulnerability",
-      "date": "2021-11-03",
-      "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "score": 72,
-      "evidence": {
-        "cve": "CVE-2019-8394",
-        "vendor": "Zoho",
-        "product": "ManageEngine",
-        "ransomware": "Unknown"
-      }
-    },
-    {
-      "id": "80e17a29555c9bb4c1eb",
-      "first_seen": "2026-10-24T14:27:45.140Z",
-      "confidence": "fonte primaria",
-      "status": "exploração conhecida; impacto financeiro não confirmado",
-      "origin": "CISA KEV",
-      "key": "CVE-2020-10189",
-      "category": "cyber",
-      "title": "CVE-2020-10189 — Zoho / ManageEngine",
-      "summary": "Zoho ManageEngine Desktop Central File Upload Vulnerability",
-      "date": "2021-11-03",
-      "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "score": 72,
-      "evidence": {
-        "cve": "CVE-2020-10189",
-        "vendor": "Zoho",
-        "product": "ManageEngine",
-        "ransomware": "Unknown"
-      }
-    },
-    {
-      "id": "65a211db7d255eddd954",
-      "first_seen": "2026-10-24T14:27:45.140Z",
-      "confidence": "fonte primaria",
-      "status": "exploração conhecida; impacto financeiro não confirmado",
-      "origin": "CISA KEV",
-      "key": "CVE-2021-40539",
-      "category": "cyber",
-      "title": "CVE-2021-40539 — Zoho / ManageEngine",
-      "summary": "Zoho ManageEngine ADSelfService Plus Authentication Bypass Vulnerability",
-      "date": "2021-11-03",
-      "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "score": 85,
-      "evidence": {
-        "cve": "CVE-2021-40539",
-        "vendor": "Zoho",
-        "product": "ManageEngine",
-        "ransomware": "Known"
-      }
-    },
-    {
-      "id": "b5e39932a98130baa479",
-      "first_seen": "2026-10-24T14:27:45.140Z",
-      "confidence": "fonte primaria",
-      "status": "exploração conhecida; impacto financeiro não confirmado",
-      "origin": "CISA KEV",
-      "key": "CVE-2021-27561",
-      "category": "cyber",
-      "title": "CVE-2021-27561 — Yealink / Device Management",
-      "summary": "Yealink Device Management Server-Side Request Forgery (SSRF) Vulnerability",
-      "date": "2021-11-03",
-      "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "score": 72,
-      "evidence": {
-        "cve": "CVE-2021-27561",
-        "vendor": "Yealink",
-        "product": "Device Management",
-        "ransomware": "Unknown"
-      }
-    },
-    {
-      "id": "84419013f6dc19cedf66",
-      "first_seen": "2026-10-24T14:27:45.140Z",
-      "confidence": "fonte primaria",
-      "status": "exploração conhecida; impacto financeiro não confirmado",
-      "origin": "CISA KEV",
-      "key": "CVE-2019-9978",
-      "category": "cyber",
-      "title": "CVE-2019-9978 — WordPress / Social Warfare Plugin",
-      "summary": "WordPress Social Warfare Plugin Cross-Site Scripting (XSS) Vulnerability",
-      "date": "2021-11-03",
-      "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "score": 72,
-      "evidence": {
-        "cve": "CVE-2019-9978",
-        "vendor": "WordPress",
-        "product": "Social Warfare Plugin",
-        "ransomware": "Unknown"
-      }
-    },
-    {
-      "id": "8871a95ee85ace68888a",
-      "first_seen": "2026-10-24T14:27:45.140Z",
-      "confidence": "fonte primaria",
-      "status": "exploração conhecida; impacto financeiro não confirmado",
-      "origin": "CISA KEV",
-      "key": "CVE-2020-11738",
-      "category": "cyber",
-      "title": "CVE-2020-11738 — WordPress / Snap Creek Duplicator Plugin",
-      "summary": "WordPress Snap Creek Duplicator Plugin File Download Vulnerability",
-      "date": "2021-11-03",
-      "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "score": 72,
-      "evidence": {
-        "cve": "CVE-2020-11738",
-        "vendor": "WordPress",
-        "product": "Snap Creek Duplicator Plugin",
-        "ransomware": "Unknown"
-      }
-    },
-    {
-      "id": "634789b324bf32a23a90",
-      "first_seen": "2026-10-24T14:27:45.140Z",
-      "confidence": "fonte primaria",
-      "status": "exploração conhecida; impacto financeiro não confirmado",
-      "origin": "CISA KEV",
-      "key": "CVE-2020-25213",
-      "category": "cyber",
-      "title": "CVE-2020-25213 — WordPress / File Manager Plugin",
-      "summary": "WordPress File Manager Plugin Remote Code Execution Vulnerability",
-      "date": "2021-11-03",
-      "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "score": 72,
-      "evidence": {
-        "cve": "CVE-2020-25213",
-        "vendor": "WordPress",
-        "product": "File Manager Plugin",
-        "ransomware": "Unknown"
-      }
-    },
-    {
-      "id": "0f789e4ccdd9067dc504",
-      "first_seen": "2026-10-24T14:27:45.140Z",
-      "confidence": "fonte primaria",
-      "status": "exploração conhecida; impacto financeiro não confirmado",
-      "origin": "CISA KEV",
-      "key": "CVE-2020-4006",
-      "category": "cyber",
-      "title": "CVE-2020-4006 — VMware / Multiple Products",
-      "summary": "Multiple VMware Products Command Injection Vulnerability",
-      "date": "2021-11-03",
-      "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "score": 72,
-      "evidence": {
-        "cve": "CVE-2020-4006",
-        "vendor": "VMware",
-        "product": "Multiple Products",
-        "ransomware": "Unknown"
-      }
-    },
-    {
-      "id": "1fdc039a10a055e18f19",
-      "first_seen": "2026-10-24T14:27:45.140Z",
-      "confidence": "fonte primaria",
-      "status": "exploração conhecida; impacto financeiro não confirmado",
-      "origin": "CISA KEV",
-      "key": "CVE-2021-21985",
-      "category": "cyber",
-      "title": "CVE-2021-21985 — VMware / vCenter Server",
-      "summary": "VMware vCenter Server Improper Input Validation Vulnerability",
-      "date": "2021-11-03",
-      "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "score": 85,
-      "evidence": {
-        "cve": "CVE-2021-21985",
-        "vendor": "VMware",
-        "product": "vCenter Server",
-        "ransomware": "Known"
-      }
-    },
-    {
-      "id": "16344fec97feff2ff689",
-      "first_seen": "2026-10-24T14:27:45.140Z",
-      "confidence": "fonte primaria",
-      "status": "exploração conhecida; impacto financeiro não confirmado",
-      "origin": "CISA KEV",
-      "key": "CVE-2021-21972",
-      "category": "cyber",
-      "title": "CVE-2021-21972 — VMware / vCenter Server",
-      "summary": "VMware vCenter Server Remote Code Execution Vulnerability",
-      "date": "2021-11-03",
-      "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "score": 85,
-      "evidence": {
-        "cve": "CVE-2021-21972",
-        "vendor": "VMware",
-        "product": "vCenter Server",
-        "ransomware": "Known"
-      }
-    },
-    {
-      "id": "ead98dc4e3e2d8459312",
-      "first_seen": "2026-10-24T14:27:45.140Z",
-      "confidence": "fonte primaria",
-      "status": "exploração conhecida; impacto financeiro não confirmado",
-      "origin": "CISA KEV",
-      "key": "CVE-2020-3952",
-      "category": "cyber",
-      "title": "CVE-2020-3952 — VMware / vCenter Server",
-      "summary": "VMware vCenter Server Information Disclosure Vulnerability",
-      "date": "2021-11-03",
-      "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "score": 72,
-      "evidence": {
-        "cve": "CVE-2020-3952",
-        "vendor": "VMware",
-        "product": "vCenter Server",
-        "ransomware": "Unknown"
-      }
-    },
-    {
-      "id": "a591ac50756164199283",
-      "first_seen": "2026-10-24T14:27:45.140Z",
-      "confidence": "fonte primaria",
-      "status": "exploração conhecida; impacto financeiro não confirmado",
-      "origin": "CISA KEV",
-      "key": "CVE-2021-22005",
-      "category": "cyber",
-      "title": "CVE-2021-22005 — VMware / vCenter Server",
-      "summary": "VMware vCenter Server File Upload Vulnerability",
-      "date": "2021-11-03",
-      "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "score": 85,
-      "evidence": {
-        "cve": "CVE-2021-22005",
-        "vendor": "VMware",
-        "product": "vCenter Server",
-        "ransomware": "Known"
-      }
-    },
-    {
-      "id": "5c396cdd75766a83c434",
-      "first_seen": "2026-10-24T14:27:45.140Z",
-      "confidence": "fonte primaria",
-      "status": "exploração conhecida; impacto financeiro não confirmado",
-      "origin": "CISA KEV",
-      "key": "CVE-2020-3950",
-      "category": "cyber",
-      "title": "CVE-2020-3950 — VMware / Multiple Products",
-      "summary": "VMware Multiple Products Privilege Escalation Vulnerability",
-      "date": "2021-11-03",
-      "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "score": 72,
-      "evidence": {
-        "cve": "CVE-2020-3950",
-        "vendor": "VMware",
-        "product": "Multiple Products",
-        "ransomware": "Unknown"
-      }
-    },
-    {
-      "id": "750cbbe065190aa5a0ad",
-      "first_seen": "2026-10-24T14:27:45.140Z",
-      "confidence": "fonte primaria",
-      "status": "exploração conhecida; impacto financeiro não confirmado",
-      "origin": "CISA KEV",
-      "key": "CVE-2020-3992",
-      "category": "cyber",
-      "title": "CVE-2020-3992 — VMware / ESXi",
-      "summary": "VMware ESXi OpenSLP Use-After-Free Vulnerability",
-      "date": "2021-11-03",
-      "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "score": 85,
-      "evidence": {
-        "cve": "CVE-2020-3992",
-        "vendor": "VMware",
-        "product": "ESXi",
-        "ransomware": "Known"
-      }
-    },
-    {
-      "id": "024a2d431699a1bed9d7",
-      "first_seen": "2026-10-24T14:27:45.140Z",
-      "confidence": "fonte primaria",
-      "status": "exploração conhecida; impacto financeiro não confirmado",
-      "origin": "CISA KEV",
-      "key": "CVE-2019-5544",
-      "category": "cyber",
-      "title": "CVE-2019-5544 — VMware / VMware ESXi and Horizon DaaS",
-      "summary": "VMware ESXi and Horizon DaaS OpenSLP Heap-Based Buffer Overflow Vulnerability",
-      "date": "2021-11-03",
-      "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "score": 85,
-      "evidence": {
-        "cve": "CVE-2019-5544",
-        "vendor": "VMware",
-        "product": "VMware ESXi and Horizon DaaS",
-        "ransomware": "Known"
-      }
-    },
-    {
-      "id": "64ad8bff144d7feb45b6",
-      "first_seen": "2026-10-24T14:27:45.140Z",
-      "confidence": "fonte primaria",
-      "status": "exploração conhecida; impacto financeiro não confirmado",
-      "origin": "CISA KEV",
-      "key": "CVE-2020-17496",
-      "category": "cyber",
-      "title": "CVE-2020-17496 — vBulletin / vBulletin",
-      "summary": "vBulletin PHP Module Remote Code Execution Vulnerability",
-      "date": "2021-11-03",
-      "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "score": 72,
-      "evidence": {
-        "cve": "CVE-2020-17496",
-        "vendor": "vBulletin",
-        "product": "vBulletin",
-        "ransomware": "Unknown"
-      }
-    },
-    {
-      "id": "423e5bbae55cfc86a46b",
-      "first_seen": "2026-10-24T14:27:45.140Z",
-      "confidence": "fonte primaria",
-      "status": "exploração conhecida; impacto financeiro não confirmado",
-      "origin": "CISA KEV",
-      "key": "CVE-2019-16759",
-      "category": "cyber",
-      "title": "CVE-2019-16759 — vBulletin / vBulletin",
-      "summary": "vBulletin PHP Module Remote Code Execution Vulnerability",
-      "date": "2021-11-03",
-      "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "score": 72,
-      "evidence": {
-        "cve": "CVE-2019-16759",
-        "vendor": "vBulletin",
-        "product": "vBulletin",
-        "ransomware": "Unknown"
-      }
-    },
-    {
-      "id": "5339902b4f208e5ad33b",
-      "first_seen": "2026-10-24T14:27:45.140Z",
-      "confidence": "fonte primaria",
-      "status": "exploração conhecida; impacto financeiro não confirmado",
-      "origin": "CISA KEV",
-      "key": "CVE-2020-5847",
-      "category": "cyber",
-      "title": "CVE-2020-5847 — Unraid / Unraid",
-      "summary": "Unraid Remote Code Execution Vulnerability",
-      "date": "2021-11-03",
-      "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "score": 72,
-      "evidence": {
-        "cve": "CVE-2020-5847",
-        "vendor": "Unraid",
-        "product": "Unraid",
-        "ransomware": "Unknown"
-      }
-    },
-    {
-      "id": "522519d62baad1620190",
-      "first_seen": "2026-10-24T14:27:45.140Z",
-      "confidence": "fonte primaria",
-      "status": "exploração conhecida; impacto financeiro não confirmado",
-      "origin": "CISA KEV",
-      "key": "CVE-2020-5849",
-      "category": "cyber",
-      "title": "CVE-2020-5849 — Unraid / Unraid",
-      "summary": "Unraid Authentication Bypass Vulnerability",
-      "date": "2021-11-03",
-      "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "score": 72,
-      "evidence": {
-        "cve": "CVE-2020-5849",
-        "vendor": "Unraid",
-        "product": "Unraid",
-        "ransomware": "Unknown"
-      }
-    },
-    {
-      "id": "27638b05552d3195e82e",
-      "first_seen": "2026-10-24T14:27:45.140Z",
-      "confidence": "fonte primaria",
-      "status": "exploração conhecida; impacto financeiro não confirmado",
-      "origin": "CISA KEV",
-      "key": "CVE-2019-20085",
-      "category": "cyber",
-      "title": "CVE-2019-20085 — TVT / NVMS-1000",
-      "summary": "TVT NVMS-1000 Directory Traversal Vulnerability",
-      "date": "2021-11-03",
-      "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "score": 72,
-      "evidence": {
-        "cve": "CVE-2019-20085",
-        "vendor": "TVT",
-        "product": "NVMS-1000",
-        "ransomware": "Unknown"
-      }
-    },
-    {
-      "id": "de8afa994f2411ae2919",
-      "first_seen": "2026-10-24T14:27:45.140Z",
-      "confidence": "fonte primaria",
-      "status": "exploração conhecida; impacto financeiro não confirmado",
-      "origin": "CISA KEV",
-      "key": "CVE-2021-36741",
-      "category": "cyber",
-      "title": "CVE-2021-36741 — Trend Micro / Apex One, Apex One as a Service, and Worry-Free Business Security",
-      "summary": "Trend Micro Multiple Products Improper Input Validation Vulnerability",
-      "date": "2021-11-03",
-      "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "score": 72,
-      "evidence": {
-        "cve": "CVE-2021-36741",
-        "vendor": "Trend Micro",
-        "product": "Apex One, Apex One as a Service, and Worry-Free Business Security",
-        "ransomware": "Unknown"
-      }
-    },
-    {
-      "id": "9a85d3171aa16d2afb13",
-      "first_seen": "2026-10-24T14:27:45.140Z",
-      "confidence": "fonte primaria",
-      "status": "exploração conhecida; impacto financeiro não confirmado",
-      "origin": "CISA KEV",
-      "key": "CVE-2021-36742",
-      "category": "cyber",
-      "title": "CVE-2021-36742 — Trend Micro / Apex One, Apex One as a Service, and Worry-Free Business Security",
-      "summary": "Trend Micro Multiple Products Improper Input Validation Vulnerability",
-      "date": "2021-11-03",
-      "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "score": 72,
-      "evidence": {
-        "cve": "CVE-2021-36742",
-        "vendor": "Trend Micro",
-        "product": "Apex One, Apex One as a Service, and Worry-Free Business Security",
-        "ransomware": "Unknown"
-      }
-    },
-    {
-      "id": "728ccc9b3ac1119d9fcc",
-      "first_seen": "2026-10-24T14:27:45.140Z",
-      "confidence": "fonte primaria",
-      "status": "exploração conhecida; impacto financeiro não confirmado",
-      "origin": "CISA KEV",
-      "key": "CVE-2020-8599",
-      "category": "cyber",
-      "title": "CVE-2020-8599 — Trend Micro / Apex One and OfficeScan",
-      "summary": "Trend Micro Apex One and OfficeScan Authentication Bypass Vulnerability",
-      "date": "2021-11-03",
-      "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "score": 72,
-      "evidence": {
-        "cve": "CVE-2020-8599",
-        "vendor": "Trend Micro",
-        "product": "Apex One and OfficeScan",
-        "ransomware": "Unknown"
-      }
-    },
-    {
-      "id": "cf5ff10eda03fe6fe5d9",
-      "first_seen": "2026-10-24T14:27:45.140Z",
-      "confidence": "fonte primaria",
-      "status": "exploração conhecida; impacto financeiro não confirmado",
-      "origin": "CISA KEV",
-      "key": "CVE-2020-24557",
-      "category": "cyber",
-      "title": "CVE-2020-24557 — Trend Micro / Apex One, OfficeScan, and Worry-Free Business Security",
-      "summary": "Trend Micro Multiple Products Improper Access Control Vulnerability",
-      "date": "2021-11-03",
-      "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "score": 72,
-      "evidence": {
-        "cve": "CVE-2020-24557",
-        "vendor": "Trend Micro",
-        "product": "Apex One, OfficeScan, and Worry-Free Business Security",
-        "ransomware": "Unknown"
-      }
-    },
-    {
-      "id": "7ccf95ec73441c22921a",
-      "first_seen": "2026-10-24T14:27:45.140Z",
-      "confidence": "fonte primaria",
-      "status": "exploração conhecida; impacto financeiro não confirmado",
-      "origin": "CISA KEV",
-      "key": "CVE-2020-8468",
-      "category": "cyber",
-      "title": "CVE-2020-8468 — Trend Micro / Apex One, OfficeScan and Worry-Free Business Security Agents",
-      "summary": "Trend Micro Multiple Products Content Validation Escape Vulnerability",
-      "date": "2021-11-03",
-      "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "score": 72,
-      "evidence": {
-        "cve": "CVE-2020-8468",
-        "vendor": "Trend Micro",
-        "product": "Apex One, OfficeScan and Worry-Free Business Security Agents",
-        "ransomware": "Unknown"
-      }
-    },
-    {
-      "id": "708721e860c8ba1f0aed",
-      "first_seen": "2026-10-24T14:27:45.140Z",
-      "confidence": "fonte primaria",
-      "status": "exploração conhecida; impacto financeiro não confirmado",
-      "origin": "CISA KEV",
-      "key": "CVE-2020-8467",
-      "category": "cyber",
-      "title": "CVE-2020-8467 — Trend Micro / Apex One and OfficeScan",
-      "summary": "Trend Micro Apex One and OfficeScan Remote Code Execution Vulnerability",
-      "date": "2021-11-03",
-      "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "score": 72,
-      "evidence": {
-        "cve": "CVE-2020-8467",
-        "vendor": "Trend Micro",
-        "product": "Apex One and OfficeScan",
-        "ransomware": "Unknown"
-      }
-    },
-    {
-      "id": "509d86faf9798eae6f13",
-      "first_seen": "2026-10-24T14:27:45.140Z",
-      "confidence": "fonte primaria",
-      "status": "exploração conhecida; impacto financeiro não confirmado",
-      "origin": "CISA KEV",
-      "key": "CVE-2019-18187",
-      "category": "cyber",
-      "title": "CVE-2019-18187 — Trend Micro / OfficeScan",
-      "summary": "Trend Micro OfficeScan Directory Traversal Vulnerability",
-      "date": "2021-11-03",
-      "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "score": 72,
-      "evidence": {
-        "cve": "CVE-2019-18187",
-        "vendor": "Trend Micro",
-        "product": "OfficeScan",
-        "ransomware": "Unknown"
-      }
-    },
-    {
-      "id": "6af090c71466cb01dff4",
-      "first_seen": "2026-10-24T14:27:45.140Z",
-      "confidence": "fonte primaria",
-      "status": "exploração conhecida; impacto financeiro não confirmado",
-      "origin": "CISA KEV",
-      "key": "CVE-2019-9082",
-      "category": "cyber",
-      "title": "CVE-2019-9082 — ThinkPHP / ThinkPHP",
-      "summary": "ThinkPHP Remote Code Execution Vulnerability",
-      "date": "2021-11-03",
-      "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "score": 72,
-      "evidence": {
-        "cve": "CVE-2019-9082",
-        "vendor": "ThinkPHP",
-        "product": "ThinkPHP",
-        "ransomware": "Unknown"
-      }
-    },
-    {
-      "id": "fafaff4592667fe66189",
-      "first_seen": "2026-10-24T14:27:45.140Z",
-      "confidence": "fonte primaria",
-      "status": "exploração conhecida; impacto financeiro não confirmado",
-      "origin": "CISA KEV",
-      "key": "CVE-2018-20062",
-      "category": "cyber",
-      "title": "CVE-2018-20062 — ThinkPHP / noneCms",
-      "summary": "ThinkPHP \"noneCms\" Remote Code Execution Vulnerability",
-      "date": "2021-11-03",
-      "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "score": 72,
-      "evidence": {
-        "cve": "CVE-2018-20062",
-        "vendor": "ThinkPHP",
-        "product": "noneCms",
-        "ransomware": "Unknown"
-      }
-    },
-    {
-      "id": "a8dfde9dd2b69c590f03",
-      "first_seen": "2026-10-24T14:27:45.140Z",
-      "confidence": "fonte primaria",
-      "status": "exploração conhecida; impacto financeiro não confirmado",
-      "origin": "CISA KEV",
-      "key": "CVE-2018-14558",
-      "category": "cyber",
-      "title": "CVE-2018-14558 — Tenda / AC7, AC9, and AC10 Routers",
-      "summary": "Tenda AC7, AC9, and AC10 Routers Command Injection Vulnerability",
-      "date": "2021-11-03",
-      "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "score": 72,
-      "evidence": {
-        "cve": "CVE-2018-14558",
-        "vendor": "Tenda",
-        "product": "AC7, AC9, and AC10 Routers",
-        "ransomware": "Unknown"
-      }
-    },
-    {
-      "id": "8ab84e6ec36b92b156ad",
-      "first_seen": "2026-10-24T14:27:45.140Z",
-      "confidence": "fonte primaria",
-      "status": "exploração conhecida; impacto financeiro não confirmado",
-      "origin": "CISA KEV",
-      "key": "CVE-2020-10987",
-      "category": "cyber",
-      "title": "CVE-2020-10987 — Tenda / AC1900 Router AC15 Model",
-      "summary": "Tenda AC1900 Router AC15 Model Remote Code Execution Vulnerability",
-      "date": "2021-11-03",
-      "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "score": 72,
-      "evidence": {
-        "cve": "CVE-2020-10987",
-        "vendor": "Tenda",
-        "product": "AC1900 Router AC15 Model",
-        "ransomware": "Unknown"
-      }
-    },
-    {
-      "id": "17bb3d57cfcf5d99fc13",
-      "first_seen": "2026-10-24T14:27:45.140Z",
-      "confidence": "fonte primaria",
-      "status": "exploração conhecida; impacto financeiro não confirmado",
-      "origin": "CISA KEV",
-      "key": "CVE-2021-31755",
-      "category": "cyber",
-      "title": "CVE-2021-31755 — Tenda / AC11 Router",
-      "summary": "Tenda AC11 Router Stack Buffer Overflow Vulnerability",
-      "date": "2021-11-03",
-      "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "score": 72,
-      "evidence": {
-        "cve": "CVE-2021-31755",
-        "vendor": "Tenda",
-        "product": "AC11 Router",
-        "ransomware": "Unknown"
-      }
-    },
-    {
-      "id": "36c6679b4fa16f3991d6",
-      "first_seen": "2026-10-24T14:27:45.140Z",
-      "confidence": "fonte primaria",
-      "status": "exploração conhecida; impacto financeiro não confirmado",
-      "origin": "CISA KEV",
-      "key": "CVE-2017-9248",
-      "category": "cyber",
-      "title": "CVE-2017-9248 — Progress / ASP.NET AJAX and Sitefinity",
-      "summary": "Progress Telerik UI for ASP.NET AJAX and Sitefinity Cryptographic Weakness Vulnerability",
-      "date": "2021-11-03",
-      "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "score": 72,
-      "evidence": {
-        "cve": "CVE-2017-9248",
-        "vendor": "Progress",
-        "product": "ASP.NET AJAX and Sitefinity",
-        "ransomware": "Unknown"
-      }
-    },
-    {
-      "id": "5e4852845abb5b02d978",
-      "first_seen": "2026-10-24T14:27:45.140Z",
-      "confidence": "fonte primaria",
-      "status": "exploração conhecida; impacto financeiro não confirmado",
-      "origin": "CISA KEV",
-      "key": "CVE-2019-18988",
-      "category": "cyber",
-      "title": "CVE-2019-18988 — TeamViewer / Desktop",
-      "summary": "TeamViewer Desktop Bypass Remote Login Vulnerability",
-      "date": "2021-11-03",
-      "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "score": 72,
-      "evidence": {
-        "cve": "CVE-2019-18988",
-        "vendor": "TeamViewer",
-        "product": "Desktop",
-        "ransomware": "Unknown"
-      }
-    },
-    {
-      "id": "d170b3f50dfccbe33bf7",
-      "first_seen": "2026-10-24T14:27:45.140Z",
-      "confidence": "fonte primaria",
-      "status": "exploração conhecida; impacto financeiro não confirmado",
-      "origin": "CISA KEV",
-      "key": "CVE-2017-6327",
-      "category": "cyber",
-      "title": "CVE-2017-6327 — Symantec / Symantec Messaging Gateway",
-      "summary": "Symantec Messaging Gateway Remote Code Execution Vulnerability",
-      "date": "2021-11-03",
-      "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "score": 72,
-      "evidence": {
-        "cve": "CVE-2017-6327",
-        "vendor": "Symantec",
-        "product": "Symantec Messaging Gateway",
-        "ransomware": "Unknown"
-      }
-    },
-    {
-      "id": "a8017decbeb55c466850",
-      "first_seen": "2026-10-24T14:27:45.140Z",
-      "confidence": "fonte primaria",
-      "status": "exploração conhecida; impacto financeiro não confirmado",
-      "origin": "CISA KEV",
-      "key": "CVE-2020-10181",
-      "category": "cyber",
-      "title": "CVE-2020-10181 — Sumavision / Enhanced Multimedia Router (EMR)",
-      "summary": "Sumavision EMR Cross-Site Request Forgery (CSRF) Vulnerability",
-      "date": "2021-11-03",
-      "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "score": 72,
-      "evidence": {
-        "cve": "CVE-2020-10181",
-        "vendor": "Sumavision",
-        "product": "Enhanced Multimedia Router (EMR)",
-        "ransomware": "Unknown"
-      }
-    },
-    {
-      "id": "1707d71e72f84864bf73",
-      "first_seen": "2026-10-24T14:27:45.140Z",
-      "confidence": "fonte primaria",
-      "status": "exploração conhecida; impacto financeiro não confirmado",
-      "origin": "CISA KEV",
-      "key": "CVE-2020-12271",
-      "category": "cyber",
-      "title": "CVE-2020-12271 — Sophos / SFOS",
-      "summary": "Sophos SFOS SQL Injection Vulnerability",
-      "date": "2021-11-03",
-      "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "score": 85,
-      "evidence": {
-        "cve": "CVE-2020-12271",
-        "vendor": "Sophos",
-        "product": "SFOS",
-        "ransomware": "Known"
-      }
-    },
-    {
-      "id": "57c29eb7e76a8b5f8d2c",
-      "first_seen": "2026-10-24T14:27:45.140Z",
-      "confidence": "fonte primaria",
-      "status": "exploração conhecida; impacto financeiro não confirmado",
-      "origin": "CISA KEV",
-      "key": "CVE-2021-20016",
-      "category": "cyber",
-      "title": "CVE-2021-20016 — SonicWall / SSLVPN SMA100",
-      "summary": "SonicWall SSLVPN SMA100 SQL Injection Vulnerability",
-      "date": "2021-11-03",
-      "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "score": 85,
-      "evidence": {
-        "cve": "CVE-2021-20016",
-        "vendor": "SonicWall",
-        "product": "SSLVPN SMA100",
-        "ransomware": "Known"
-      }
-    },
-    {
-      "id": "54befb012c8721d5be86",
-      "first_seen": "2026-10-24T14:27:45.140Z",
-      "confidence": "fonte primaria",
-      "status": "exploração conhecida; impacto financeiro não confirmado",
-      "origin": "CISA KEV",
-      "key": "CVE-2021-20023",
-      "category": "cyber",
-      "title": "CVE-2021-20023 — SonicWall / SonicWall Email Security",
-      "summary": "SonicWall Email Security Path Traversal Vulnerability",
-      "date": "2021-11-03",
-      "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "score": 85,
-      "evidence": {
-        "cve": "CVE-2021-20023",
-        "vendor": "SonicWall",
-        "product": "SonicWall Email Security",
-        "ransomware": "Known"
-      }
-    },
-    {
-      "id": "0ce0b03ddb6c08b70419",
-      "first_seen": "2026-10-24T14:27:45.140Z",
-      "confidence": "fonte primaria",
-      "status": "exploração conhecida; impacto financeiro não confirmado",
-      "origin": "CISA KEV",
-      "key": "CVE-2021-20022",
-      "category": "cyber",
-      "title": "CVE-2021-20022 — SonicWall / SonicWall Email Security",
-      "summary": "SonicWall Email Security Unrestricted Upload of File Vulnerability",
-      "date": "2021-11-03",
-      "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "score": 85,
-      "evidence": {
-        "cve": "CVE-2021-20022",
-        "vendor": "SonicWall",
-        "product": "SonicWall Email Security",
-        "ransomware": "Known"
-      }
-    },
-    {
-      "id": "efef75c18d3e204ba16e",
-      "first_seen": "2026-10-24T14:27:45.140Z",
-      "confidence": "fonte primaria",
-      "status": "exploração conhecida; impacto financeiro não confirmado",
-      "origin": "CISA KEV",
-      "key": "CVE-2019-7481",
-      "category": "cyber",
-      "title": "CVE-2019-7481 — SonicWall / SMA100",
-      "summary": "SonicWall SMA100 SQL Injection Vulnerability",
-      "date": "2021-11-03",
-      "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "score": 85,
-      "evidence": {
-        "cve": "CVE-2019-7481",
-        "vendor": "SonicWall",
-        "product": "SMA100",
-        "ransomware": "Known"
-      }
-    },
-    {
-      "id": "76e1be4ebd9606e647e5",
-      "first_seen": "2026-10-24T14:27:45.140Z",
-      "confidence": "fonte primaria",
-      "status": "exploração conhecida; impacto financeiro não confirmado",
-      "origin": "CISA KEV",
-      "key": "CVE-2021-20021",
-      "category": "cyber",
-      "title": "CVE-2021-20021 — SonicWall / SonicWall Email Security",
-      "summary": "SonicWall Email Security Improper Privilege Management Vulnerability",
-      "date": "2021-11-03",
-      "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "score": 85,
-      "evidence": {
-        "cve": "CVE-2021-20021",
-        "vendor": "SonicWall",
-        "product": "SonicWall Email Security",
-        "ransomware": "Known"
-      }
-    },
-    {
-      "id": "a274bbc12dbab0eb6c99",
-      "first_seen": "2026-10-24T14:27:45.140Z",
-      "confidence": "fonte primaria",
-      "status": "exploração conhecida; impacto financeiro não confirmado",
-      "origin": "CISA KEV",
-      "key": "CVE-2020-10199",
-      "category": "cyber",
-      "title": "CVE-2020-10199 — Sonatype / Nexus Repository",
-      "summary": "Sonatype Nexus Repository Remote Code Execution Vulnerability",
-      "date": "2021-11-03",
-      "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "score": 72,
-      "evidence": {
-        "cve": "CVE-2020-10199",
-        "vendor": "Sonatype",
-        "product": "Nexus Repository",
-        "ransomware": "Unknown"
-      }
-    },
-    {
-      "id": "2a9991d5435e2d2fbc28",
-      "first_seen": "2026-10-24T14:27:45.140Z",
-      "confidence": "fonte primaria",
-      "status": "exploração conhecida; impacto financeiro não confirmado",
-      "origin": "CISA KEV",
-      "key": "CVE-2016-3643",
-      "category": "cyber",
-      "title": "CVE-2016-3643 — SolarWinds / Virtualization Manager",
-      "summary": "SolarWinds Virtualization Manager Privilege Escalation Vulnerability",
-      "date": "2021-11-03",
-      "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
-      "score": 72,
-      "evidence": {
-        "cve": "CVE-2016-3643",
-        "vendor": "SolarWinds",
-        "product": "Virtualization Manager",
-        "ransomware": "Unknown"
-      }
     }
   ],
   "metrics": {
@@ -1165,63 +152,98 @@
       "url": "https://alternative.me/crypto/fear-and-greed-index/"
     },
     "defi": {
-      "total_tvl_usd": 89530841658.29396,
+      "total_tvl_usd": 89418227644.72665,
       "top_chains": [
         {
           "name": "Ethereum",
-          "tvl_usd": 49114008879.52309
+          "tvl_usd": 49056976704.922066
         },
         {
           "name": "Base",
-          "tvl_usd": 6058690043.533318
+          "tvl_usd": 6055108431.094703
         },
         {
           "name": "Solana",
-          "tvl_usd": 5762600847.7257595
+          "tvl_usd": 5755487126.789361
         },
         {
           "name": "BSC",
-          "tvl_usd": 5760170095.628162
+          "tvl_usd": 5754680760.070669
         },
         {
           "name": "Tron",
-          "tvl_usd": 5511119887.606201
+          "tvl_usd": 5504741498.769527
         },
         {
           "name": "Bitcoin",
-          "tvl_usd": 4318910366.243063
+          "tvl_usd": 4312814340.097867
         },
         {
           "name": "Hyperliquid L1",
-          "tvl_usd": 2367141185.8577747
+          "tvl_usd": 2355474821.065348
         },
         {
           "name": "Arbitrum",
-          "tvl_usd": 1452283345.3535447
+          "tvl_usd": 1451059764.6590128
         },
         {
           "name": "Robinhood Chain",
-          "tvl_usd": 1135601659.1091328
+          "tvl_usd": 1134855984.5950878
         },
         {
           "name": "Monad",
-          "tvl_usd": 989659784.3086431
+          "tvl_usd": 989296471.2931364
         },
         {
           "name": "Polygon",
-          "tvl_usd": 723436526.0745864
+          "tvl_usd": 723520850.7902703
         },
         {
           "name": "Arc",
-          "tvl_usd": 628816522.2326517
+          "tvl_usd": 626338459.3615643
         }
       ],
-      "observation_time": "2026-10-24T15:10:39.702Z",
+      "observation_time": "2026-10-24T15:47:58.538Z",
       "url": "https://defillama.com/chains",
       "note": "Soma dos TVLs reportados por cadeia; não representa fluxo líquido nem necessariamente TVL consolidado sem dupla contagem."
     },
     "dex": {
       "boosted": [
+        {
+          "chain": "robinhood",
+          "address": "0x0Bb30387A60e3D9b7dD2F192aAC8d084cD6Cf38F",
+          "amount": 10,
+          "url": "https://dexscreener.com/robinhood/0x0bb30387a60e3d9b7dd2f192aac8d084cd6cf38f",
+          "description": ""
+        },
+        {
+          "chain": "solana",
+          "address": "3WUfWQADbhWwogJk7Y37o5PUUVEy7KK1xsxB3YTvpump",
+          "amount": 30,
+          "url": "https://dexscreener.com/solana/3wufwqadbhwwogjk7y37o5puuvey7kk1xsxb3ytvpump",
+          "description": "Touchdown in paradise—the $LEONIDA crew packed light and brought enough trouble for the whole marina. 🛩🌴🦩"
+        },
+        {
+          "chain": "solana",
+          "address": "2mrT8hizpKykdYUHN2uYcNkxGbGnZSumvXQMuwSkpump",
+          "amount": 10,
+          "url": "https://dexscreener.com/solana/2mrt8hizpkykdyuhn2uycnkxgbgnzsumvxqmuwskpump",
+          "description": "KABOSU — The original Shiba Inu behind $DOGE. The iconic meme that started it all, now connected to Dogecoin co-founder @BillyM2k through creator rewards."
+        },
+        {
+          "chain": "solana",
+          "address": "2ZTZPzwUH2fFBVy6rDSidVtq6hXVeZPZmxUSLqd7pump",
+          "amount": 100,
+          "url": "https://dexscreener.com/solana/2ztzpzwuh2ffbvy6rdsidvtq6hxvezpzmxuslqd7pump",
+          "description": "This graphic of privacy coins outperforming memecoins is going viral."
+        },
+        {
+          "chain": "solana",
+          "address": "4ipcoJ37nXNXs66SR9MVYTz6vwUdqsXYfLD4vYE6pump",
+          "amount": 100,
+          "url": "https://dexscreener.com/solana/4ipcoj37nxnxs66sr9mvytz6vwudqsxyfld4vye6pump",
+          "description": "GrandDacityCoin is Live On Solana."
+        },
         {
           "chain": "solana",
           "address": "Aov3BtQvrGXM5V9oiHu8PKJWeV8a2rFnr24fwWcNpump",
@@ -1291,72 +313,37 @@
           "amount": 10,
           "url": "https://dexscreener.com/solana/3x2xbbx6shsvkhp2rohgzbrqwzpxx5mdjg2paaxzpump",
           "description": "Jeff_FunnyGuy"
-        },
-        {
-          "chain": "solana",
-          "address": "HqaUT1abZq6WkeRpCYD7yHNdcxgu6biXejNkeJUNpump",
-          "amount": 10,
-          "url": "https://dexscreener.com/solana/hqaut1abzq6wkerpcyd7yhndcxgu6bixejnkejunpump",
-          "description": "The Perpetual Trading Protocol Built for Memecoin Traders.\nLong & Short Memecoins up to 1000x • Stake $VIRTUAL • Earn USDC •Buy-Back & Burn $VIRTUAL."
-        },
-        {
-          "chain": "solana",
-          "address": "BPUDuDxG2xyeKyDQ3bqDyPvTmCjXado5ETcGKV1wKhhC",
-          "amount": 10,
-          "url": "https://dexscreener.com/solana/bpududxg2xyekydq3bqdypvtmcjxado5etcgkv1wkhhc",
-          "description": "We are the lowest supply Memecoin on Solana!! \n21,000 Max Supply."
-        },
-        {
-          "chain": "solana",
-          "address": "7Yiy7urdzLosM34A1PvP4ZkgpfLXXAzsgNgsAJSRcpW5",
-          "amount": 10,
-          "url": "https://dexscreener.com/solana/7yiy7urdzlosm34a1pvp4zkgpflxxazsgngsajsrcpw5",
-          "description": "On June 27, 2024, Keith Gill posted a cartoon dog. Four days later, his Chewy position became public: 9,001,000 shares.\n\nThat’s where our mascot’s story begins."
-        },
-        {
-          "chain": "solana",
-          "address": "GorDnf8Xfp9bWm9XCuzi7NXy7i5x5MRYZecrVbrWxVoA",
-          "amount": 10,
-          "url": "https://dexscreener.com/solana/gordnf8xfp9bwm9xcuzi7nxy7i5x5mryzecrvbrwxvoa",
-          "description": "He wears a pumpkin because the market took his skull. Now he lights the way for every holder walking through the dark."
-        },
-        {
-          "chain": "solana",
-          "address": "A75Xx6SeftAmWduv9KGwb2GCjXUAhxozcCUCys9jpump",
-          "amount": 10,
-          "url": "https://dexscreener.com/solana/a75xx6seftamwduv9kgwb2gcjxuahxozccucys9jpump",
-          "description": "It's $HELL, the dog of $AMD - official partner of Rockstar Games."
         }
       ],
-      "observation_time": "2026-10-24T15:10:39.702Z",
+      "observation_time": "2026-10-24T15:47:58.538Z",
       "url": "https://docs.dexscreener.com/api/reference",
       "note": "Boosts são promoções pagas; não são evidência de tendência, investimento ou oportunidade."
     },
     "market": {
       "tickers": {
         "BTCUSDT": {
-          "price": 79913.9,
-          "change24h": -1.982,
-          "volume_quote_24h": 943685061.6800767,
+          "price": 79574.51,
+          "change24h": -2.474,
+          "volume_quote_24h": 997151957.8494841,
           "high24h": 81846.26,
-          "low24h": 79557.22
+          "low24h": 79220.74
         },
         "ETHUSDT": {
-          "price": 2323.33,
-          "change24h": -3.145,
-          "volume_quote_24h": 403879474.675641,
+          "price": 2298.11,
+          "change24h": -4.455,
+          "volume_quote_24h": 479963442.51888,
           "high24h": 2413.98,
-          "low24h": 2306.16
+          "low24h": 2282.46
         },
         "SOLUSDT": {
-          "price": 99.94,
-          "change24h": -4.3,
-          "volume_quote_24h": 175911212.15863,
+          "price": 99.37,
+          "change24h": -5.036,
+          "volume_quote_24h": 194014339.87257,
           "high24h": 105.01,
-          "low24h": 99.22
+          "low24h": 98.62
         }
       },
-      "observation_time": "2026-10-24T15:10:39.702Z",
+      "observation_time": "2026-10-24T15:47:58.538Z",
       "url": "https://data-api.binance.vision/api/v3/ticker/24hr",
       "note": "Preços spot Binance USDT; não representam o mercado global nem contratos futuros"
     },
@@ -1554,9 +541,9 @@
           "name": "Bitget",
           "slug": "bitget",
           "category": "CEX",
-          "tvl": 6914843083.931233,
-          "change_1d": -1.4304058450647972,
-          "change_7d": 13.887765999682074,
+          "tvl": 6900782049.235448,
+          "change_1d": -1.6308428566555335,
+          "change_7d": 13.92634121492135,
           "chains": [
             "Bitcoin",
             "Ethereum",
@@ -1565,7 +552,7 @@
           ]
         }
       ],
-      "observation_time": "2026-10-24T15:10:39.702Z",
+      "observation_time": "2026-10-24T15:47:58.538Z",
       "url": "https://defillama.com/protocols"
     },
     "dex_volume": {
@@ -1614,11 +601,1327 @@
           "change_1d": -1.66
         }
       ],
-      "observation_time": "2026-10-24T15:10:39.702Z",
+      "observation_time": "2026-10-24T15:47:58.538Z",
       "url": "https://defillama.com/dexs"
+    },
+    "yield_pools": {
+      "observation_time": "2026-10-24T15:47:58.538Z",
+      "pools": [
+        {
+          "pool": "747c1d2a-c668-4682-b9f9-296708a3dd90",
+          "chain": "Ethereum",
+          "project": "lido",
+          "symbol": "STETH",
+          "tvlUsd": 22580638779,
+          "apy": 2.781,
+          "apyBase": 2.781,
+          "apyReward": 0,
+          "ilRisk": "no",
+          "stablecoin": false,
+          "url": "https://defillama.com/yields/pool/747c1d2a-c668-4682-b9f9-296708a3dd90"
+        },
+        {
+          "pool": "3b45941c-16cb-48c5-a490-16c6c4f1d86a",
+          "chain": "Ethereum",
+          "project": "sparklend",
+          "symbol": "WSTETH",
+          "tvlUsd": 3364483877,
+          "apy": 0,
+          "apyBase": 0,
+          "apyReward": 0,
+          "ilRisk": "no",
+          "stablecoin": false,
+          "url": "https://defillama.com/yields/pool/3b45941c-16cb-48c5-a490-16c6c4f1d86a"
+        },
+        {
+          "pool": "7d33d57d-36dc-414b-9538-22a223250468",
+          "chain": "Base",
+          "project": "morpho-blue",
+          "symbol": "CBBTC",
+          "tvlUsd": 3211416807,
+          "apy": 0,
+          "apyBase": 0,
+          "apyReward": 0,
+          "ilRisk": "no",
+          "stablecoin": false,
+          "url": "https://defillama.com/yields/pool/7d33d57d-36dc-414b-9538-22a223250468"
+        },
+        {
+          "pool": "7e382157-b1bc-406d-b17b-facba43b716e",
+          "chain": "Ethereum",
+          "project": "aave-v3",
+          "symbol": "WBTC",
+          "tvlUsd": 2667041585,
+          "apy": 0.00319,
+          "apyBase": 0.00319,
+          "apyReward": 0,
+          "ilRisk": "no",
+          "stablecoin": false,
+          "url": "https://defillama.com/yields/pool/7e382157-b1bc-406d-b17b-facba43b716e"
+        },
+        {
+          "pool": "e6435aae-cbe9-4d26-ab2c-a4d533db9972",
+          "chain": "Ethereum",
+          "project": "aave-v3",
+          "symbol": "WSTETH",
+          "tvlUsd": 2182874158,
+          "apy": 0.00019,
+          "apyBase": 0.00019,
+          "apyReward": 0,
+          "ilRisk": "no",
+          "stablecoin": false,
+          "url": "https://defillama.com/yields/pool/e6435aae-cbe9-4d26-ab2c-a4d533db9972"
+        },
+        {
+          "pool": "b1986007-81f3-4150-9565-94d5a4066ce4",
+          "chain": "Ethereum",
+          "project": "aave-v3",
+          "symbol": "CBBTC",
+          "tvlUsd": 1384807707,
+          "apy": 0.00123,
+          "apyBase": 0.00123,
+          "apyReward": 0,
+          "ilRisk": "no",
+          "stablecoin": false,
+          "url": "https://defillama.com/yields/pool/b1986007-81f3-4150-9565-94d5a4066ce4"
+        },
+        {
+          "pool": "e880e828-ca59-4ec6-8d4f-27182a4dc23d",
+          "chain": "Ethereum",
+          "project": "aave-v3",
+          "symbol": "WETH",
+          "tvlUsd": 987707608,
+          "apy": 1.27999,
+          "apyBase": 1.27999,
+          "apyReward": 0,
+          "ilRisk": "no",
+          "stablecoin": false,
+          "url": "https://defillama.com/yields/pool/e880e828-ca59-4ec6-8d4f-27182a4dc23d"
+        },
+        {
+          "pool": "51d2f8d4-1fb5-4f6b-938b-e9cd17ca1ceb",
+          "chain": "Ethereum",
+          "project": "sky-lending",
+          "symbol": "WETH",
+          "tvlUsd": 687330595,
+          "apy": 0,
+          "apyBase": 0,
+          "apyReward": 0,
+          "ilRisk": "no",
+          "stablecoin": false,
+          "url": "https://defillama.com/yields/pool/51d2f8d4-1fb5-4f6b-938b-e9cd17ca1ceb"
+        },
+        {
+          "pool": "d70d42b1-4ba3-4572-bf76-0ac12781bde4",
+          "chain": "Ethereum",
+          "project": "morpho-blue",
+          "symbol": "CBBTC",
+          "tvlUsd": 674653802,
+          "apy": 0,
+          "apyBase": 0,
+          "apyReward": 0,
+          "ilRisk": "no",
+          "stablecoin": false,
+          "url": "https://defillama.com/yields/pool/d70d42b1-4ba3-4572-bf76-0ac12781bde4"
+        },
+        {
+          "pool": "a5d67f7e-5b51-4a9d-969d-caf051a7f5a4",
+          "chain": "Ethereum",
+          "project": "spark-savings",
+          "symbol": "USDT",
+          "tvlUsd": 667061234,
+          "apy": 3.75,
+          "apyBase": 3.75,
+          "apyReward": 0,
+          "ilRisk": "no",
+          "stablecoin": true,
+          "url": "https://defillama.com/yields/pool/a5d67f7e-5b51-4a9d-969d-caf051a7f5a4"
+        },
+        {
+          "pool": "54600482-cfb9-4dd9-a73b-342cffd4644a",
+          "chain": "Ethereum",
+          "project": "sky-lending",
+          "symbol": "WETH",
+          "tvlUsd": 625308674,
+          "apy": 0,
+          "apyBase": 0,
+          "apyReward": 0,
+          "ilRisk": "no",
+          "stablecoin": false,
+          "url": "https://defillama.com/yields/pool/54600482-cfb9-4dd9-a73b-342cffd4644a"
+        },
+        {
+          "pool": "54e9b138-3146-4c1f-8dce-1cb948f5ef96",
+          "chain": "Ethereum",
+          "project": "sparklend",
+          "symbol": "USDS",
+          "tvlUsd": 557542291,
+          "apy": 3.71537,
+          "apyBase": 0,
+          "apyReward": 3.71537,
+          "ilRisk": "no",
+          "stablecoin": true,
+          "url": "https://defillama.com/yields/pool/54e9b138-3146-4c1f-8dce-1cb948f5ef96"
+        },
+        {
+          "pool": "d783c8df-e2ed-44b4-8317-161ccc1b5f06",
+          "chain": "Solana",
+          "project": "jupiter-lend",
+          "symbol": "USDC",
+          "tvlUsd": 492389513,
+          "apy": 5.20035,
+          "apyBase": 5.20035,
+          "apyReward": 0,
+          "ilRisk": "no",
+          "stablecoin": true,
+          "url": "https://defillama.com/yields/pool/d783c8df-e2ed-44b4-8317-161ccc1b5f06"
+        },
+        {
+          "pool": "4ce0c458-2171-463b-92ce-458afe367a4e",
+          "chain": "Ethereum",
+          "project": "morpho-blue",
+          "symbol": "WSTETH",
+          "tvlUsd": 404886246,
+          "apy": 0,
+          "apyBase": 0,
+          "apyReward": 0,
+          "ilRisk": "no",
+          "stablecoin": false,
+          "url": "https://defillama.com/yields/pool/4ce0c458-2171-463b-92ce-458afe367a4e"
+        },
+        {
+          "pool": "0ed981dc-b49d-426d-ade5-6014728b1ef9",
+          "chain": "Ethereum",
+          "project": "sparklend",
+          "symbol": "USDS",
+          "tvlUsd": 393977672,
+          "apy": 2.69307,
+          "apyBase": 2.69307,
+          "apyReward": 0,
+          "ilRisk": "no",
+          "stablecoin": true,
+          "url": "https://defillama.com/yields/pool/0ed981dc-b49d-426d-ade5-6014728b1ef9"
+        },
+        {
+          "pool": "c1ca08e4-d618-415e-ad63-fcec58705469",
+          "chain": "Ethereum",
+          "project": "compound-v3",
+          "symbol": "WBTC",
+          "tvlUsd": 383759370,
+          "apy": 0,
+          "apyBase": 0,
+          "apyReward": 0,
+          "ilRisk": "no",
+          "stablecoin": false,
+          "url": "https://defillama.com/yields/pool/c1ca08e4-d618-415e-ad63-fcec58705469"
+        },
+        {
+          "pool": "9d499222-a01a-45bb-bbc9-f01c7923693b",
+          "chain": "Arbitrum",
+          "project": "spark-savings",
+          "symbol": "USDS",
+          "tvlUsd": 364124709,
+          "apy": 3.8,
+          "apyBase": 3.8,
+          "apyReward": 0,
+          "ilRisk": "no",
+          "stablecoin": true,
+          "url": "https://defillama.com/yields/pool/9d499222-a01a-45bb-bbc9-f01c7923693b"
+        },
+        {
+          "pool": "f981a304-bb6c-45b8-b0c5-fd2f515ad23a",
+          "chain": "Ethereum",
+          "project": "aave-v3",
+          "symbol": "USDT",
+          "tvlUsd": 351672521,
+          "apy": 3.37703,
+          "apyBase": 3.37703,
+          "apyReward": 0,
+          "ilRisk": "no",
+          "stablecoin": true,
+          "url": "https://defillama.com/yields/pool/f981a304-bb6c-45b8-b0c5-fd2f515ad23a"
+        },
+        {
+          "pool": "24195b31-d749-445f-bf9e-b65aa025ebdd",
+          "chain": "Ethereum",
+          "project": "sparklend",
+          "symbol": "WETH",
+          "tvlUsd": 334349419,
+          "apy": 1.37513,
+          "apyBase": 1.37513,
+          "apyReward": 0,
+          "ilRisk": "no",
+          "stablecoin": false,
+          "url": "https://defillama.com/yields/pool/24195b31-d749-445f-bf9e-b65aa025ebdd"
+        },
+        {
+          "pool": "c5c74dd1-995c-4445-9d84-3e710bad7d52",
+          "chain": "Ethereum",
+          "project": "spark-savings",
+          "symbol": "USDC",
+          "tvlUsd": 295236262,
+          "apy": 3.8,
+          "apyBase": 3.8,
+          "apyReward": 0,
+          "ilRisk": "no",
+          "stablecoin": true,
+          "url": "https://defillama.com/yields/pool/c5c74dd1-995c-4445-9d84-3e710bad7d52"
+        },
+        {
+          "pool": "00d1e1f8-b3c8-4350-a247-5da693d2d4dd",
+          "chain": "Ethereum",
+          "project": "sparklend",
+          "symbol": "CBBTC",
+          "tvlUsd": 258735703,
+          "apy": 0.00367,
+          "apyBase": 0.00367,
+          "apyReward": 0,
+          "ilRisk": "no",
+          "stablecoin": false,
+          "url": "https://defillama.com/yields/pool/00d1e1f8-b3c8-4350-a247-5da693d2d4dd"
+        },
+        {
+          "pool": "2d1aa052-64c0-4c2c-82a0-db39062f04ab",
+          "chain": "Ethereum",
+          "project": "morpho-blue",
+          "symbol": "WBTC",
+          "tvlUsd": 238395305,
+          "apy": 0,
+          "apyBase": 0,
+          "apyReward": 0,
+          "ilRisk": "no",
+          "stablecoin": false,
+          "url": "https://defillama.com/yields/pool/2d1aa052-64c0-4c2c-82a0-db39062f04ab"
+        },
+        {
+          "pool": "7c5e69a4-2430-4fa2-b7cb-857f79d7d1bf",
+          "chain": "Arbitrum",
+          "project": "aave-v3",
+          "symbol": "WBTC",
+          "tvlUsd": 236289352,
+          "apy": 0.01731,
+          "apyBase": 0.01731,
+          "apyReward": 0,
+          "ilRisk": "no",
+          "stablecoin": false,
+          "url": "https://defillama.com/yields/pool/7c5e69a4-2430-4fa2-b7cb-857f79d7d1bf"
+        },
+        {
+          "pool": "89bc7c4c-d71c-435c-ab28-56c803d51320",
+          "chain": "Base",
+          "project": "aave-v3",
+          "symbol": "CBBTC",
+          "tvlUsd": 234391580,
+          "apy": 0.00877,
+          "apyBase": 0.00877,
+          "apyReward": 0,
+          "ilRisk": "no",
+          "stablecoin": false,
+          "url": "https://defillama.com/yields/pool/89bc7c4c-d71c-435c-ab28-56c803d51320"
+        },
+        {
+          "pool": "660e240a-ab18-43af-9d24-0245828f903f",
+          "chain": "Base",
+          "project": "morpho-blue",
+          "symbol": "WETH",
+          "tvlUsd": 192859555,
+          "apy": 0,
+          "apyBase": 0,
+          "apyReward": 0,
+          "ilRisk": "no",
+          "stablecoin": false,
+          "url": "https://defillama.com/yields/pool/660e240a-ab18-43af-9d24-0245828f903f"
+        },
+        {
+          "pool": "03406d3a-fcc4-4fe3-8809-7a95222951b6",
+          "chain": "Ethereum",
+          "project": "sparklend",
+          "symbol": "WBTC",
+          "tvlUsd": 181614430,
+          "apy": 0.00001,
+          "apyBase": 0.00001,
+          "apyReward": 0,
+          "ilRisk": "no",
+          "stablecoin": false,
+          "url": "https://defillama.com/yields/pool/03406d3a-fcc4-4fe3-8809-7a95222951b6"
+        },
+        {
+          "pool": "25171c4c-1877-449a-9f88-45a9f153ee31",
+          "chain": "Ethereum",
+          "project": "curve-dex",
+          "symbol": "DAI-USDC-USDT",
+          "tvlUsd": 159999154,
+          "apy": 0.00002,
+          "apyBase": 0,
+          "apyReward": 0.00002,
+          "ilRisk": "no",
+          "stablecoin": true,
+          "url": "https://defillama.com/yields/pool/25171c4c-1877-449a-9f88-45a9f153ee31"
+        },
+        {
+          "pool": "c037a916-a462-4c65-b217-100db0fdc0e0",
+          "chain": "Ethereum",
+          "project": "morpho-blue",
+          "symbol": "WBTC",
+          "tvlUsd": 158645134,
+          "apy": 0,
+          "apyBase": 0,
+          "apyReward": 0,
+          "ilRisk": "no",
+          "stablecoin": false,
+          "url": "https://defillama.com/yields/pool/c037a916-a462-4c65-b217-100db0fdc0e0"
+        },
+        {
+          "pool": "b99bcdf5-1350-4269-981e-0e9b5cccb007",
+          "chain": "Base",
+          "project": "uniswap-v3",
+          "symbol": "WETH-USDC",
+          "tvlUsd": 154313385,
+          "apy": 39.22412,
+          "apyBase": 39.22412,
+          "apyReward": 0,
+          "ilRisk": "yes",
+          "stablecoin": false,
+          "url": "https://defillama.com/yields/pool/b99bcdf5-1350-4269-981e-0e9b5cccb007"
+        },
+        {
+          "pool": "c47eea82-1e3d-4b66-8777-278b8db1dd77",
+          "chain": "Ethereum",
+          "project": "compound-v3",
+          "symbol": "WSTETH",
+          "tvlUsd": 146403929,
+          "apy": 0,
+          "apyBase": 0,
+          "apyReward": 0,
+          "ilRisk": "no",
+          "stablecoin": false,
+          "url": "https://defillama.com/yields/pool/c47eea82-1e3d-4b66-8777-278b8db1dd77"
+        },
+        {
+          "pool": "aa70268e-4b52-42bf-a116-608b370f9501",
+          "chain": "Ethereum",
+          "project": "aave-v3",
+          "symbol": "USDC",
+          "tvlUsd": 143638108,
+          "apy": 3.80682,
+          "apyBase": 3.80682,
+          "apyReward": 0,
+          "ilRisk": "no",
+          "stablecoin": true,
+          "url": "https://defillama.com/yields/pool/aa70268e-4b52-42bf-a116-608b370f9501"
+        },
+        {
+          "pool": "072f6554-daa7-4708-80ba-371b896a89db",
+          "chain": "Ethereum",
+          "project": "compound-v3",
+          "symbol": "WETH",
+          "tvlUsd": 143336421,
+          "apy": 0,
+          "apyBase": 0,
+          "apyReward": 0,
+          "ilRisk": "no",
+          "stablecoin": false,
+          "url": "https://defillama.com/yields/pool/072f6554-daa7-4708-80ba-371b896a89db"
+        },
+        {
+          "pool": "4d87430b-688a-5ac5-a593-4e31ac715d02",
+          "chain": "Ethereum",
+          "project": "sky-lending",
+          "symbol": "USDS",
+          "tvlUsd": 117496249,
+          "apy": 4.89623,
+          "apyBase": 0,
+          "apyReward": 4.89623,
+          "ilRisk": "no",
+          "stablecoin": true,
+          "url": "https://defillama.com/yields/pool/4d87430b-688a-5ac5-a593-4e31ac715d02"
+        },
+        {
+          "pool": "0827aa12-5831-47f0-b5ba-549294a2032b",
+          "chain": "Ethereum",
+          "project": "compound-v3",
+          "symbol": "WBTC",
+          "tvlUsd": 115226730,
+          "apy": 0,
+          "apyBase": 0,
+          "apyReward": 0,
+          "ilRisk": "no",
+          "stablecoin": false,
+          "url": "https://defillama.com/yields/pool/0827aa12-5831-47f0-b5ba-549294a2032b"
+        },
+        {
+          "pool": "d541708e-1283-4feb-bc7a-457fc5f8db2c",
+          "chain": "Ethereum",
+          "project": "aave-v3",
+          "symbol": "WSTETH",
+          "tvlUsd": 113762337,
+          "apy": 0.04094,
+          "apyBase": 0.04094,
+          "apyReward": 0,
+          "ilRisk": "no",
+          "stablecoin": false,
+          "url": "https://defillama.com/yields/pool/d541708e-1283-4feb-bc7a-457fc5f8db2c"
+        },
+        {
+          "pool": "8bc233cd-bd45-56e7-8f45-f54c7029e01a",
+          "chain": "Solana",
+          "project": "raydium-amm",
+          "symbol": "USDT-USBD",
+          "tvlUsd": 99866961,
+          "apy": 0,
+          "apyBase": 0,
+          "apyReward": 0,
+          "ilRisk": "yes",
+          "stablecoin": false,
+          "url": "https://defillama.com/yields/pool/8bc233cd-bd45-56e7-8f45-f54c7029e01a"
+        },
+        {
+          "pool": "1da10c92-fd2e-4506-a4d1-8c8fa22ff744",
+          "chain": "Solana",
+          "project": "kamino-lend",
+          "symbol": "JITOSOL",
+          "tvlUsd": 95916772,
+          "apy": 0.00057,
+          "apyBase": 0.00057,
+          "apyReward": 0,
+          "ilRisk": "no",
+          "stablecoin": false,
+          "url": "https://defillama.com/yields/pool/1da10c92-fd2e-4506-a4d1-8c8fa22ff744"
+        },
+        {
+          "pool": "f1a22245-a1f1-4389-8ff2-dde4914b272d",
+          "chain": "Ethereum",
+          "project": "aave-v3",
+          "symbol": "RETH",
+          "tvlUsd": 93157038,
+          "apy": 0.00002,
+          "apyBase": 0.00002,
+          "apyReward": 0,
+          "ilRisk": "no",
+          "stablecoin": false,
+          "url": "https://defillama.com/yields/pool/f1a22245-a1f1-4389-8ff2-dde4914b272d"
+        },
+        {
+          "pool": "57d30b9c-fc66-4ac2-b666-69ad5f410cce",
+          "chain": "Ethereum",
+          "project": "curve-dex",
+          "symbol": "ETH-STETH",
+          "tvlUsd": 90325830,
+          "apy": 1.17,
+          "apyBase": 1.17,
+          "apyReward": 0,
+          "ilRisk": "no",
+          "stablecoin": false,
+          "url": "https://defillama.com/yields/pool/57d30b9c-fc66-4ac2-b666-69ad5f410cce"
+        },
+        {
+          "pool": "fc9f488e-8183-416f-a61e-4e5c571d4395",
+          "chain": "Ethereum",
+          "project": "uniswap-v3",
+          "symbol": "WETH-USDT",
+          "tvlUsd": 88525353,
+          "apy": 18.42394,
+          "apyBase": 18.42394,
+          "apyReward": 0,
+          "ilRisk": "yes",
+          "stablecoin": false,
+          "url": "https://defillama.com/yields/pool/fc9f488e-8183-416f-a61e-4e5c571d4395"
+        },
+        {
+          "pool": "94657e4e-5345-48f0-9132-f7a709e2021e",
+          "chain": "Ethereum",
+          "project": "compound-v3",
+          "symbol": "WETH",
+          "tvlUsd": 88371871,
+          "apy": 0,
+          "apyBase": 0,
+          "apyReward": 0,
+          "ilRisk": "no",
+          "stablecoin": false,
+          "url": "https://defillama.com/yields/pool/94657e4e-5345-48f0-9132-f7a709e2021e"
+        },
+        {
+          "pool": "ca969cae-bbcb-4cd7-985e-be4df9815e15",
+          "chain": "Ethereum",
+          "project": "compound-v3",
+          "symbol": "WSTETH",
+          "tvlUsd": 86145579,
+          "apy": 0,
+          "apyBase": 0,
+          "apyReward": 0,
+          "ilRisk": "no",
+          "stablecoin": false,
+          "url": "https://defillama.com/yields/pool/ca969cae-bbcb-4cd7-985e-be4df9815e15"
+        },
+        {
+          "pool": "665dc8bc-c79d-4800-97f7-304bf368e547",
+          "chain": "Ethereum",
+          "project": "uniswap-v3",
+          "symbol": "USDC-WETH",
+          "tvlUsd": 81419371,
+          "apy": 5.49974,
+          "apyBase": 5.49974,
+          "apyReward": 0,
+          "ilRisk": "yes",
+          "stablecoin": false,
+          "url": "https://defillama.com/yields/pool/665dc8bc-c79d-4800-97f7-304bf368e547"
+        },
+        {
+          "pool": "e26ce7d9-db75-4aa4-b1db-cc21ae17bdfb",
+          "chain": "Ethereum",
+          "project": "sparklend",
+          "symbol": "DAI",
+          "tvlUsd": 76285494,
+          "apy": 2.84133,
+          "apyBase": 2.84133,
+          "apyReward": 0,
+          "ilRisk": "no",
+          "stablecoin": true,
+          "url": "https://defillama.com/yields/pool/e26ce7d9-db75-4aa4-b1db-cc21ae17bdfb"
+        },
+        {
+          "pool": "7d114ce1-2af1-42c3-a719-406fbbc3ed92",
+          "chain": "Ethereum",
+          "project": "morpho-blue",
+          "symbol": "WSTETH",
+          "tvlUsd": 70577819,
+          "apy": 0,
+          "apyBase": 0,
+          "apyReward": 0,
+          "ilRisk": "no",
+          "stablecoin": false,
+          "url": "https://defillama.com/yields/pool/7d114ce1-2af1-42c3-a719-406fbbc3ed92"
+        },
+        {
+          "pool": "58d18059-f1d1-45ed-acd3-f386e98cc506",
+          "chain": "Polygon",
+          "project": "aave-v3",
+          "symbol": "WBTC",
+          "tvlUsd": 67796506,
+          "apy": 0.01092,
+          "apyBase": 0.01092,
+          "apyReward": 0,
+          "ilRisk": "no",
+          "stablecoin": false,
+          "url": "https://defillama.com/yields/pool/58d18059-f1d1-45ed-acd3-f386e98cc506"
+        },
+        {
+          "pool": "a90d554a-b548-4f50-b03e-9dcb724b7777",
+          "chain": "Ethereum",
+          "project": "aave-v3",
+          "symbol": "USDT",
+          "tvlUsd": 62126695,
+          "apy": 5.01703,
+          "apyBase": 3.37703,
+          "apyReward": 1.64,
+          "ilRisk": "no",
+          "stablecoin": true,
+          "url": "https://defillama.com/yields/pool/a90d554a-b548-4f50-b03e-9dcb724b7777"
+        },
+        {
+          "pool": "462c6f50-ceab-4235-aa0e-21ee1e345908",
+          "chain": "Ethereum",
+          "project": "morpho-blue",
+          "symbol": "WSTETH",
+          "tvlUsd": 61542807,
+          "apy": 0,
+          "apyBase": 0,
+          "apyReward": 0,
+          "ilRisk": "no",
+          "stablecoin": false,
+          "url": "https://defillama.com/yields/pool/462c6f50-ceab-4235-aa0e-21ee1e345908"
+        },
+        {
+          "pool": "8c4bbc10-5763-5d5b-8450-05ddd24b1c33",
+          "chain": "Solana",
+          "project": "kamino-lend",
+          "symbol": "USDC",
+          "tvlUsd": 59735738,
+          "apy": 5.61355,
+          "apyBase": 5.55222,
+          "apyReward": 0.06133,
+          "ilRisk": "no",
+          "stablecoin": true,
+          "url": "https://defillama.com/yields/pool/8c4bbc10-5763-5d5b-8450-05ddd24b1c33"
+        },
+        {
+          "pool": "bace601a-530a-432c-9b79-8c6451de25ea",
+          "chain": "Ethereum",
+          "project": "spark-savings",
+          "symbol": "ETH",
+          "tvlUsd": 55580656,
+          "apy": 1.6,
+          "apyBase": 1.6,
+          "apyReward": 0,
+          "ilRisk": "no",
+          "stablecoin": false,
+          "url": "https://defillama.com/yields/pool/bace601a-530a-432c-9b79-8c6451de25ea"
+        },
+        {
+          "pool": "6f00d46b-8735-49ae-9ced-2a0fccc56ad0",
+          "chain": "Ethereum",
+          "project": "aave-v3",
+          "symbol": "USDC",
+          "tvlUsd": 54822577,
+          "apy": 5.58682,
+          "apyBase": 3.80682,
+          "apyReward": 1.78,
+          "ilRisk": "no",
+          "stablecoin": true,
+          "url": "https://defillama.com/yields/pool/6f00d46b-8735-49ae-9ced-2a0fccc56ad0"
+        },
+        {
+          "pool": "e62bcb01-ed4c-4ec9-8cfa-e86e7ccf7688",
+          "chain": "Arbitrum",
+          "project": "aave-v3",
+          "symbol": "WSTETH",
+          "tvlUsd": 54155788,
+          "apy": 0.00001,
+          "apyBase": 0.00001,
+          "apyReward": 0,
+          "ilRisk": "no",
+          "stablecoin": false,
+          "url": "https://defillama.com/yields/pool/e62bcb01-ed4c-4ec9-8cfa-e86e7ccf7688"
+        },
+        {
+          "pool": "49717ee2-9808-4288-b76d-e658195b7979",
+          "chain": "Ethereum",
+          "project": "uniswap-v3",
+          "symbol": "USDC-WETH",
+          "tvlUsd": 54095145,
+          "apy": 9.19901,
+          "apyBase": 9.19901,
+          "apyReward": 0,
+          "ilRisk": "yes",
+          "stablecoin": false,
+          "url": "https://defillama.com/yields/pool/49717ee2-9808-4288-b76d-e658195b7979"
+        },
+        {
+          "pool": "6d681636-0c6d-5ad3-b05f-46117f1f02ae",
+          "chain": "Solana",
+          "project": "kamino-lend",
+          "symbol": "USDC",
+          "tvlUsd": 52791530,
+          "apy": 7.78845,
+          "apyBase": 7.78845,
+          "apyReward": 0,
+          "ilRisk": "no",
+          "stablecoin": true,
+          "url": "https://defillama.com/yields/pool/6d681636-0c6d-5ad3-b05f-46117f1f02ae"
+        },
+        {
+          "pool": "51eb4b5c-6d62-42fe-99d6-92ba6eecd2d5",
+          "chain": "Ethereum",
+          "project": "sky-lending",
+          "symbol": "WSTETH",
+          "tvlUsd": 52463268,
+          "apy": 0,
+          "apyBase": 0,
+          "apyReward": 0,
+          "ilRisk": "no",
+          "stablecoin": false,
+          "url": "https://defillama.com/yields/pool/51eb4b5c-6d62-42fe-99d6-92ba6eecd2d5"
+        },
+        {
+          "pool": "1e5da7c6-59bb-49bd-9f97-4f4fceeffad4",
+          "chain": "Ethereum",
+          "project": "compound-v2",
+          "symbol": "WETH",
+          "tvlUsd": 50159218,
+          "apy": 0,
+          "apyBase": 0,
+          "apyReward": 0,
+          "ilRisk": "no",
+          "stablecoin": false,
+          "url": "https://defillama.com/yields/pool/1e5da7c6-59bb-49bd-9f97-4f4fceeffad4"
+        },
+        {
+          "pool": "f71737e5-f02e-4964-b23e-19d1a6c7a6bf",
+          "chain": "Ethereum",
+          "project": "uniswap-v4",
+          "symbol": "USDT-USDS",
+          "tvlUsd": 49520160,
+          "apy": 0.0367,
+          "apyBase": 0.0367,
+          "apyReward": 0,
+          "ilRisk": "no",
+          "stablecoin": true,
+          "url": "https://defillama.com/yields/pool/f71737e5-f02e-4964-b23e-19d1a6c7a6bf"
+        },
+        {
+          "pool": "ec8af777-6c9e-440a-9a3d-355f556baa04",
+          "chain": "Solana",
+          "project": "kamino-lend",
+          "symbol": "CBBTC",
+          "tvlUsd": 49152331,
+          "apy": 0.01072,
+          "apyBase": 0.01072,
+          "apyReward": 0,
+          "ilRisk": "no",
+          "stablecoin": false,
+          "url": "https://defillama.com/yields/pool/ec8af777-6c9e-440a-9a3d-355f556baa04"
+        },
+        {
+          "pool": "d9fa8e14-0447-4207-9ae8-7810199dfa1f",
+          "chain": "Arbitrum",
+          "project": "aave-v3",
+          "symbol": "USDC",
+          "tvlUsd": 48555503,
+          "apy": 2.41829,
+          "apyBase": 2.41829,
+          "apyReward": 0,
+          "ilRisk": "no",
+          "stablecoin": true,
+          "url": "https://defillama.com/yields/pool/d9fa8e14-0447-4207-9ae8-7810199dfa1f"
+        },
+        {
+          "pool": "e91e23af-9099-45d9-8ba5-ea5b4638e453",
+          "chain": "Ethereum",
+          "project": "curve-dex",
+          "symbol": "USDC-RLUSD",
+          "tvlUsd": 48170517,
+          "apy": 3.59248,
+          "apyBase": 0,
+          "apyReward": 3.59248,
+          "ilRisk": "no",
+          "stablecoin": true,
+          "url": "https://defillama.com/yields/pool/e91e23af-9099-45d9-8ba5-ea5b4638e453"
+        },
+        {
+          "pool": "90a3e412-e3be-47e1-a233-fd3760f4a794",
+          "chain": "Ethereum",
+          "project": "curve-dex",
+          "symbol": "USDT-CRVUSD",
+          "tvlUsd": 43883219,
+          "apy": 2.63986,
+          "apyBase": 0.15,
+          "apyReward": 2.48986,
+          "ilRisk": "no",
+          "stablecoin": true,
+          "url": "https://defillama.com/yields/pool/90a3e412-e3be-47e1-a233-fd3760f4a794"
+        },
+        {
+          "pool": "23405eee-97e7-4b8e-8625-19c3a36047e8",
+          "chain": "Base",
+          "project": "aave-v3",
+          "symbol": "WETH",
+          "tvlUsd": 42179153,
+          "apy": 3.38089,
+          "apyBase": 1.3926,
+          "apyReward": 1.98829,
+          "ilRisk": "no",
+          "stablecoin": false,
+          "url": "https://defillama.com/yields/pool/23405eee-97e7-4b8e-8625-19c3a36047e8"
+        },
+        {
+          "pool": "d59a5728-d391-4989-86f6-a94e11e0eb3b",
+          "chain": "Ethereum",
+          "project": "uniswap-v3",
+          "symbol": "WBTC-WETH",
+          "tvlUsd": 41728376,
+          "apy": 4.2039,
+          "apyBase": 4.2039,
+          "apyReward": 0,
+          "ilRisk": "yes",
+          "stablecoin": false,
+          "url": "https://defillama.com/yields/pool/d59a5728-d391-4989-86f6-a94e11e0eb3b"
+        },
+        {
+          "pool": "a043091f-8295-44c4-b6c2-151faee0b8d1",
+          "chain": "Ethereum",
+          "project": "uniswap-v4",
+          "symbol": "ETH-USDC",
+          "tvlUsd": 41659028,
+          "apy": 3.21885,
+          "apyBase": 3.21885,
+          "apyReward": 0,
+          "ilRisk": "yes",
+          "stablecoin": false,
+          "url": "https://defillama.com/yields/pool/a043091f-8295-44c4-b6c2-151faee0b8d1"
+        },
+        {
+          "pool": "f9258dd3-f50a-4ea3-8501-49b4b2603a5f",
+          "chain": "Ethereum",
+          "project": "aave-v4",
+          "symbol": "WBTC",
+          "tvlUsd": 40548295,
+          "apy": 0.00506,
+          "apyBase": 0.00506,
+          "apyReward": 0,
+          "ilRisk": "no",
+          "stablecoin": false,
+          "url": "https://defillama.com/yields/pool/f9258dd3-f50a-4ea3-8501-49b4b2603a5f"
+        },
+        {
+          "pool": "c5599b3a-ea73-4017-a867-72eb971301d1",
+          "chain": "Ethereum",
+          "project": "uniswap-v3",
+          "symbol": "WBTC-WETH",
+          "tvlUsd": 38739370,
+          "apy": 0.79888,
+          "apyBase": 0.79888,
+          "apyReward": 0,
+          "ilRisk": "yes",
+          "stablecoin": false,
+          "url": "https://defillama.com/yields/pool/c5599b3a-ea73-4017-a867-72eb971301d1"
+        },
+        {
+          "pool": "a14bd201-764c-40a5-86b8-2928b2461232",
+          "chain": "Arbitrum",
+          "project": "uniswap-v3",
+          "symbol": "WETH-USDC",
+          "tvlUsd": 38597298,
+          "apy": 18.73632,
+          "apyBase": 18.73632,
+          "apyReward": 0,
+          "ilRisk": "yes",
+          "stablecoin": false,
+          "url": "https://defillama.com/yields/pool/a14bd201-764c-40a5-86b8-2928b2461232"
+        },
+        {
+          "pool": "7da72d09-56ca-4ec5-a45f-59114353e487",
+          "chain": "Ethereum",
+          "project": "compound-v3",
+          "symbol": "USDC",
+          "tvlUsd": 37938267,
+          "apy": 4.07349,
+          "apyBase": 4.07349,
+          "apyReward": 0,
+          "ilRisk": "no",
+          "stablecoin": true,
+          "url": "https://defillama.com/yields/pool/7da72d09-56ca-4ec5-a45f-59114353e487"
+        },
+        {
+          "pool": "befcb753-f47d-4152-92a0-56b8f2f899b4",
+          "chain": "Ethereum",
+          "project": "aave-v4",
+          "symbol": "WSTETH",
+          "tvlUsd": 37936604,
+          "apy": 0,
+          "apyBase": 0,
+          "apyReward": 0,
+          "ilRisk": "no",
+          "stablecoin": false,
+          "url": "https://defillama.com/yields/pool/befcb753-f47d-4152-92a0-56b8f2f899b4"
+        },
+        {
+          "pool": "131d16cd-908a-586a-a455-1360f0ee20a7",
+          "chain": "Solana",
+          "project": "raydium-amm",
+          "symbol": "USDC-AKE",
+          "tvlUsd": 37914286,
+          "apy": 0.03,
+          "apyBase": 0.03,
+          "apyReward": 0,
+          "ilRisk": "yes",
+          "stablecoin": false,
+          "url": "https://defillama.com/yields/pool/131d16cd-908a-586a-a455-1360f0ee20a7"
+        },
+        {
+          "pool": "007d03bd-4987-4b3b-b7d2-2f3af42fa4b4",
+          "chain": "Ethereum",
+          "project": "compound-v3",
+          "symbol": "WSTETH",
+          "tvlUsd": 37574770,
+          "apy": 0,
+          "apyBase": 0,
+          "apyReward": 0,
+          "ilRisk": "no",
+          "stablecoin": false,
+          "url": "https://defillama.com/yields/pool/007d03bd-4987-4b3b-b7d2-2f3af42fa4b4"
+        },
+        {
+          "pool": "5e5865fe-5735-4d3c-bf33-4d4f5d6dcd97",
+          "chain": "Ethereum",
+          "project": "morpho-blue",
+          "symbol": "CBBTC",
+          "tvlUsd": 37247452,
+          "apy": 0,
+          "apyBase": 0,
+          "apyReward": 0,
+          "ilRisk": "no",
+          "stablecoin": false,
+          "url": "https://defillama.com/yields/pool/5e5865fe-5735-4d3c-bf33-4d4f5d6dcd97"
+        },
+        {
+          "pool": "4a1b9d9b-a752-406a-8fb4-4ed8a8fe0981",
+          "chain": "Ethereum",
+          "project": "morpho-blue",
+          "symbol": "WBTC",
+          "tvlUsd": 35563032,
+          "apy": 0,
+          "apyBase": 0,
+          "apyReward": 0,
+          "ilRisk": "no",
+          "stablecoin": false,
+          "url": "https://defillama.com/yields/pool/4a1b9d9b-a752-406a-8fb4-4ed8a8fe0981"
+        },
+        {
+          "pool": "e737d721-f45c-40f0-9793-9f56261862b9",
+          "chain": "Ethereum",
+          "project": "uniswap-v3",
+          "symbol": "USDC-USDT",
+          "tvlUsd": 34010064,
+          "apy": 0.26182,
+          "apyBase": 0.26182,
+          "apyReward": 0,
+          "ilRisk": "no",
+          "stablecoin": true,
+          "url": "https://defillama.com/yields/pool/e737d721-f45c-40f0-9793-9f56261862b9"
+        },
+        {
+          "pool": "ccc467d1-bdf5-4062-81cd-7aed7dd9050b",
+          "chain": "Ethereum",
+          "project": "sky-lending",
+          "symbol": "WSTETH",
+          "tvlUsd": 32959805,
+          "apy": 0,
+          "apyBase": 0,
+          "apyReward": 0,
+          "ilRisk": "no",
+          "stablecoin": false,
+          "url": "https://defillama.com/yields/pool/ccc467d1-bdf5-4062-81cd-7aed7dd9050b"
+        },
+        {
+          "pool": "79af7462-170a-4e77-886d-898dc2145c78",
+          "chain": "Gnosis",
+          "project": "aave-v3",
+          "symbol": "WSTETH",
+          "tvlUsd": 32939251,
+          "apy": 0,
+          "apyBase": 0,
+          "apyReward": 0,
+          "ilRisk": "no",
+          "stablecoin": false,
+          "url": "https://defillama.com/yields/pool/79af7462-170a-4e77-886d-898dc2145c78"
+        },
+        {
+          "pool": "bb7e9353-129f-4e01-b822-f4250d0abb8a",
+          "chain": "Arbitrum",
+          "project": "uniswap-v3",
+          "symbol": "WBTC-WETH",
+          "tvlUsd": 32718794,
+          "apy": 6.9656,
+          "apyBase": 6.9656,
+          "apyReward": 0,
+          "ilRisk": "yes",
+          "stablecoin": false,
+          "url": "https://defillama.com/yields/pool/bb7e9353-129f-4e01-b822-f4250d0abb8a"
+        },
+        {
+          "pool": "281c146e-0332-4199-ada3-e225eef1c7de",
+          "chain": "Ethereum",
+          "project": "uniswap-v4",
+          "symbol": "ETH-USDT",
+          "tvlUsd": 30637913,
+          "apy": 19.20052,
+          "apyBase": 19.20052,
+          "apyReward": 0,
+          "ilRisk": "yes",
+          "stablecoin": false,
+          "url": "https://defillama.com/yields/pool/281c146e-0332-4199-ada3-e225eef1c7de"
+        },
+        {
+          "pool": "e302de4d-952e-4e18-9749-0a9dc86e98bc",
+          "chain": "Arbitrum",
+          "project": "aave-v3",
+          "symbol": "WETH",
+          "tvlUsd": 29895596,
+          "apy": 0.934,
+          "apyBase": 0.934,
+          "apyReward": 0,
+          "ilRisk": "no",
+          "stablecoin": false,
+          "url": "https://defillama.com/yields/pool/e302de4d-952e-4e18-9749-0a9dc86e98bc"
+        },
+        {
+          "pool": "85c57261-b75b-4447-a115-d79b1a7de8ed",
+          "chain": "Ethereum",
+          "project": "compound-v3",
+          "symbol": "ETH",
+          "tvlUsd": 29732071,
+          "apy": 1.49947,
+          "apyBase": 1.49947,
+          "apyReward": 0,
+          "ilRisk": "no",
+          "stablecoin": false,
+          "url": "https://defillama.com/yields/pool/85c57261-b75b-4447-a115-d79b1a7de8ed"
+        },
+        {
+          "pool": "a5c85bc8-eb41-45c0-a520-d18d7529c0d8",
+          "chain": "Solana",
+          "project": "orca-dex",
+          "symbol": "SOL-USDC",
+          "tvlUsd": 28539402,
+          "apy": 36.60431,
+          "apyBase": 36.60431,
+          "apyReward": 0,
+          "ilRisk": "yes",
+          "stablecoin": false,
+          "url": "https://defillama.com/yields/pool/a5c85bc8-eb41-45c0-a520-d18d7529c0d8"
+        },
+        {
+          "pool": "3dd2c646-c05a-4483-98f4-d7a924a6d6d3",
+          "chain": "Ethereum",
+          "project": "uniswap-v3",
+          "symbol": "WBTC-USDT",
+          "tvlUsd": 28534429,
+          "apy": 13.63158,
+          "apyBase": 13.63158,
+          "apyReward": 0,
+          "ilRisk": "yes",
+          "stablecoin": false,
+          "url": "https://defillama.com/yields/pool/3dd2c646-c05a-4483-98f4-d7a924a6d6d3"
+        },
+        {
+          "pool": "0925bef8-3d9f-4ad7-81e2-34feec9d3d29",
+          "chain": "Ethereum",
+          "project": "aave-v4",
+          "symbol": "WBTC",
+          "tvlUsd": 27994818,
+          "apy": 0,
+          "apyBase": 0,
+          "apyReward": 0,
+          "ilRisk": "no",
+          "stablecoin": false,
+          "url": "https://defillama.com/yields/pool/0925bef8-3d9f-4ad7-81e2-34feec9d3d29"
+        },
+        {
+          "pool": "5580410c-7b2f-4481-9556-ff4a87646570",
+          "chain": "Ethereum",
+          "project": "compound-v3",
+          "symbol": "CBBTC",
+          "tvlUsd": 27833701,
+          "apy": 0,
+          "apyBase": 0,
+          "apyReward": 0,
+          "ilRisk": "no",
+          "stablecoin": false,
+          "url": "https://defillama.com/yields/pool/5580410c-7b2f-4481-9556-ff4a87646570"
+        },
+        {
+          "pool": "e875c975-b9f7-4987-9b4b-a27f3633115f",
+          "chain": "Monad",
+          "project": "morpho-blue",
+          "symbol": "WSTETH",
+          "tvlUsd": 27016526,
+          "apy": 0,
+          "apyBase": 0,
+          "apyReward": 0,
+          "ilRisk": "no",
+          "stablecoin": false,
+          "url": "https://defillama.com/yields/pool/e875c975-b9f7-4987-9b4b-a27f3633115f"
+        },
+        {
+          "pool": "82969010-fb6e-4af6-a72c-55c8da9c78cf",
+          "chain": "Ethereum",
+          "project": "aave-v3",
+          "symbol": "WETH",
+          "tvlUsd": 25848517,
+          "apy": 4.81999,
+          "apyBase": 1.27999,
+          "apyReward": 3.54,
+          "ilRisk": "no",
+          "stablecoin": false,
+          "url": "https://defillama.com/yields/pool/82969010-fb6e-4af6-a72c-55c8da9c78cf"
+        },
+        {
+          "pool": "7b78fe2f-6f67-46ef-8a42-1e36de8d0dfc",
+          "chain": "Ethereum",
+          "project": "uniswap-v3",
+          "symbol": "WBTC-KBTC",
+          "tvlUsd": 25822023,
+          "apy": 0.01109,
+          "apyBase": 0.01109,
+          "apyReward": 0,
+          "ilRisk": "no",
+          "stablecoin": false,
+          "url": "https://defillama.com/yields/pool/7b78fe2f-6f67-46ef-8a42-1e36de8d0dfc"
+        },
+        {
+          "pool": "03a0cf78-c2f0-4ce5-85a8-2d5b77349276",
+          "chain": "OP Mainnet",
+          "project": "aave-v3",
+          "symbol": "WSTETH",
+          "tvlUsd": 25243272,
+          "apy": 0.00101,
+          "apyBase": 0.00101,
+          "apyReward": 0,
+          "ilRisk": "no",
+          "stablecoin": false,
+          "url": "https://defillama.com/yields/pool/03a0cf78-c2f0-4ce5-85a8-2d5b77349276"
+        },
+        {
+          "pool": "2b9bf1c6-a018-4e93-a32f-7cf6ccd311fc",
+          "chain": "Polygon",
+          "project": "aave-v3",
+          "symbol": "WETH",
+          "tvlUsd": 25103166,
+          "apy": 0.40922,
+          "apyBase": 0.40922,
+          "apyReward": 0,
+          "ilRisk": "no",
+          "stablecoin": false,
+          "url": "https://defillama.com/yields/pool/2b9bf1c6-a018-4e93-a32f-7cf6ccd311fc"
+        },
+        {
+          "pool": "2608e751-41d4-47db-9b9c-4bf3a757fc1b",
+          "chain": "Ethereum",
+          "project": "uniswap-v3",
+          "symbol": "WBTC-USDT",
+          "tvlUsd": 24592662,
+          "apy": 5.27489,
+          "apyBase": 5.27489,
+          "apyReward": 0,
+          "ilRisk": "yes",
+          "stablecoin": false,
+          "url": "https://defillama.com/yields/pool/2608e751-41d4-47db-9b9c-4bf3a757fc1b"
+        },
+        {
+          "pool": "d41dc00f-5891-4917-ae2f-5c1151cc9b7d",
+          "chain": "Ethereum",
+          "project": "morpho-blue",
+          "symbol": "CBBTC",
+          "tvlUsd": 24399314,
+          "apy": 0,
+          "apyBase": 0,
+          "apyReward": 0,
+          "ilRisk": "no",
+          "stablecoin": false,
+          "url": "https://defillama.com/yields/pool/d41dc00f-5891-4917-ae2f-5c1151cc9b7d"
+        },
+        {
+          "pool": "361f0a3c-6adb-4b1c-bf35-f9cd79f2341c",
+          "chain": "Base",
+          "project": "aave-v3",
+          "symbol": "WSTETH",
+          "tvlUsd": 24253422,
+          "apy": 0.00092,
+          "apyBase": 0.00092,
+          "apyReward": 0,
+          "ilRisk": "no",
+          "stablecoin": false,
+          "url": "https://defillama.com/yields/pool/361f0a3c-6adb-4b1c-bf35-f9cd79f2341c"
+        },
+        {
+          "pool": "2b653b93-56aa-5bb1-a05e-3372e2e0fcf2",
+          "chain": "Ethereum",
+          "project": "uniswap-v3",
+          "symbol": "WBTC-CIRBTC",
+          "tvlUsd": 23858727,
+          "apy": 0.07939,
+          "apyBase": 0.07939,
+          "apyReward": 0,
+          "ilRisk": "no",
+          "stablecoin": false,
+          "url": "https://defillama.com/yields/pool/2b653b93-56aa-5bb1-a05e-3372e2e0fcf2"
+        },
+        {
+          "pool": "6ba6f041-d775-46c3-b92a-e1a1a0c95313",
+          "chain": "Ethereum",
+          "project": "morpho-blue",
+          "symbol": "CBBTC",
+          "tvlUsd": 22926513,
+          "apy": 0,
+          "apyBase": 0,
+          "apyReward": 0,
+          "ilRisk": "no",
+          "stablecoin": false,
+          "url": "https://defillama.com/yields/pool/6ba6f041-d775-46c3-b92a-e1a1a0c95313"
+        },
+        {
+          "pool": "08eaf098-4957-4922-bfca-cc0c46505a43",
+          "chain": "Ethereum",
+          "project": "curve-dex",
+          "symbol": "ETH-STETH",
+          "tvlUsd": 22709022,
+          "apy": 1.43444,
+          "apyBase": 1.23,
+          "apyReward": 0.20444,
+          "ilRisk": "no",
+          "stablecoin": false,
+          "url": "https://defillama.com/yields/pool/08eaf098-4957-4922-bfca-cc0c46505a43"
+        },
+        {
+          "pool": "bbecbf69-a4f7-43e3-8b72-de180d106e2c",
+          "chain": "Ethereum",
+          "project": "uniswap-v3",
+          "symbol": "WBTC-USDC",
+          "tvlUsd": 21946158,
+          "apy": 4.88192,
+          "apyBase": 4.88192,
+          "apyReward": 0,
+          "ilRisk": "yes",
+          "stablecoin": false,
+          "url": "https://defillama.com/yields/pool/bbecbf69-a4f7-43e3-8b72-de180d106e2c"
+        },
+        {
+          "pool": "1d876729-4445-4623-8b6b-c5290db5d100",
+          "chain": "Ethereum",
+          "project": "compound-v2",
+          "symbol": "WBTC",
+          "tvlUsd": 21850722,
+          "apy": 0,
+          "apyBase": 0,
+          "apyReward": 0,
+          "ilRisk": "no",
+          "stablecoin": false,
+          "url": "https://defillama.com/yields/pool/1d876729-4445-4623-8b6b-c5290db5d100"
+        },
+        {
+          "pool": "7e0661bf-8cf3-45e6-9424-31916d4c7b84",
+          "chain": "Base",
+          "project": "aave-v3",
+          "symbol": "USDC",
+          "tvlUsd": 21592686,
+          "apy": 5.1558,
+          "apyBase": 3.76406,
+          "apyReward": 1.39174,
+          "ilRisk": "no",
+          "stablecoin": true,
+          "url": "https://defillama.com/yields/pool/7e0661bf-8cf3-45e6-9424-31916d4c7b84"
+        },
+        {
+          "pool": "58e1b97d-4391-4444-9160-7eef2e159013",
+          "chain": "Ethereum",
+          "project": "morpho-blue",
+          "symbol": "WSTETH",
+          "tvlUsd": 20828648,
+          "apy": 0,
+          "apyBase": 0,
+          "apyReward": 0,
+          "ilRisk": "no",
+          "stablecoin": false,
+          "url": "https://defillama.com/yields/pool/58e1b97d-4391-4444-9160-7eef2e159013"
+        },
+        {
+          "pool": "bd335b46-3daf-4507-adb2-6fd4337ea33b",
+          "chain": "Ethereum",
+          "project": "sky-lending",
+          "symbol": "WBTC",
+          "tvlUsd": 20816873,
+          "apy": 0,
+          "apyBase": 0,
+          "apyReward": 0,
+          "ilRisk": "no",
+          "stablecoin": false,
+          "url": "https://defillama.com/yields/pool/bd335b46-3daf-4507-adb2-6fd4337ea33b"
+        }
+      ],
+      "note": "Triagem por ativo/protocolo e TVL, não auditoria nem recomendação. API gratuita pode encerrar em 13/11/2026."
     }
   },
   "history": [
+    {
+      "collected_at": "2026-10-24T15:47:58.538Z",
+      "fear_greed": 51,
+      "tvl_usd": 89418227644.72665,
+      "dex_volume_usd": 7787176392.780005,
+      "stablecoins_usd": null,
+      "btc": 79574.51,
+      "sol": 99.37,
+      "derivatives": {}
+    },
     {
       "collected_at": "2026-10-24T15:10:39.702Z",
       "fear_greed": 51,
