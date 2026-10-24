@@ -1,32 +1,32 @@
 {
   "version": 1,
-  "updated_at": "2026-10-24T14:27:45.140Z",
+  "updated_at": "2026-10-24T14:31:42.683Z",
   "sources": {
     "cisa": {
       "ok": true,
-      "last_success": "2026-10-24T14:27:45.140Z",
-      "last_attempt": "2026-10-24T14:27:45.140Z",
+      "last_success": "2026-10-24T14:31:42.683Z",
+      "last_attempt": "2026-10-24T14:31:42.683Z",
       "count": 1756,
       "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"
     },
     "fear_greed": {
       "ok": true,
-      "last_success": "2026-10-24T14:27:45.140Z",
-      "last_attempt": "2026-10-24T14:27:45.140Z",
+      "last_success": "2026-10-24T14:31:42.683Z",
+      "last_attempt": "2026-10-24T14:31:42.683Z",
       "count": 2,
       "url": "https://api.alternative.me/fng/?limit=2&format=json"
     },
     "defillama": {
       "ok": true,
-      "last_success": "2026-10-24T14:27:45.140Z",
-      "last_attempt": "2026-10-24T14:27:45.140Z",
+      "last_success": "2026-10-24T14:31:42.683Z",
+      "last_attempt": "2026-10-24T14:31:42.683Z",
       "count": 421,
       "url": "https://api.llama.fi/v2/chains"
     },
     "dexscreener": {
       "ok": true,
-      "last_success": "2026-10-24T14:27:45.140Z",
-      "last_attempt": "2026-10-24T14:27:45.140Z",
+      "last_success": "2026-10-24T14:31:42.683Z",
+      "last_attempt": "2026-10-24T14:31:42.683Z",
       "count": 30,
       "url": "https://api.dexscreener.com/token-boosts/latest/v1"
     }
@@ -993,7 +993,7 @@
           "tvl_usd": 629103680.7707701
         }
       ],
-      "observation_time": "2026-10-24T14:27:45.140Z",
+      "observation_time": "2026-10-24T14:31:42.683Z",
       "url": "https://defillama.com/chains",
       "note": "Soma dos TVLs reportados por cadeia; não representa fluxo líquido nem necessariamente TVL consolidado sem dupla contagem."
     },
@@ -1105,12 +1105,17 @@
           "description": "🇫🇷 La France a désormais son token communautaire !\n\nQue tu sois sur Solana, Ethereum, Base, BNB ou Robinhood Chain, tu fais partie de la même communauté.\n\nPeu importe t"
         }
       ],
-      "observation_time": "2026-10-24T14:27:45.140Z",
+      "observation_time": "2026-10-24T14:31:42.683Z",
       "url": "https://docs.dexscreener.com/api/reference",
       "note": "Boosts são promoções pagas; não são evidência de tendência, investimento ou oportunidade."
     }
   },
   "history": [
+    {
+      "collected_at": "2026-10-24T14:31:42.683Z",
+      "fear_greed": 51,
+      "tvl_usd": 89542182816.59799
+    },
     {
       "collected_at": "2026-10-24T14:27:45.140Z",
       "fear_greed": 51,
