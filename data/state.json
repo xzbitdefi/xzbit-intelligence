@@ -1,95 +1,95 @@
 {
   "version": 1,
-  "updated_at": "2026-10-24T14:57:59.499Z",
+  "updated_at": "2026-10-24T15:10:39.702Z",
   "sources": {
     "cisa": {
       "ok": true,
-      "last_success": "2026-10-24T14:57:59.499Z",
-      "last_attempt": "2026-10-24T14:57:59.499Z",
+      "last_success": "2026-10-24T15:10:39.702Z",
+      "last_attempt": "2026-10-24T15:10:39.702Z",
       "count": 1756,
       "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"
     },
     "fear_greed": {
       "ok": true,
-      "last_success": "2026-10-24T14:57:59.499Z",
-      "last_attempt": "2026-10-24T14:57:59.499Z",
+      "last_success": "2026-10-24T15:10:39.702Z",
+      "last_attempt": "2026-10-24T15:10:39.702Z",
       "count": 2,
       "url": "https://api.alternative.me/fng/?limit=2&format=json"
     },
     "defillama": {
       "ok": true,
-      "last_success": "2026-10-24T14:57:59.499Z",
-      "last_attempt": "2026-10-24T14:57:59.499Z",
+      "last_success": "2026-10-24T15:10:39.702Z",
+      "last_attempt": "2026-10-24T15:10:39.702Z",
       "count": 421,
       "url": "https://api.llama.fi/v2/chains"
     },
     "dexscreener": {
       "ok": true,
-      "last_success": "2026-10-24T14:57:59.499Z",
-      "last_attempt": "2026-10-24T14:57:59.499Z",
+      "last_success": "2026-10-24T15:10:39.702Z",
+      "last_attempt": "2026-10-24T15:10:39.702Z",
       "count": 30,
       "url": "https://api.dexscreener.com/token-boosts/latest/v1"
     },
     "market_spot": {
       "ok": true,
-      "last_success": "2026-10-24T14:57:59.499Z",
-      "last_attempt": "2026-10-24T14:57:59.499Z",
+      "last_success": "2026-10-24T15:10:39.702Z",
+      "last_attempt": "2026-10-24T15:10:39.702Z",
       "count": 3,
       "url": "https://data-api.binance.vision/api/v3/ticker/24hr"
     },
     "defi_protocols": {
       "ok": true,
-      "last_success": "2026-10-24T14:57:59.499Z",
-      "last_attempt": "2026-10-24T14:57:59.499Z",
+      "last_success": "2026-10-24T15:10:39.702Z",
+      "last_attempt": "2026-10-24T15:10:39.702Z",
       "count": 5552,
       "url": "https://api.llama.fi/protocols"
     },
     "dex_volumes": {
       "ok": true,
-      "last_success": "2026-10-24T14:57:59.499Z",
-      "last_attempt": "2026-10-24T14:57:59.499Z",
+      "last_success": "2026-10-24T15:10:39.702Z",
+      "last_attempt": "2026-10-24T15:10:39.702Z",
       "count": 1569,
       "url": "https://api.llama.fi/overview/dexs?excludeTotalDataChart=true&excludeTotalDataChartBreakdown=true"
     },
     "stablecoins": {
       "ok": false,
-      "last_attempt": "2026-10-24T14:57:59.499Z",
+      "last_attempt": "2026-10-24T15:10:39.702Z",
       "error": "HTTP 404",
       "url": "https://api.llama.fi/stablecoins?includePrices=true"
     },
     "futures_BTCUSDT": {
       "ok": false,
-      "last_attempt": "2026-10-24T14:57:59.499Z",
+      "last_attempt": "2026-10-24T15:10:39.702Z",
       "error": "HTTP 451",
       "url": "https://fapi.binance.com/fapi/v1/premiumIndex?symbol=BTCUSDT"
     },
     "oi_BTCUSDT": {
       "ok": false,
-      "last_attempt": "2026-10-24T14:57:59.499Z",
+      "last_attempt": "2026-10-24T15:10:39.702Z",
       "error": "HTTP 451",
       "url": "https://fapi.binance.com/fapi/v1/openInterest?symbol=BTCUSDT"
     },
     "futures_ETHUSDT": {
       "ok": false,
-      "last_attempt": "2026-10-24T14:57:59.499Z",
+      "last_attempt": "2026-10-24T15:10:39.702Z",
       "error": "HTTP 451",
       "url": "https://fapi.binance.com/fapi/v1/premiumIndex?symbol=ETHUSDT"
     },
     "oi_ETHUSDT": {
       "ok": false,
-      "last_attempt": "2026-10-24T14:57:59.499Z",
+      "last_attempt": "2026-10-24T15:10:39.702Z",
       "error": "HTTP 451",
       "url": "https://fapi.binance.com/fapi/v1/openInterest?symbol=ETHUSDT"
     },
     "futures_SOLUSDT": {
       "ok": false,
-      "last_attempt": "2026-10-24T14:57:59.499Z",
+      "last_attempt": "2026-10-24T15:10:39.702Z",
       "error": "HTTP 451",
       "url": "https://fapi.binance.com/fapi/v1/premiumIndex?symbol=SOLUSDT"
     },
     "oi_SOLUSDT": {
       "ok": false,
-      "last_attempt": "2026-10-24T14:57:59.499Z",
+      "last_attempt": "2026-10-24T15:10:39.702Z",
       "error": "HTTP 451",
       "url": "https://fapi.binance.com/fapi/v1/openInterest?symbol=SOLUSDT"
     }
@@ -1216,7 +1216,7 @@
           "tvl_usd": 628816522.2326517
         }
       ],
-      "observation_time": "2026-10-24T14:57:59.499Z",
+      "observation_time": "2026-10-24T15:10:39.702Z",
       "url": "https://defillama.com/chains",
       "note": "Soma dos TVLs reportados por cadeia; não representa fluxo líquido nem necessariamente TVL consolidado sem dupla contagem."
     },
@@ -1328,35 +1328,35 @@
           "description": "It's $HELL, the dog of $AMD - official partner of Rockstar Games."
         }
       ],
-      "observation_time": "2026-10-24T14:57:59.499Z",
+      "observation_time": "2026-10-24T15:10:39.702Z",
       "url": "https://docs.dexscreener.com/api/reference",
       "note": "Boosts são promoções pagas; não são evidência de tendência, investimento ou oportunidade."
     },
     "market": {
       "tickers": {
         "BTCUSDT": {
-          "price": 80200.01,
-          "change24h": -1.934,
-          "volume_quote_24h": 908966598.9964004,
+          "price": 79913.9,
+          "change24h": -1.982,
+          "volume_quote_24h": 943685061.6800767,
           "high24h": 81846.26,
-          "low24h": 79833
+          "low24h": 79557.22
         },
         "ETHUSDT": {
-          "price": 2343.41,
-          "change24h": -2.724,
-          "volume_quote_24h": 372617229.910812,
+          "price": 2323.33,
+          "change24h": -3.145,
+          "volume_quote_24h": 403879474.675641,
           "high24h": 2413.98,
-          "low24h": 2329.08
+          "low24h": 2306.16
         },
         "SOLUSDT": {
-          "price": 100.41,
-          "change24h": -4.225,
-          "volume_quote_24h": 171948020.85261,
+          "price": 99.94,
+          "change24h": -4.3,
+          "volume_quote_24h": 175911212.15863,
           "high24h": 105.01,
-          "low24h": 99.65
+          "low24h": 99.22
         }
       },
-      "observation_time": "2026-10-24T14:57:59.499Z",
+      "observation_time": "2026-10-24T15:10:39.702Z",
       "url": "https://data-api.binance.vision/api/v3/ticker/24hr",
       "note": "Preços spot Binance USDT; não representam o mercado global nem contratos futuros"
     },
@@ -1380,9 +1380,9 @@
           "name": "OKX",
           "slug": "okx",
           "category": "CEX",
-          "tvl": 30458469600.167324,
-          "change_1d": -1.0425099289234225,
-          "change_7d": -11.03469829023939,
+          "tvl": 30386858509.202095,
+          "change_1d": -1.2153175683633748,
+          "change_7d": -11.243865145866678,
           "chains": [
             "Ethereum",
             "Bitcoin",
@@ -1394,9 +1394,9 @@
           "name": "Lido",
           "slug": "lido",
           "category": "Liquid Staking",
-          "tvl": 22937151233.032024,
-          "change_1d": -1.2540379700036226,
-          "change_7d": -2.863609187547695,
+          "tvl": 22900073169.075607,
+          "change_1d": -1.4136615020799894,
+          "change_7d": -2.578259555278933,
           "chains": [
             "Ethereum",
             "Solana",
@@ -1422,9 +1422,9 @@
           "name": "Aave V3",
           "slug": "aave-v3",
           "category": "Lending",
-          "tvl": 16725661304.367771,
-          "change_1d": -1.1913304349570097,
-          "change_7d": -1.5797362785651359,
+          "tvl": 16724075487.81834,
+          "change_1d": -1.2006988192960364,
+          "change_7d": -1.502136531441721,
           "chains": [
             "Ethereum",
             "Base",
@@ -1464,9 +1464,9 @@
           "name": "Robinhood",
           "slug": "robinhood",
           "category": "CEX",
-          "tvl": 14563927215.452469,
-          "change_1d": -1.2437967100731129,
-          "change_7d": -1.2452330319450198,
+          "tvl": 14545637537.371054,
+          "change_1d": -1.6227879993162304,
+          "change_7d": -1.3695217946892484,
           "chains": [
             "Bitcoin",
             "Ethereum",
@@ -1489,9 +1489,9 @@
           "name": "Morpho Blue",
           "slug": "morpho-blue",
           "category": "Lending",
-          "tvl": 11138555577.954847,
-          "change_1d": -0.5446672623780984,
-          "change_7d": 1.1062380131971565,
+          "tvl": 11126848618.994158,
+          "change_1d": -0.6491978265641194,
+          "change_7d": 1.0231126947407603,
           "chains": [
             "Ethereum",
             "Base",
@@ -1514,9 +1514,9 @@
           "name": "Binance staked ETH",
           "slug": "binance-staked-eth",
           "category": "Liquid Staking",
-          "tvl": 8842123109.772161,
-          "change_1d": -1.2521809683628078,
-          "change_7d": -2.289706588717465,
+          "tvl": 8828122058.009722,
+          "change_1d": -1.4131589017670478,
+          "change_7d": -2.274314328233231,
           "chains": [
             "Ethereum",
             "Binance"
@@ -1526,9 +1526,9 @@
           "name": "Coinbase Bridge",
           "slug": "coinbase-bridge",
           "category": "Bridge",
-          "tvl": 7970161589.422586,
-          "change_1d": -0.8252912935109151,
-          "change_7d": 0.32923626717253285,
+          "tvl": 7889799639.49312,
+          "change_1d": -1.7998168392327756,
+          "change_7d": -0.6236850884500029,
           "chains": [
             "Bitcoin",
             "Ripple",
@@ -1565,7 +1565,7 @@
           ]
         }
       ],
-      "observation_time": "2026-10-24T14:57:59.499Z",
+      "observation_time": "2026-10-24T15:10:39.702Z",
       "url": "https://defillama.com/protocols"
     },
     "dex_volume": {
@@ -1575,8 +1575,8 @@
       "top": [
         {
           "name": "Uniswap V4",
-          "total24h": 819008186,
-          "change_1d": -9.77
+          "total24h": 809712486,
+          "change_1d": -10.8
         },
         {
           "name": "Uniswap V3",
@@ -1610,15 +1610,25 @@
         },
         {
           "name": "Aerodrome Slipstream",
-          "total24h": 234537170,
-          "change_1d": -0.45
+          "total24h": 231686932,
+          "change_1d": -1.66
         }
       ],
-      "observation_time": "2026-10-24T14:57:59.499Z",
+      "observation_time": "2026-10-24T15:10:39.702Z",
       "url": "https://defillama.com/dexs"
     }
   },
   "history": [
+    {
+      "collected_at": "2026-10-24T15:10:39.702Z",
+      "fear_greed": 51,
+      "tvl_usd": 89530841658.29396,
+      "dex_volume_usd": 7787176392.780005,
+      "stablecoins_usd": null,
+      "btc": 79913.9,
+      "sol": 99.94,
+      "derivatives": {}
+    },
     {
       "collected_at": "2026-10-24T14:57:59.499Z",
       "fear_greed": 51,
