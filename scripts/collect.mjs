@@ -66,9 +66,23 @@ for(const [pair,obj] of Object.entries(state.metrics.derivatives||{})){
  obj.oi_change_since_prior_pct=Number.isFinite(prev)&&prev>0&&Number.isFinite(obj.open_interest_base)?(obj.open_interest_base/prev-1)*100:null;
 }
 
+
+// Triagem educativa: fonte sem auditoria e sem garantia de disponibilidade.
+// Consulta só a cada 6h para evitar downloads grandes e limites.
+const poolLast=Date.parse(state.sources.yield_pools?.last_success||'');
+if(!Number.isFinite(poolLast)||Date.now()-poolLast>6*3600000){
+await source('yield_pools','https://yields.llama.fi/pools',d=>{
+ if(!Array.isArray(d.data))throw Error('Payload pools inválido');
+ const approved=/^(aave|uniswap|curve|morpho|kamino|orca|raydium|lido|ether.fi|sky|compound|spark|jupiter|balancer)/i;
+ const blue=/^(USDC|USDT|DAI|USDS|ETH|WETH|WBTC|BTC|CBBTC|SOL|JITOSOL|WSTETH|STETH|RETH)([\-+\/ ]|$)/i;
+ const selected=d.data.filter(p=>approved.test(String(p.project||''))&&blue.test(String(p.symbol||''))&&Number(p.tvlUsd)>=1e7&&Number.isFinite(Number(p.apy))&&Number(p.apy)>=0&&Number(p.apy)<=100).sort((a,b)=>b.tvlUsd-a.tvlUsd).slice(0,100);
+ state.metrics.yield_pools={observation_time:date,pools:selected.map(p=>({pool:p.pool,chain:p.chain,project:p.project,symbol:p.symbol,tvlUsd:Number(p.tvlUsd),apy:Number(p.apy),apyBase:Number.isFinite(Number(p.apyBase))?Number(p.apyBase):null,apyReward:Number.isFinite(Number(p.apyReward))?Number(p.apyReward):null,ilRisk:p.ilRisk,stablecoin:!!p.stablecoin,url:'https://defillama.com/yields/pool/'+encodeURIComponent(p.pool)})),note:'Triagem por ativo/protocolo e TVL, não auditoria nem recomendação. API gratuita pode encerrar em 13/11/2026.'};
+ return selected.length;
+});}
+
 // Preserve history for trend comparisons without exploding repository size.
-state.history.unshift({collected_at:date,fear_greed:state.sources.fear_greed?.ok?state.metrics.fear_greed?.value:null,tvl_usd:state.sources.defillama?.ok?state.metrics.defi?.total_tvl_usd:null,dex_volume_usd:state.sources.dex_volumes?.ok?state.metrics.dex_volume?.total24h:null,stablecoins_usd:state.sources.stablecoins?.ok?state.metrics.stablecoins?.total_usd:null,btc:state.sources.market_spot?.ok?state.metrics.market?.tickers?.BTCUSDT?.price:null,sol:state.sources.market_spot?.ok?state.metrics.market?.tickers?.SOLUSDT?.price:null,derivatives:Object.fromEntries(Object.entries(state.metrics.derivatives||{}).map(([k,v])=>[k,{oi:v.open_interest_base??null,funding:v.funding_rate??null}]))});state.history=state.history.slice(0,2016);
-state.events=state.events.slice(0,650);state.updated_at=date;
+state.history.unshift({collected_at:date,fear_greed:state.sources.fear_greed?.ok?state.metrics.fear_greed?.value:null,tvl_usd:state.sources.defillama?.ok?state.metrics.defi?.total_tvl_usd:null,dex_volume_usd:state.sources.dex_volumes?.ok?state.metrics.dex_volume?.total24h:null,stablecoins_usd:state.sources.stablecoins?.ok?state.metrics.stablecoins?.total_usd:null,btc:state.sources.market_spot?.ok?state.metrics.market?.tickers?.BTCUSDT?.price:null,sol:state.sources.market_spot?.ok?state.metrics.market?.tickers?.SOLUSDT?.price:null,derivatives:Object.fromEntries(Object.entries(state.metrics.derivatives||{}).map(([k,v])=>[k,{oi:v.open_interest_base??null,funding:v.funding_rate??null}]))});state.history=state.history.filter(h=>h.collected_at && Date.parse(h.collected_at)>=Date.now()-48*3600000).slice(0,192);
+state.events=state.events.filter(e=>e.date&&Date.parse(e.date)>=Date.now()-48*3600000).slice(0,160);state.updated_at=date;
 fs.mkdirSync('data',{recursive:true});fs.writeFileSync(DATA,JSON.stringify(state,null,2)+'\n');
 console.log(JSON.stringify({collected_at:date,initial,added:added.length,source_status:Object.fromEntries(Object.entries(state.sources).map(([k,v])=>[k,v.ok]))}));
 const token=process.env.TELEGRAM_BOT_TOKEN,chat=process.env.TELEGRAM_CHAT_ID;
