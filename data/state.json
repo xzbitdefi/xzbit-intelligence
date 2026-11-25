@@ -1,66 +1,68 @@
 {
   "version": 1,
-  "updated_at": "2026-11-25T20:42:44.499Z",
+  "updated_at": "2026-11-25T23:15:47.763Z",
   "sources": {
     "cisa": {
       "ok": true,
-      "last_success": "2026-11-25T20:42:44.499Z",
-      "last_attempt": "2026-11-25T20:42:44.499Z",
+      "last_success": "2026-11-25T23:15:47.763Z",
+      "last_attempt": "2026-11-25T23:15:47.763Z",
       "count": 1805,
       "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"
     },
     "fear_greed": {
       "ok": true,
-      "last_success": "2026-11-25T20:42:44.499Z",
-      "last_attempt": "2026-11-25T20:42:44.499Z",
+      "last_success": "2026-11-25T23:15:47.763Z",
+      "last_attempt": "2026-11-25T23:15:47.763Z",
       "count": 2,
       "url": "https://api.alternative.me/fng/?limit=2&format=json"
     },
     "defillama": {
       "ok": true,
-      "last_success": "2026-11-25T20:42:44.499Z",
-      "last_attempt": "2026-11-25T20:42:44.499Z",
+      "last_success": "2026-11-25T23:15:47.763Z",
+      "last_attempt": "2026-11-25T23:15:47.763Z",
       "count": 426,
       "url": "https://api.llama.fi/v2/chains"
     },
     "dexscreener": {
       "ok": true,
-      "last_success": "2026-11-25T20:42:44.499Z",
-      "last_attempt": "2026-11-25T20:42:44.499Z",
+      "last_success": "2026-11-25T23:15:47.763Z",
+      "last_attempt": "2026-11-25T23:15:47.763Z",
       "count": 30,
       "url": "https://api.dexscreener.com/token-boosts/latest/v1"
     },
     "market_spot": {
       "ok": true,
-      "last_success": "2026-11-25T20:42:44.499Z",
-      "last_attempt": "2026-11-25T20:42:44.499Z",
+      "last_success": "2026-11-25T23:15:47.763Z",
+      "last_attempt": "2026-11-25T23:15:47.763Z",
       "count": 3,
       "url": "https://data-api.binance.vision/api/v3/ticker/24hr"
     },
     "defi_protocols": {
       "ok": true,
-      "last_success": "2026-11-25T20:42:44.499Z",
-      "last_attempt": "2026-11-25T20:42:44.499Z",
-      "count": 5576,
+      "last_success": "2026-11-25T23:15:47.763Z",
+      "last_attempt": "2026-11-25T23:15:47.763Z",
+      "count": 5575,
       "url": "https://api.llama.fi/protocols"
     },
     "dex_volumes": {
       "ok": true,
-      "last_success": "2026-11-25T20:42:44.499Z",
-      "last_attempt": "2026-11-25T20:42:44.499Z",
+      "last_success": "2026-11-25T23:15:47.763Z",
+      "last_attempt": "2026-11-25T23:15:47.763Z",
       "count": 1697,
       "url": "https://api.llama.fi/overview/dexs?excludeTotalDataChart=true&excludeTotalDataChartBreakdown=true"
     },
     "stablecoins": {
-      "ok": false,
-      "last_attempt": "2026-11-25T20:42:44.499Z",
-      "error": "HTTP 404",
-      "url": "https://api.llama.fi/stablecoins?includePrices=true"
+      "ok": true,
+      "last_attempt": "2026-11-25T23:15:53.322Z",
+      "error": null,
+      "url": "https://stablecoins.llama.fi/stablecoins?includePrices=true",
+      "last_success": "2026-11-25T23:15:53.322Z",
+      "count": 355
     },
     "futures_BTCUSDT": {
       "ok": false,
       "last_success": "2026-10-26T05:27:59.909Z",
-      "last_attempt": "2026-11-25T20:42:44.499Z",
+      "last_attempt": "2026-11-25T23:15:47.763Z",
       "count": 1,
       "url": "https://fapi.binance.com/fapi/v1/premiumIndex?symbol=BTCUSDT",
       "error": "HTTP 451"
@@ -68,7 +70,7 @@
     "oi_BTCUSDT": {
       "ok": false,
       "last_success": "2026-10-26T05:27:59.909Z",
-      "last_attempt": "2026-11-25T20:42:44.499Z",
+      "last_attempt": "2026-11-25T23:15:47.763Z",
       "count": 1,
       "url": "https://fapi.binance.com/fapi/v1/openInterest?symbol=BTCUSDT",
       "error": "HTTP 451"
@@ -76,7 +78,7 @@
     "futures_ETHUSDT": {
       "ok": false,
       "last_success": "2026-10-26T05:27:59.909Z",
-      "last_attempt": "2026-11-25T20:42:44.499Z",
+      "last_attempt": "2026-11-25T23:15:47.763Z",
       "count": 1,
       "url": "https://fapi.binance.com/fapi/v1/premiumIndex?symbol=ETHUSDT",
       "error": "HTTP 451"
@@ -84,7 +86,7 @@
     "oi_ETHUSDT": {
       "ok": false,
       "last_success": "2026-10-26T05:27:59.909Z",
-      "last_attempt": "2026-11-25T20:42:44.499Z",
+      "last_attempt": "2026-11-25T23:15:47.763Z",
       "count": 1,
       "url": "https://fapi.binance.com/fapi/v1/openInterest?symbol=ETHUSDT",
       "error": "HTTP 451"
@@ -92,7 +94,7 @@
     "futures_SOLUSDT": {
       "ok": false,
       "last_success": "2026-10-26T05:27:59.909Z",
-      "last_attempt": "2026-11-25T20:42:44.499Z",
+      "last_attempt": "2026-11-25T23:15:47.763Z",
       "count": 1,
       "url": "https://fapi.binance.com/fapi/v1/premiumIndex?symbol=SOLUSDT",
       "error": "HTTP 451"
@@ -100,7 +102,7 @@
     "oi_SOLUSDT": {
       "ok": false,
       "last_success": "2026-10-26T05:27:59.909Z",
-      "last_attempt": "2026-11-25T20:42:44.499Z",
+      "last_attempt": "2026-11-25T23:15:47.763Z",
       "count": 1,
       "url": "https://fapi.binance.com/fapi/v1/openInterest?symbol=SOLUSDT",
       "error": "HTTP 451"
@@ -114,98 +116,106 @@
     },
     "global_market": {
       "ok": true,
-      "last_success": "2026-11-25T20:42:44.499Z",
-      "last_attempt": "2026-11-25T20:42:44.499Z",
+      "last_success": "2026-11-25T23:15:47.763Z",
+      "last_attempt": "2026-11-25T23:15:47.763Z",
       "count": 1,
       "url": "https://api.coinpaprika.com/v1/global"
     },
     "candles_btcusdt": {
       "ok": true,
-      "last_success": "2026-11-25T20:42:44.499Z",
-      "last_attempt": "2026-11-25T20:42:44.499Z",
+      "last_success": "2026-11-25T23:15:47.763Z",
+      "last_attempt": "2026-11-25T23:15:47.763Z",
       "count": 72,
       "url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1h&limit=72"
     },
     "candles_solusdt": {
       "ok": true,
-      "last_success": "2026-11-25T20:42:44.499Z",
-      "last_attempt": "2026-11-25T20:42:44.499Z",
+      "last_success": "2026-11-25T23:15:47.763Z",
+      "last_attempt": "2026-11-25T23:15:47.763Z",
       "count": 72,
       "url": "https://data-api.binance.vision/api/v3/klines?symbol=SOLUSDT&interval=1h&limit=72"
     },
     "candles_ethusdt": {
       "ok": true,
-      "last_success": "2026-11-25T20:42:44.499Z",
-      "last_attempt": "2026-11-25T20:42:44.499Z",
+      "last_success": "2026-11-25T23:15:47.763Z",
+      "last_attempt": "2026-11-25T23:15:47.763Z",
       "count": 72,
       "url": "https://data-api.binance.vision/api/v3/klines?symbol=ETHUSDT&interval=1h&limit=72"
     },
     "meteora_dlmm": {
       "ok": true,
-      "last_success": "2026-11-25T20:42:44.499Z",
-      "last_attempt": "2026-11-25T20:42:44.499Z",
+      "last_success": "2026-11-25T23:15:47.763Z",
+      "last_attempt": "2026-11-25T23:15:47.763Z",
       "count": 100,
       "url": "https://dlmm.datapi.meteora.ag/pools?page=1&page_size=100&sort_by=volume_24h:desc"
     },
     "jupiter_price": {
       "ok": true,
-      "last_success": "2026-11-25T20:42:44.499Z",
-      "last_attempt": "2026-11-25T20:42:44.499Z",
+      "last_success": "2026-11-25T23:15:47.763Z",
+      "last_attempt": "2026-11-25T23:15:47.763Z",
       "count": 3,
       "url": "https://api.jup.ag/price/v3?ids=So11111111111111111111111111111111111111112,EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v,JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN"
     },
     "gecko_solana": {
       "ok": true,
-      "last_success": "2026-11-25T20:42:44.499Z",
-      "last_attempt": "2026-11-25T20:42:44.499Z",
+      "last_success": "2026-11-25T23:15:47.763Z",
+      "last_attempt": "2026-11-25T23:15:47.763Z",
       "count": 20,
       "url": "https://api.geckoterminal.com/api/v2/networks/solana/trending_pools?page=1"
     },
     "kamino_liquidity": {
       "ok": true,
-      "last_success": "2026-11-25T20:42:44.499Z",
-      "last_attempt": "2026-11-25T20:42:44.499Z",
+      "last_success": "2026-11-25T23:15:47.763Z",
+      "last_attempt": "2026-11-25T23:15:47.763Z",
       "count": 415,
       "url": "https://api.kamino.finance/strategies?env=mainnet-beta&status=LIVE"
     },
     "social_bluesky_bitcoin": {
       "ok": false,
-      "last_attempt": "2026-11-25T20:42:44.499Z",
+      "last_attempt": "2026-11-25T23:15:47.763Z",
       "error": "HTTP 403",
       "url": "https://public.api.bsky.app/xrpc/app.bsky.feed.searchPosts?q=bitcoin&limit=30&sort=latest"
     },
     "social_bluesky_solana": {
       "ok": false,
-      "last_attempt": "2026-11-25T20:42:44.499Z",
+      "last_attempt": "2026-11-25T23:15:47.763Z",
       "error": "HTTP 403",
       "url": "https://public.api.bsky.app/xrpc/app.bsky.feed.searchPosts?q=solana&limit=30&sort=latest"
     },
     "social_bluesky_defi": {
       "ok": false,
-      "last_attempt": "2026-11-25T20:42:44.499Z",
+      "last_attempt": "2026-11-25T23:15:47.763Z",
       "error": "HTTP 403",
       "url": "https://public.api.bsky.app/xrpc/app.bsky.feed.searchPosts?q=defi&limit=30&sort=latest"
     },
     "social_mastodon_bitcoin": {
       "ok": true,
-      "last_success": "2026-11-25T20:42:44.499Z",
-      "last_attempt": "2026-11-25T20:42:44.499Z",
+      "last_success": "2026-11-25T23:15:47.763Z",
+      "last_attempt": "2026-11-25T23:15:47.763Z",
       "count": 35,
       "url": "https://mastodon.social/api/v1/timelines/tag/bitcoin?limit=35"
     },
     "social_mastodon_defi": {
       "ok": true,
-      "last_success": "2026-11-25T20:42:44.499Z",
-      "last_attempt": "2026-11-25T20:42:44.499Z",
+      "last_success": "2026-11-25T23:15:47.763Z",
+      "last_attempt": "2026-11-25T23:15:47.763Z",
       "count": 35,
       "url": "https://mastodon.social/api/v1/timelines/tag/defi?limit=35"
     },
     "coingecko": {
       "ok": true,
-      "last_success": "2026-11-25T20:42:52.085Z",
-      "last_attempt": "2026-11-25T20:42:52.085Z",
+      "last_success": "2026-11-25T23:15:53.033Z",
+      "last_attempt": "2026-11-25T23:15:53.033Z",
       "count": 5,
       "url": "https://www.coingecko.com/"
+    },
+    "liquidation_lab": {
+      "ok": true,
+      "last_success": "2026-11-25T23:15:53.580Z",
+      "last_attempt": "2026-11-25T23:15:53.580Z",
+      "count": 3,
+      "error": null,
+      "url": "https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api/info-endpoint/perpetuals"
     }
   },
   "events": [
@@ -479,63 +489,147 @@
       "url": "https://alternative.me/crypto/fear-and-greed-index/"
     },
     "defi": {
-      "total_tvl_usd": 68116180242.52551,
+      "total_tvl_usd": 68330341784.39926,
       "top_chains": [
         {
           "name": "Ethereum",
-          "tvl_usd": 36243855208.556915
+          "tvl_usd": 36308553219.71552
         },
         {
           "name": "Base",
-          "tvl_usd": 5060759156.274757
+          "tvl_usd": 5065247668.227433
         },
         {
           "name": "Solana",
-          "tvl_usd": 4551706361.726414
+          "tvl_usd": 4584989565.751224
         },
         {
           "name": "Tron",
-          "tvl_usd": 4399789498.897208
+          "tvl_usd": 4401289282.486477
         },
         {
           "name": "BSC",
-          "tvl_usd": 4264981726.3827615
+          "tvl_usd": 4286250093.3529387
         },
         {
           "name": "Bitcoin",
-          "tvl_usd": 2229376375.630009
+          "tvl_usd": 2248032226.303162
         },
         {
           "name": "Hyperliquid L1",
-          "tvl_usd": 2208674468.659992
+          "tvl_usd": 2218572202.390078
         },
         {
           "name": "Arbitrum",
-          "tvl_usd": 1209975396.6858873
+          "tvl_usd": 1212578723.57982
         },
         {
           "name": "Robinhood Chain",
-          "tvl_usd": 958625002.1191624
+          "tvl_usd": 961472215.1132766
         },
         {
           "name": "Monad",
-          "tvl_usd": 765988100.534487
+          "tvl_usd": 766397623.2442124
         },
         {
           "name": "Polygon",
-          "tvl_usd": 599106948.7411786
+          "tvl_usd": 604917002.256677
         },
         {
           "name": "Arc",
-          "tvl_usd": 591905040.4826095
+          "tvl_usd": 587245560.0113025
         }
       ],
-      "observation_time": "2026-11-25T20:42:44.499Z",
+      "observation_time": "2026-11-25T23:15:47.763Z",
       "url": "https://defillama.com/chains",
       "note": "Soma dos TVLs reportados por cadeia; não representa fluxo líquido nem necessariamente TVL consolidado sem dupla contagem."
     },
     "dex": {
       "boosted": [
+        {
+          "chain": "solana",
+          "address": "8VWH6ntFczuCzTgGeNVarnRDfi6utetSBn3JfTLxpump",
+          "amount": 10,
+          "url": "https://dexscreener.com/solana/8vwh6ntfczucztggenvarnrdfi6utetsbn3jftlxpump",
+          "description": "pode was born in these conditions"
+        },
+        {
+          "chain": "solana",
+          "address": "7ACq9bgHPCT33TWC6yaxLX5CfNQBbFachy9xKD7Spump",
+          "amount": 10,
+          "url": "https://dexscreener.com/solana/7acq9bghpct33twc6yaxlx5cfnqbbfachy9xkd7spump",
+          "description": "SENDMAS is the Christmas memecoin that actually delivers. While everyone else is talking about going to the moon, we’re already sending it — gifts, bags, and pure holiday"
+        },
+        {
+          "chain": "solana",
+          "address": "3gmFG4sFDJErDV8pacFrL2uUPXeGJTYLjfRy4hFypump",
+          "amount": 100,
+          "url": "https://dexscreener.com/solana/3gmfg4sfdjerdv8pacfrl2uupxegjtyljfry4hfypump",
+          "description": "Sixty-knot nor'easter winds can't ground a centennial turkey. A hundred years of stitched amber satin facing Sixth Avenue gusts head-on. With golden mooring cables grippe"
+        },
+        {
+          "chain": "solana",
+          "address": "HRJCkCjkS7nJL1fGwfUZbfDAV2LTM5H5vVnMuw3EVZoF",
+          "amount": 30,
+          "url": "https://dexscreener.com/solana/hrjckcjks7njl1fgwfuzbfdav2ltm5h5vvnmuw3evzof",
+          "description": "i hav a stretagy."
+        },
+        {
+          "chain": "solana",
+          "address": "28B9kDm6XtQNqAkzuiKH3Zu1L8cVM6SLW4iRamFspump",
+          "amount": 30,
+          "url": "https://dexscreener.com/solana/28b9kdm6xtqnqakzuikh3zu1l8cvm6slw4iramfspump",
+          "description": "bababoi bababoi bababoi bababoi"
+        },
+        {
+          "chain": "solana",
+          "address": "E3jahqz3Gk3Tc5wzwjzNxGUw2Rs3ZyVkXLwaCtsepump",
+          "amount": 10,
+          "url": "https://dexscreener.com/solana/e3jahqz3gk3tc5wzwjznxguw2rs3zyvkxlwactsepump",
+          "description": "The dev feels $Stuck in his life, he hasn't been able to afford to live and last time he left his room, he just ended up homeless, so this time, he's committed to stay $s"
+        },
+        {
+          "chain": "solana",
+          "address": "DMhmzwzNo12xkUh5mwRMRdYVDDgMEedXbfTCr9vfus5m",
+          "amount": 30,
+          "url": "https://dexscreener.com/solana/dmhmzwzno12xkuh5mwrmrdyvddgmeedxbftcr9vfus5m",
+          "description": ""
+        },
+        {
+          "chain": "solana",
+          "address": "2teHT8jiwSLBw5MGmLe3JAoGMbkGGMQACq8VgjUSYete",
+          "amount": 30,
+          "url": "https://dexscreener.com/solana/2teht8jiwslbw5mgmle3jaogmbkggmqacq8vgjusyete",
+          "description": ""
+        },
+        {
+          "chain": "solana",
+          "address": "FeBG8AEG4j7LT7xQF38gPXQFBRBtXBTNzhZjSa3bpump",
+          "amount": 10,
+          "url": "https://dexscreener.com/solana/febg8aeg4j7lt7xqf38gpxqfbrbtxbtnzhzjsa3bpump",
+          "description": "Nala, the 25M Shark Cat that started the PFP cult, is back with 1.2M followers, 1B+ views, owners onboarded & all fees to their SOL wallet."
+        },
+        {
+          "chain": "solana",
+          "address": "9msLfYfXBrSbrApCZAPuPMCNmPqNtEL1VPKh1AEYpump",
+          "amount": 10,
+          "url": "https://dexscreener.com/solana/9mslfyfxbrsbrapczapupmcnmpqntel1vpkh1aeypump",
+          "description": ""
+        },
+        {
+          "chain": "sui",
+          "address": "0xaaffd090b57fcdcf293f7e7ec59c119acc910eeb5fc4aadfb4185fa56b6a2cb5::suipump::SUIPUMP",
+          "amount": 10,
+          "url": "https://dexscreener.com/sui/0xaaffd090b57fcdcf293f7e7ec59c119acc910eeb5fc4aadfb4185fa56b6a2cb5::suipump::suipump",
+          "description": "Just one Sui is a token about One. Just One Community. Just One Ethos. Just One Sui."
+        },
+        {
+          "chain": "solana",
+          "address": "FeBG8AEG4j7LT7xQF38gPXQFBRBtXBTNzhZjSa3bpump",
+          "amount": 10,
+          "url": "https://dexscreener.com/solana/febg8aeg4j7lt7xqf38gpxqfbrbtxbtnzhzjsa3bpump",
+          "description": "Nala, the 25M Shark Cat that started the PFP cult, is back with 1.2M followers, 1B+ views, owners onboarded & all fees to their SOL wallet."
+        },
         {
           "chain": "solana",
           "address": "FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump",
@@ -556,127 +650,43 @@
           "amount": 10,
           "url": "https://dexscreener.com/solana/bwf4exfysj3efmdqn7ndfamnvmwvhygyu3ren6bcpump",
           "description": "TOGI loses $340,000 in just 5 minutes live on stream. Possibly the biggest WASTED of the year."
-        },
-        {
-          "chain": "solana",
-          "address": "BpJ15iciSMREMaFzmTbytZuKh6J9PTwD3mgkYV3pump",
-          "amount": 10,
-          "url": "https://dexscreener.com/solana/bpj15icismremafzmtbytzukh6j9ptwd3mgkyv3pump",
-          "description": ""
-        },
-        {
-          "chain": "solana",
-          "address": "FujCqe2JFQXPm2A1auAFTENkpzZyTYDwXqxBr76Mpump",
-          "amount": 10,
-          "url": "https://dexscreener.com/solana/fujcqe2jfqxpm2a1auaftenkpzzytydwxqxbr76mpump",
-          "description": ""
-        },
-        {
-          "chain": "solana",
-          "address": "EwUVBpdM5vw1CJHRMSLywzVjyQSJZpy6qboxEPBKpump",
-          "amount": 10,
-          "url": "https://dexscreener.com/solana/ewuvbpdm5vw1cjhrmslywzvjyqsjzpy6qboxepbkpump",
-          "description": "The official Christmas coin for @Pumpfun"
-        },
-        {
-          "chain": "solana",
-          "address": "67eH4F62kKZ45wfgWMRuu8GNCFP9kN6uFcNvJWBgpump",
-          "amount": 50,
-          "url": "https://dexscreener.com/solana/67eh4f62kkz45wfgwmruu8gncfp9kn6ufcnvjwbgpump",
-          "description": "Attempting to reach the highest liked post on X.\n\nAll donations to the WFP."
-        },
-        {
-          "chain": "solana",
-          "address": "DTLJXMxGdD1tMhKXurxbS7aqX3j79YkCkGQsQu5Zpump",
-          "amount": 10,
-          "url": "https://dexscreener.com/solana/dtljxmxgdd1tmhkxurxbs7aqx3j79ykckgqsqu5zpump",
-          "description": ""
-        },
-        {
-          "chain": "solana",
-          "address": "4UMErmfmKzDCVmHrwBUbnDnbQnVKVYAcT7X5AdTkpump",
-          "amount": 10,
-          "url": "https://dexscreener.com/solana/4umermfmkzdcvmhrwbubndnbqnvkvyact7x5adtkpump",
-          "description": "Fuck Cancer\n\n100% of fees go to the Lung Cancer Foundation of America"
-        },
-        {
-          "chain": "solana",
-          "address": "3ed2mfy668wn2R6NumGaUgx26Hb4KYeDi5rzTB2ypump",
-          "amount": 10,
-          "url": "https://dexscreener.com/solana/3ed2mfy668wn2r6numgaugx26hb4kyedi5rztb2ypump",
-          "description": ""
-        },
-        {
-          "chain": "solana",
-          "address": "B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump",
-          "amount": 100,
-          "url": "https://dexscreener.com/solana/b34nxkzcgsjb9chlushprpxle3wfswyet8cqkzzmpump",
-          "description": "Let's show some love for Fiona"
-        },
-        {
-          "chain": "solana",
-          "address": "91SRgG84XsmTKj5mHZiLGgx88DCvgqw46owfv36xpump",
-          "amount": 10,
-          "url": "https://dexscreener.com/solana/91srgg84xsmtkj5mhzilggx88dcvgqw46owfv36xpump",
-          "description": ""
-        },
-        {
-          "chain": "solana",
-          "address": "DC1vy25nn2U6CDYD9LuaMWmxrmH6PQQVd6BrgAMFpump",
-          "amount": 50,
-          "url": "https://dexscreener.com/solana/dc1vy25nn2u6cdyd9luamwmxrmh6pqqvd6brgamfpump",
-          "description": "In 2021, Shiba Inu branded itself as the Doge Killer and went on to touch a $50B market cap.\n\nNow in 2026, the narrative shifts.\n\nKuro Inu isn’t just another dog token, i"
-        },
-        {
-          "chain": "solana",
-          "address": "CcpN5RXTEjbRqbtuHoxyiMZorzsghbfpeyYQjSvTgS27",
-          "amount": 100,
-          "url": "https://dexscreener.com/solana/ccpn5rxtejbrqbtuhoxyimzorzsghbfpeyyqjsvtgs27",
-          "description": "Santa’s house is open. A Christmas community on Solana. Explore, complete tasks & unwrap surprises."
-        },
-        {
-          "chain": "solana",
-          "address": "5EmvWDizkpjAXbcfCcVq69w1id8GaLzi4LLwtuSgpump",
-          "amount": 10,
-          "url": "https://dexscreener.com/solana/5emvwdizkpjaxbcfccvq69w1id8galzi4llwtusgpump",
-          "description": "Pompom Pompompurin the viral character being graffitied all over the world!"
         }
       ],
-      "observation_time": "2026-11-25T20:42:44.499Z",
+      "observation_time": "2026-11-25T23:15:47.763Z",
       "url": "https://docs.dexscreener.com/api/reference",
       "note": "Boosts são promoções pagas; não são evidência de tendência, investimento ou oportunidade."
     },
     "market": {
       "tickers": {
         "BTCUSDT": {
-          "price": 59854,
-          "change24h": 0.396,
-          "volume_quote_24h": 1552096903.9129138,
-          "high24h": 60405.44,
+          "price": 60282.47,
+          "change24h": 0.374,
+          "volume_quote_24h": 1588216508.2169764,
+          "high24h": 60497.36,
           "low24h": 57300.38
         },
         "ETHUSDT": {
-          "price": 1680.24,
-          "change24h": 0.462,
-          "volume_quote_24h": 647547779.267676,
+          "price": 1689.88,
+          "change24h": 0.334,
+          "volume_quote_24h": 659105032.164545,
           "high24h": 1698.72,
           "low24h": 1608.86
         },
         "SOLUSDT": {
-          "price": 70.18,
-          "change24h": 1.548,
-          "volume_quote_24h": 231997702.37406,
+          "price": 70.6,
+          "change24h": 0.785,
+          "volume_quote_24h": 239283226.60149,
           "high24h": 71.07,
           "low24h": 65.84
         },
         "HYPEUSDT": {
-          "price": 61.3,
-          "change24h": 3.17403,
+          "price": 61.35,
+          "change24h": 1.74695,
           "source": "CoinGecko · preço agregado",
-          "observation_time": "2026-11-25T20:42:52.085Z"
+          "observation_time": "2026-11-25T23:15:53.033Z"
         }
       },
-      "observation_time": "2026-11-25T20:42:44.499Z",
+      "observation_time": "2026-11-25T23:15:47.763Z",
       "url": "https://data-api.binance.vision/api/v3/ticker/24hr",
       "note": "Preços spot Binance USDT; não representam o mercado global nem contratos futuros"
     },
@@ -686,9 +696,9 @@
           "name": "Binance CEX",
           "slug": "binance-cex",
           "category": "CEX",
-          "tvl": 109579347013.66039,
-          "change_1d": 1.248309011227306,
-          "change_7d": -1.108300039772928,
+          "tvl": 109586350275.9627,
+          "change_1d": 1.547378995337965,
+          "change_7d": -0.8017465077690673,
           "chains": [
             "Ethereum",
             "Bitcoin",
@@ -700,9 +710,9 @@
           "name": "OKX",
           "slug": "okx",
           "category": "CEX",
-          "tvl": 26280024765.96826,
-          "change_1d": -0.41033910481638713,
-          "change_7d": -2.9610705456836257,
+          "tvl": 26310129835.0221,
+          "change_1d": -0.19856219565772903,
+          "change_7d": -2.010006347924147,
           "chains": [
             "Ethereum",
             "Bitcoin",
@@ -714,9 +724,9 @@
           "name": "LayerZero V2",
           "slug": "layerzero-v2",
           "category": "Bridge",
-          "tvl": 17898024885.17053,
-          "change_1d": 1.505853681143975,
-          "change_7d": 4.599053613331932,
+          "tvl": 17907624582.650887,
+          "change_1d": 0.3774327864052083,
+          "change_7d": 5.211337007170712,
           "chains": [
             "Polygon",
             "Ethereum",
@@ -728,9 +738,9 @@
           "name": "Lido",
           "slug": "lido",
           "category": "Liquid Staking",
-          "tvl": 16366216047.896162,
-          "change_1d": 0.0336873708171197,
-          "change_7d": -5.789203146388388,
+          "tvl": 16372387984.482975,
+          "change_1d": 0.253836047174687,
+          "change_7d": -4.501734092418275,
           "chains": [
             "Ethereum",
             "Solana",
@@ -742,9 +752,9 @@
           "name": "Aave V3",
           "slug": "aave-v3",
           "category": "Lending",
-          "tvl": 15080402779.372849,
-          "change_1d": 0.46755566232565116,
-          "change_7d": 10.816646495796206,
+          "tvl": 15108672347.666037,
+          "change_1d": 0.43709340459629686,
+          "change_7d": 10.582322654715497,
           "chains": [
             "Ethereum",
             "Base",
@@ -756,9 +766,9 @@
           "name": "Bybit",
           "slug": "bybit",
           "category": "CEX",
-          "tvl": 13313439154.09382,
-          "change_1d": 0.15274225195129532,
-          "change_7d": 0.5730723771665254,
+          "tvl": 13316624195.786549,
+          "change_1d": 0.672562562363737,
+          "change_7d": 0.355100464480401,
           "chains": [
             "Ethereum",
             "Bitcoin",
@@ -770,23 +780,23 @@
           "name": "Bitfinex",
           "slug": "bitfinex",
           "category": "CEX",
-          "tvl": 11457124924.18395,
-          "change_1d": 0.7690022892453072,
-          "change_7d": -2.9712147501658563,
+          "tvl": 11301890415.220198,
+          "change_1d": -0.41276969253451057,
+          "change_7d": -5.818130737089675,
           "chains": [
             "Bitcoin",
             "Ethereum",
             "Tron",
-            "Avalanche"
+            "Solana"
           ]
         },
         {
           "name": "Robinhood",
           "slug": "robinhood",
           "category": "CEX",
-          "tvl": 10436067084.97066,
-          "change_1d": -2.1543202586501167,
-          "change_7d": -6.732990980865225,
+          "tvl": 10749971014.48251,
+          "change_1d": 0.841433733272055,
+          "change_7d": -3.846634983185993,
           "chains": [
             "Bitcoin",
             "Ethereum",
@@ -798,9 +808,9 @@
           "name": "Morpho Blue",
           "slug": "morpho-blue",
           "category": "Lending",
-          "tvl": 9380360237.21928,
-          "change_1d": 0.7823096819225839,
-          "change_7d": -5.724350445312382,
+          "tvl": 9412592415.102041,
+          "change_1d": 1.000485726819477,
+          "change_7d": -4.583954969827417,
           "chains": [
             "Ethereum",
             "Base",
@@ -812,9 +822,9 @@
           "name": "SSV Network",
           "slug": "ssv-network",
           "category": "Staking Pool",
-          "tvl": 8620823669.719843,
-          "change_1d": -4.079253923476273,
-          "change_7d": -9.511135518586201,
+          "tvl": 8931367721.40131,
+          "change_1d": 0.8164134586505156,
+          "change_7d": -5.10251339172892,
           "chains": [
             "Ethereum"
           ]
@@ -823,9 +833,9 @@
           "name": "WBTC",
           "slug": "wbtc",
           "category": "Bridge",
-          "tvl": 6989669430.672567,
-          "change_1d": -0.593765780972106,
-          "change_7d": -4.909276082736611,
+          "tvl": 7068212462.168986,
+          "change_1d": 1.433166997528474,
+          "change_7d": -3.1587459920132233,
           "chains": [
             "Bitcoin"
           ]
@@ -834,9 +844,9 @@
           "name": "Binance staked ETH",
           "slug": "binance-staked-eth",
           "category": "Liquid Staking",
-          "tvl": 6544070750.326318,
-          "change_1d": 0.41608531886825517,
-          "change_7d": -4.7548803179080465,
+          "tvl": 6564130100.460733,
+          "change_1d": 0.9770039782783186,
+          "change_7d": -3.323519035329582,
           "chains": [
             "Ethereum",
             "Binance"
@@ -846,9 +856,9 @@
           "name": "Coinbase Bridge",
           "slug": "coinbase-bridge",
           "category": "Bridge",
-          "tvl": 6365096119.499895,
-          "change_1d": 0.12763484111988532,
-          "change_7d": -8.304154867614855,
+          "tvl": 6562737709.768804,
+          "change_1d": 4.036672525894986,
+          "change_7d": -4.799006736559974,
           "chains": [
             "Bitcoin",
             "Ripple",
@@ -860,9 +870,9 @@
           "name": "Hyperliquid Bridge",
           "slug": "hyperliquid-bridge",
           "category": "Bridge",
-          "tvl": 5609793163.872442,
-          "change_1d": -0.270486340808489,
-          "change_7d": -1.2083857038189763,
+          "tvl": 5624295522.798832,
+          "change_1d": 0.008182155687208592,
+          "change_7d": -1.193468895815073,
           "chains": [
             "Hyperliquid L1",
             "Arbitrum"
@@ -872,9 +882,9 @@
           "name": "Bitget",
           "slug": "bitget",
           "category": "CEX",
-          "tvl": 5307937868.425505,
-          "change_1d": 1.3491898600506573,
-          "change_7d": 1.81882532305346,
+          "tvl": 5344029623.895743,
+          "change_1d": 2.396182639204355,
+          "change_7d": 3.2723823474705824,
           "chains": [
             "Bitcoin",
             "Solana",
@@ -883,7 +893,7 @@
           ]
         }
       ],
-      "observation_time": "2026-11-25T20:42:44.499Z",
+      "observation_time": "2026-11-25T23:15:47.763Z",
       "url": "https://defillama.com/protocols"
     },
     "dex_volume": {
@@ -893,18 +903,18 @@
       "top": [
         {
           "name": "Uniswap V3",
-          "total24h": 1026178469,
-          "change_1d": -15.98
+          "total24h": 1060697681,
+          "change_1d": -13.15
         },
         {
           "name": "Aero Slipstream",
-          "total24h": 849119456,
-          "change_1d": -6.55
+          "total24h": 860175444,
+          "change_1d": -5.33
         },
         {
           "name": "Uniswap V4",
-          "total24h": 789687196,
-          "change_1d": -8.51
+          "total24h": 765490788,
+          "change_1d": -11.31
         },
         {
           "name": "Kalshi",
@@ -917,22 +927,22 @@
           "change_1d": -52.14
         },
         {
-          "name": "Metric V1",
-          "total24h": 323306378,
-          "change_1d": -29.74
-        },
-        {
           "name": "THORChain DEX",
           "total24h": 301636063,
           "change_1d": 33.23
         },
         {
-          "name": "Flashnet",
-          "total24h": 195283099,
-          "change_1d": -6.12
+          "name": "Metric V1",
+          "total24h": 301375492,
+          "change_1d": -34.51
+        },
+        {
+          "name": "Orca DEX",
+          "total24h": 210365745,
+          "change_1d": -22.06
         }
       ],
-      "observation_time": "2026-11-25T20:42:44.499Z",
+      "observation_time": "2026-11-25T23:15:47.763Z",
       "url": "https://defillama.com/dexs"
     },
     "yield_pools": {
@@ -2242,38 +2252,14 @@
       "note": "Triagem por ativo/protocolo e TVL, não auditoria nem recomendação. API gratuita pode encerrar em 13/11/2026."
     },
     "global_market": {
-      "market_cap_usd": 2146345195825,
-      "volume_24h_usd": 132004410600,
-      "btc_dominance_pct": 56.05,
-      "observation_time": "2026-11-25T20:42:44.499Z",
+      "market_cap_usd": 2151328438975,
+      "volume_24h_usd": 136109688449,
+      "btc_dominance_pct": 56.14,
+      "observation_time": "2026-11-25T23:15:47.763Z",
       "url": "https://api.coinpaprika.com/v1/global"
     },
     "candles": {
       "BTCUSDT": [
-        {
-          "time": "2026-11-22T21:00:00.000Z",
-          "open": 60916.86,
-          "high": 61118.01,
-          "low": 60869.33,
-          "close": 60953.87,
-          "volume": 339.15853
-        },
-        {
-          "time": "2026-11-22T22:00:00.000Z",
-          "open": 60953.86,
-          "high": 61115.09,
-          "low": 60773.56,
-          "close": 61115.08,
-          "volume": 578.80845
-        },
-        {
-          "time": "2026-11-22T23:00:00.000Z",
-          "open": 61115.09,
-          "high": 61407.99,
-          "low": 60796.82,
-          "close": 61271.08,
-          "volume": 896.72603
-        },
         {
           "time": "2026-11-23T00:00:00.000Z",
           "open": 61271.09,
@@ -2821,37 +2807,37 @@
         {
           "time": "2026-11-25T20:00:00.000Z",
           "open": 59879.23,
-          "high": 60120,
+          "high": 60381.13,
           "low": 59795.23,
-          "close": 59883.3,
-          "volume": 806.44428
+          "close": 60267.5,
+          "volume": 1177.18942
+        },
+        {
+          "time": "2026-11-25T21:00:00.000Z",
+          "open": 60267.51,
+          "high": 60497.36,
+          "low": 60166,
+          "close": 60237.86,
+          "volume": 559.06228
+        },
+        {
+          "time": "2026-11-25T22:00:00.000Z",
+          "open": 60237.87,
+          "high": 60264.51,
+          "low": 60042,
+          "close": 60116.75,
+          "volume": 431.63909
+        },
+        {
+          "time": "2026-11-25T23:00:00.000Z",
+          "open": 60116.75,
+          "high": 60288,
+          "low": 59939.24,
+          "close": 60282.47,
+          "volume": 187.06282
         }
       ],
       "SOLUSDT": [
-        {
-          "time": "2026-11-22T21:00:00.000Z",
-          "open": 70.17,
-          "high": 70.55,
-          "low": 70.09,
-          "close": 70.48,
-          "volume": 41528.863
-        },
-        {
-          "time": "2026-11-22T22:00:00.000Z",
-          "open": 70.49,
-          "high": 70.52,
-          "low": 69.97,
-          "close": 70.35,
-          "volume": 78661.46
-        },
-        {
-          "time": "2026-11-22T23:00:00.000Z",
-          "open": 70.35,
-          "high": 70.8,
-          "low": 70.22,
-          "close": 70.73,
-          "volume": 82322.484
-        },
         {
           "time": "2026-11-23T00:00:00.000Z",
           "open": 70.74,
@@ -3399,37 +3385,37 @@
         {
           "time": "2026-11-25T20:00:00.000Z",
           "open": 70.33,
-          "high": 70.66,
+          "high": 70.69,
           "low": 70.1,
-          "close": 70.17,
-          "volume": 52561.943
+          "close": 70.62,
+          "volume": 95323.594
+        },
+        {
+          "time": "2026-11-25T21:00:00.000Z",
+          "open": 70.62,
+          "high": 70.97,
+          "low": 70.4,
+          "close": 70.63,
+          "volume": 82546.025
+        },
+        {
+          "time": "2026-11-25T22:00:00.000Z",
+          "open": 70.64,
+          "high": 70.68,
+          "low": 70.37,
+          "close": 70.56,
+          "volume": 82745.967
+        },
+        {
+          "time": "2026-11-25T23:00:00.000Z",
+          "open": 70.56,
+          "high": 70.62,
+          "low": 70.24,
+          "close": 70.6,
+          "volume": 39260.007
         }
       ],
       "ETHUSDT": [
-        {
-          "time": "2026-11-22T21:00:00.000Z",
-          "open": 1720.97,
-          "high": 1729.77,
-          "low": 1718.83,
-          "close": 1720.4,
-          "volume": 6111.0208
-        },
-        {
-          "time": "2026-11-22T22:00:00.000Z",
-          "open": 1720.39,
-          "high": 1721.8,
-          "low": 1711.51,
-          "close": 1719.28,
-          "volume": 9876.9937
-        },
-        {
-          "time": "2026-11-22T23:00:00.000Z",
-          "open": 1719.29,
-          "high": 1727.6,
-          "low": 1715,
-          "close": 1724.33,
-          "volume": 10603.7167
-        },
         {
           "time": "2026-11-23T00:00:00.000Z",
           "open": 1724.34,
@@ -3977,41 +3963,50 @@
         {
           "time": "2026-11-25T20:00:00.000Z",
           "open": 1684.35,
-          "high": 1688.65,
+          "high": 1692.07,
           "low": 1679.04,
-          "close": 1680.44,
-          "volume": 9414.643
+          "close": 1689.99,
+          "volume": 14595.4507
+        },
+        {
+          "time": "2026-11-25T21:00:00.000Z",
+          "open": 1690,
+          "high": 1694,
+          "low": 1686.08,
+          "close": 1686.17,
+          "volume": 8375.7378
+        },
+        {
+          "time": "2026-11-25T22:00:00.000Z",
+          "open": 1686.16,
+          "high": 1689.03,
+          "low": 1681.76,
+          "close": 1686.88,
+          "volume": 7336.9383
+        },
+        {
+          "time": "2026-11-25T23:00:00.000Z",
+          "open": 1686.88,
+          "high": 1690.37,
+          "low": 1680.63,
+          "close": 1689.79,
+          "volume": 4265.2251
         }
       ]
     },
     "meteora": {
-      "observation_time": "2026-11-25T20:42:44.499Z",
+      "observation_time": "2026-11-25T23:15:47.763Z",
       "pools": [
         {
           "address": "5rCf1DM8LjKTw4YqhnoLcngyZYeNnQqztScTogYHAS6",
           "name": "SOL-USDC",
           "token_x": "SOL",
           "token_y": "USDC",
-          "tvl_usd": 2656460.54105949,
+          "tvl_usd": 2798220.467021575,
           "volume_24h_usd": null,
           "fees_24h_usd": null,
-          "apy": 147.66315669965343,
-          "apr": 0.2487745199968521,
-          "bin_step": null,
-          "age_hours": null,
-          "token_x_mint": "So11111111111111111111111111111111111111112",
-          "token_y_mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
-        },
-        {
-          "address": "BGm1tav58oGcsQJehL9WXBFXF7D27vZsKefj4xJKD5Y",
-          "name": "SOL-USDC",
-          "token_x": "SOL",
-          "token_y": "USDC",
-          "tvl_usd": 2337736.710293472,
-          "volume_24h_usd": null,
-          "fees_24h_usd": null,
-          "apy": 158.2405300217063,
-          "apr": 0.2602617248902818,
+          "apy": 140.65296480353925,
+          "apr": 0.2408885012993729,
           "bin_step": null,
           "age_hours": null,
           "token_x_mint": "So11111111111111111111111111111111111111112",
@@ -4022,29 +4017,59 @@
           "name": "SOL-HYPE",
           "token_x": "SOL",
           "token_y": "HYPE",
-          "tvl_usd": 527686.6014971244,
+          "tvl_usd": 525073.1994241948,
           "volume_24h_usd": null,
           "fees_24h_usd": null,
-          "apy": 475.7483840958523,
-          "apr": 0.4807410603498985,
+          "apy": 515.2773134955191,
+          "apr": 0.49902260643342417,
           "bin_step": null,
           "age_hours": null,
           "token_x_mint": "So11111111111111111111111111111111111111112",
           "token_y_mint": "98sMhvDwXj1RQi5c5Mndm3vPe9cBqPrbLaufMXFNMh5g"
         },
         {
+          "address": "BGm1tav58oGcsQJehL9WXBFXF7D27vZsKefj4xJKD5Y",
+          "name": "SOL-USDC",
+          "token_x": "SOL",
+          "token_y": "USDC",
+          "tvl_usd": 2376394.2929096343,
+          "volume_24h_usd": null,
+          "fees_24h_usd": null,
+          "apy": 157.22085358833863,
+          "apr": 0.2591749729485153,
+          "bin_step": null,
+          "age_hours": null,
+          "token_x_mint": "So11111111111111111111111111111111111111112",
+          "token_y_mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+        },
+        {
           "address": "8GTCUyGQsVNq7cdWEszyNb6w9uiUo727BdGu6v7UmpdX",
           "name": "ANT-USDC",
           "token_x": "ANT",
           "token_y": "USDC",
-          "tvl_usd": 807035.034974529,
+          "tvl_usd": 811315.8373700826,
           "volume_24h_usd": null,
           "fees_24h_usd": null,
-          "apy": 9027.90190257312,
-          "apr": 1.2443693137341827,
+          "apy": 10224.624851642917,
+          "apr": 1.2785473967066288,
           "bin_step": null,
           "age_hours": null,
           "token_x_mint": "ANTBTZQ1EUuTxUs3tfeampxdqTWPHmwyJmcWj4xoAyNe",
+          "token_y_mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+        },
+        {
+          "address": "7ubS3GccjhQY99AYNKXjNJqnXjaokEdfdV915xnCb96r",
+          "name": "cbBTC-USDC",
+          "token_x": "cbBTC",
+          "token_y": "USDC",
+          "tvl_usd": 686923.9131990287,
+          "volume_24h_usd": null,
+          "fees_24h_usd": null,
+          "apy": 150.78407843875655,
+          "apr": 0.2522140017996151,
+          "bin_step": null,
+          "age_hours": null,
+          "token_x_mint": "cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij",
           "token_y_mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
         },
         {
@@ -4052,41 +4077,26 @@
           "name": "ANT-ANTx",
           "token_x": "ANT",
           "token_y": "ANTx",
-          "tvl_usd": 75893.86288240404,
+          "tvl_usd": 74332.23198743467,
           "volume_24h_usd": null,
           "fees_24h_usd": null,
-          "apy": 524.6060380448347,
-          "apr": 0.5031660130774734,
+          "apy": 427.2515534087959,
+          "apr": 0.4565204225002989,
           "bin_step": null,
           "age_hours": null,
           "token_x_mint": "ANTBTZQ1EUuTxUs3tfeampxdqTWPHmwyJmcWj4xoAyNe",
           "token_y_mint": "XsYzw7XHj8K2WHeoeNQVyevMmzjzXfcJ8tQ4FmdN1DL"
         },
         {
-          "address": "7ubS3GccjhQY99AYNKXjNJqnXjaokEdfdV915xnCb96r",
-          "name": "cbBTC-USDC",
-          "token_x": "cbBTC",
-          "token_y": "USDC",
-          "tvl_usd": 684525.395871591,
-          "volume_24h_usd": null,
-          "fees_24h_usd": null,
-          "apy": 147.41149338785462,
-          "apr": 0.24849528821068465,
-          "bin_step": null,
-          "age_hours": null,
-          "token_x_mint": "cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij",
-          "token_y_mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
-        },
-        {
           "address": "HDhWhQCBrSh9xNWmNtsTi86eWj3yCoEiaRodjgNydo1b",
           "name": "cbBTC-SOL",
           "token_x": "cbBTC",
           "token_y": "SOL",
-          "tvl_usd": 184320.031577806,
+          "tvl_usd": 189816.5323577845,
           "volume_24h_usd": null,
           "fees_24h_usd": null,
-          "apy": 574.558367436801,
-          "apr": 0.5243529625994575,
+          "apy": 559.9256232854094,
+          "apr": 0.5183131260219254,
           "bin_step": null,
           "age_hours": null,
           "token_x_mint": "cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij",
@@ -4097,29 +4107,14 @@
           "name": "MET-USDC",
           "token_x": "MET",
           "token_y": "USDC",
-          "tvl_usd": 959387.2089117368,
+          "tvl_usd": 959340.3534159028,
           "volume_24h_usd": null,
           "fees_24h_usd": null,
-          "apy": 59.71536718979487,
-          "apr": 0.12836261298881146,
+          "apy": 62.839198874354054,
+          "apr": 0.1336763955479879,
           "bin_step": null,
           "age_hours": null,
           "token_x_mint": "METvsvVRapdj9cFLzq4Tr43xK4tAjQfwX76z3n6mWQL",
-          "token_y_mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
-        },
-        {
-          "address": "FJs4LN9SpSUW5gdePMbBitncsLfh7ZvE7r4XaVUQ7LXt",
-          "name": "ANT-USDC",
-          "token_x": "ANT",
-          "token_y": "USDC",
-          "tvl_usd": 77670.04120006831,
-          "volume_24h_usd": null,
-          "fees_24h_usd": null,
-          "apy": 23500.79484606351,
-          "apr": 1.5082098533854151,
-          "bin_step": null,
-          "age_hours": null,
-          "token_x_mint": "ANTBTZQ1EUuTxUs3tfeampxdqTWPHmwyJmcWj4xoAyNe",
           "token_y_mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
         },
         {
@@ -4127,74 +4122,74 @@
           "name": "SPCX-SOL",
           "token_x": "SPCX",
           "token_y": "SOL",
-          "tvl_usd": 500986.287794108,
+          "tvl_usd": 503587.2779785149,
           "volume_24h_usd": null,
           "fees_24h_usd": null,
-          "apy": 386.5401391825017,
-          "apr": 0.4344063600052656,
+          "apy": 416.5536830341089,
+          "apr": 0.4508789024733661,
           "bin_step": null,
           "age_hours": null,
           "token_x_mint": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
           "token_y_mint": "So11111111111111111111111111111111111111112"
         },
         {
+          "address": "FJs4LN9SpSUW5gdePMbBitncsLfh7ZvE7r4XaVUQ7LXt",
+          "name": "ANT-USDC",
+          "token_x": "ANT",
+          "token_y": "USDC",
+          "tvl_usd": 80953.10098071248,
+          "volume_24h_usd": null,
+          "fees_24h_usd": null,
+          "apy": 17015.265533871967,
+          "apr": 1.418891466365657,
+          "bin_step": null,
+          "age_hours": null,
+          "token_x_mint": "ANTBTZQ1EUuTxUs3tfeampxdqTWPHmwyJmcWj4xoAyNe",
+          "token_y_mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+        },
+        {
           "address": "GeUkx21Vc6yg63YZ1BdXY95ZATm9LeBYCgSN1uJ3o18S",
           "name": "MUSK-USDC",
           "token_x": "MUSK",
           "token_y": "USDC",
-          "tvl_usd": 106559.04521711964,
+          "tvl_usd": 106562.94417850292,
           "volume_24h_usd": null,
           "fees_24h_usd": null,
-          "apy": 85.00576721446676,
-          "apr": 0.1686946810908118,
+          "apy": 84.10650243278064,
+          "apr": 0.1673574815784474,
           "bin_step": null,
           "age_hours": null,
           "token_x_mint": "D4BPL1zvhhJbxUdgi2qVUtjx4jeQWyUr2PAUjKc9rN5x",
           "token_y_mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
         },
         {
-          "address": "81GpCm4d13y8TozYtThabuSCLQN2o3bbrvDogXFPn8sA",
-          "name": "HYPE-SOL",
-          "token_x": "HYPE",
-          "token_y": "SOL",
-          "tvl_usd": 1801956.1592799395,
-          "volume_24h_usd": null,
-          "fees_24h_usd": null,
-          "apy": 98.15103041917166,
-          "apr": 0.1875343477172343,
-          "bin_step": null,
-          "age_hours": null,
-          "token_x_mint": "98sMhvDwXj1RQi5c5Mndm3vPe9cBqPrbLaufMXFNMh5g",
-          "token_y_mint": "So11111111111111111111111111111111111111112"
-        },
-        {
           "address": "XcATqTyxC2JCT8mUqC1buEEiBWEpaBUPXg81ErnBvWD",
           "name": "ANT-SOL",
           "token_x": "ANT",
           "token_y": "SOL",
-          "tvl_usd": 417806.7150301941,
+          "tvl_usd": 422751.9402808414,
           "volume_24h_usd": null,
           "fees_24h_usd": null,
-          "apy": 816.4798601535618,
-          "apr": 0.6087963370060979,
+          "apy": 906.8616580187792,
+          "apr": 0.6347246101755635,
           "bin_step": null,
           "age_hours": null,
           "token_x_mint": "ANTBTZQ1EUuTxUs3tfeampxdqTWPHmwyJmcWj4xoAyNe",
           "token_y_mint": "So11111111111111111111111111111111111111112"
         },
         {
-          "address": "7qqxVznunrtJKv4E9qvjJGnaLx4XbuNqKAY6WxwL9J8P",
-          "name": "NVDAx-SOL",
-          "token_x": "NVDAx",
+          "address": "81GpCm4d13y8TozYtThabuSCLQN2o3bbrvDogXFPn8sA",
+          "name": "HYPE-SOL",
+          "token_x": "HYPE",
           "token_y": "SOL",
-          "tvl_usd": 58217.25693984685,
+          "tvl_usd": 1808416.5092594088,
           "volume_24h_usd": null,
           "fees_24h_usd": null,
-          "apy": 2339.9862196596455,
-          "apr": 0.8790680156012002,
+          "apy": 96.61135672907392,
+          "apr": 0.18539322626204455,
           "bin_step": null,
           "age_hours": null,
-          "token_x_mint": "Xsc9qvGR1efVDFGLrVsmkzv3qi45LTBjeUKSPmx9qEh",
+          "token_x_mint": "98sMhvDwXj1RQi5c5Mndm3vPe9cBqPrbLaufMXFNMh5g",
           "token_y_mint": "So11111111111111111111111111111111111111112"
         },
         {
@@ -4202,26 +4197,41 @@
           "name": "NVDAx-USDC",
           "token_x": "NVDAx",
           "token_y": "USDC",
-          "tvl_usd": 100039.36948662542,
+          "tvl_usd": 101212.40135212308,
           "volume_24h_usd": null,
           "fees_24h_usd": null,
-          "apy": 306.4120554829799,
-          "apr": 0.3849025185250211,
+          "apy": 296.8034349410825,
+          "apr": 0.37832228989010186,
           "bin_step": null,
           "age_hours": null,
           "token_x_mint": "Xsc9qvGR1efVDFGLrVsmkzv3qi45LTBjeUKSPmx9qEh",
           "token_y_mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
         },
         {
+          "address": "7qqxVznunrtJKv4E9qvjJGnaLx4XbuNqKAY6WxwL9J8P",
+          "name": "NVDAx-SOL",
+          "token_x": "NVDAx",
+          "token_y": "SOL",
+          "tvl_usd": 57956.4003868272,
+          "volume_24h_usd": null,
+          "fees_24h_usd": null,
+          "apy": 1869.639113248068,
+          "apr": 0.819900576194469,
+          "bin_step": null,
+          "age_hours": null,
+          "token_x_mint": "Xsc9qvGR1efVDFGLrVsmkzv3qi45LTBjeUKSPmx9qEh",
+          "token_y_mint": "So11111111111111111111111111111111111111112"
+        },
+        {
           "address": "HTvjzsfX3yU6BUodCjZ5vZkUrAxMDTrBs3CJaq43ashR",
           "name": "SOL-USDC",
           "token_x": "SOL",
           "token_y": "USDC",
-          "tvl_usd": 141293.95986234563,
+          "tvl_usd": 142138.53600489016,
           "volume_24h_usd": null,
           "fees_24h_usd": null,
-          "apy": 97.02660410623224,
-          "apr": 0.18597232534768457,
+          "apy": 95.25970158907926,
+          "apr": 0.1834997412707969,
           "bin_step": null,
           "age_hours": null,
           "token_x_mint": "So11111111111111111111111111111111111111112",
@@ -4232,26 +4242,86 @@
           "name": "HYPE-USDC",
           "token_x": "HYPE",
           "token_y": "USDC",
-          "tvl_usd": 1227852.366001763,
+          "tvl_usd": 1226701.152610195,
           "volume_24h_usd": null,
           "fees_24h_usd": null,
-          "apy": 126.41556581224448,
-          "apr": 0.2241417575835125,
+          "apy": 128.10282696622755,
+          "apr": 0.22618042665633584,
           "bin_step": null,
           "age_hours": null,
           "token_x_mint": "98sMhvDwXj1RQi5c5Mndm3vPe9cBqPrbLaufMXFNMh5g",
           "token_y_mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
         },
         {
+          "address": "3C5YE97HADPDxZehYq9Cis8AXr9aNyrUsczKzE1nDbW9",
+          "name": "TRUMP-USDC",
+          "token_x": "TRUMP",
+          "token_y": "USDC",
+          "tvl_usd": 3815104.633471377,
+          "volume_24h_usd": null,
+          "fees_24h_usd": null,
+          "apy": 13.815237381755807,
+          "apr": 0.0354600452840237,
+          "bin_step": null,
+          "age_hours": null,
+          "token_x_mint": "6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN",
+          "token_y_mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+        },
+        {
+          "address": "zxTpi4BtaWX3mgdAPoezkMD1hxx8CdeCfrqXMWvSCLX",
+          "name": "STONK-SOL",
+          "token_x": "STONK",
+          "token_y": "SOL",
+          "tvl_usd": 779743.3178165988,
+          "volume_24h_usd": null,
+          "fees_24h_usd": null,
+          "apy": 280.90405850327227,
+          "apr": 0.3670768341694427,
+          "bin_step": null,
+          "age_hours": null,
+          "token_x_mint": "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx",
+          "token_y_mint": "So11111111111111111111111111111111111111112"
+        },
+        {
+          "address": "GgoFghiA6Ca7YNmG6dRxwKQWkZhRK8ND47EREz46arot",
+          "name": "XMR-USDC",
+          "token_x": "XMR",
+          "token_y": "USDC",
+          "tvl_usd": 282420.1133029739,
+          "volume_24h_usd": null,
+          "fees_24h_usd": null,
+          "apy": 1403.8893922321056,
+          "apr": 0.7454054513345952,
+          "bin_step": null,
+          "age_hours": null,
+          "token_x_mint": "WXMRyRZhsa19ety5erZhHg4N3xj3EVN92u94422teJp",
+          "token_y_mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+        },
+        {
+          "address": "C8Gr6AUuq9hEdSYJzoEpNcdjpojPZwqG5MtQbeouNNwg",
+          "name": "JUP-SOL",
+          "token_x": "JUP",
+          "token_y": "SOL",
+          "tvl_usd": 1555237.6049180906,
+          "volume_24h_usd": null,
+          "fees_24h_usd": null,
+          "apy": 52.73595118774359,
+          "apr": 0.11610582609807894,
+          "bin_step": null,
+          "age_hours": null,
+          "token_x_mint": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
+          "token_y_mint": "So11111111111111111111111111111111111111112"
+        },
+        {
           "address": "Hz1EtXTGaFEtAWRgRNpDMFV6vnSZtQUY9UqmdM6vfKSS",
           "name": "cbBTC-SOL",
           "token_x": "cbBTC",
           "token_y": "SOL",
-          "tvl_usd": 5124.25381633462,
+          "tvl_usd": 9106.194915346625,
           "volume_24h_usd": null,
           "fees_24h_usd": null,
-          "apy": 54335704.13075158,
-          "apr": 3.6841960693550737,
+          "apy": 91240.30543094497,
+          "apr": 1.8852707766296728,
           "bin_step": null,
           "age_hours": null,
           "token_x_mint": "cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij",
@@ -4262,86 +4332,26 @@
           "name": "JLP-USDC",
           "token_x": "JLP",
           "token_y": "USDC",
-          "tvl_usd": 9957.04324843405,
+          "tvl_usd": 9989.768422750669,
           "volume_24h_usd": null,
           "fees_24h_usd": null,
-          "apy": 482736333.3403787,
-          "apr": 4.3065387985952155,
+          "apy": 113540882.3400956,
+          "apr": 3.893758871436032,
           "bin_step": null,
           "age_hours": null,
           "token_x_mint": "27G8MtK7VtTcCHkpASjSDdkWWYfoqT6ggEuKidVJidD4",
           "token_y_mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
         },
         {
-          "address": "3C5YE97HADPDxZehYq9Cis8AXr9aNyrUsczKzE1nDbW9",
-          "name": "TRUMP-USDC",
-          "token_x": "TRUMP",
-          "token_y": "USDC",
-          "tvl_usd": 3774653.2885696953,
-          "volume_24h_usd": null,
-          "fees_24h_usd": null,
-          "apy": 13.665480352442128,
-          "apr": 0.035099190048241684,
-          "bin_step": null,
-          "age_hours": null,
-          "token_x_mint": "6p6xgHyF7AeE6TZkSmFsko444wqoP15icUSqi2jfGiPN",
-          "token_y_mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
-        },
-        {
-          "address": "C8Gr6AUuq9hEdSYJzoEpNcdjpojPZwqG5MtQbeouNNwg",
-          "name": "JUP-SOL",
-          "token_x": "JUP",
-          "token_y": "SOL",
-          "tvl_usd": 1561443.3558956818,
-          "volume_24h_usd": null,
-          "fees_24h_usd": null,
-          "apy": 54.23776048631503,
-          "apr": 0.11878971150903413,
-          "bin_step": null,
-          "age_hours": null,
-          "token_x_mint": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
-          "token_y_mint": "So11111111111111111111111111111111111111112"
-        },
-        {
-          "address": "GgoFghiA6Ca7YNmG6dRxwKQWkZhRK8ND47EREz46arot",
-          "name": "XMR-USDC",
-          "token_x": "XMR",
-          "token_y": "USDC",
-          "tvl_usd": 284307.24447276996,
-          "volume_24h_usd": null,
-          "fees_24h_usd": null,
-          "apy": 1380.375369011276,
-          "apr": 0.7410558286527877,
-          "bin_step": null,
-          "age_hours": null,
-          "token_x_mint": "WXMRyRZhsa19ety5erZhHg4N3xj3EVN92u94422teJp",
-          "token_y_mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
-        },
-        {
-          "address": "zxTpi4BtaWX3mgdAPoezkMD1hxx8CdeCfrqXMWvSCLX",
-          "name": "STONK-SOL",
-          "token_x": "STONK",
-          "token_y": "SOL",
-          "tvl_usd": 774001.9061094709,
-          "volume_24h_usd": null,
-          "fees_24h_usd": null,
-          "apy": 280.40418723550124,
-          "apr": 0.3667157359650386,
-          "bin_step": null,
-          "age_hours": null,
-          "token_x_mint": "6GmAFSYs4gk3FDao5FzzySQpPZaWsa4rUJHacpMpUNgx",
-          "token_y_mint": "So11111111111111111111111111111111111111112"
-        },
-        {
           "address": "6e7V9eegCHw997T72MxgwwJipZ6GJyZF8NvjkzT1rvpN",
           "name": "ANSEM-SOL",
           "token_x": "ANSEM",
           "token_y": "SOL",
-          "tvl_usd": 147111.51375430112,
+          "tvl_usd": 162403.31088295506,
           "volume_24h_usd": null,
           "fees_24h_usd": null,
-          "apy": 152815.50172058764,
-          "apr": 2.0292101693463938,
+          "apy": 63594.11344914881,
+          "apr": 1.7846913024542603,
           "bin_step": null,
           "age_hours": null,
           "token_x_mint": "9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump",
@@ -4352,14 +4362,29 @@
           "name": "TTWO-SOL",
           "token_x": "TTWO",
           "token_y": "SOL",
-          "tvl_usd": 166080.61007230662,
+          "tvl_usd": 166480.7880781363,
           "volume_24h_usd": null,
           "fees_24h_usd": null,
-          "apy": 568.2263433047586,
-          "apr": 0.5217555424838431,
+          "apy": 599.0812255961863,
+          "apr": 0.5341879564384414,
           "bin_step": null,
           "age_hours": null,
           "token_x_mint": "TTWofwAge91oFhZs7kpQdyrVRkmevgM88xijGvQFbKo",
+          "token_y_mint": "So11111111111111111111111111111111111111112"
+        },
+        {
+          "address": "BFKBQT4yFZPtzyttHQayNmjDJYduvFaPXuytMgnaqexV",
+          "name": "XMR-SOL",
+          "token_x": "XMR",
+          "token_y": "SOL",
+          "tvl_usd": 21262.850010446982,
+          "volume_24h_usd": null,
+          "fees_24h_usd": null,
+          "apy": 286707258.95581174,
+          "apr": 4.157755635862983,
+          "bin_step": null,
+          "age_hours": null,
+          "token_x_mint": "WXMRyRZhsa19ety5erZhHg4N3xj3EVN92u94422teJp",
           "token_y_mint": "So11111111111111111111111111111111111111112"
         },
         {
@@ -4367,11 +4392,11 @@
           "name": "SOL-USDC",
           "token_x": "SOL",
           "token_y": "USDC",
-          "tvl_usd": 1527534.472830651,
+          "tvl_usd": 1533091.3541352835,
           "volume_24h_usd": null,
           "fees_24h_usd": null,
-          "apy": 46.21562573066449,
-          "apr": 0.10413973157066024,
+          "apy": 47.55424784130864,
+          "apr": 0.106639203907321,
           "bin_step": null,
           "age_hours": null,
           "token_x_mint": "So11111111111111111111111111111111111111112",
@@ -4382,44 +4407,14 @@
           "name": "CARDS-SOL",
           "token_x": "CARDS",
           "token_y": "SOL",
-          "tvl_usd": 261122.26583329515,
+          "tvl_usd": 258150.49928663656,
           "volume_24h_usd": null,
           "fees_24h_usd": null,
-          "apy": 2263.899574222487,
-          "apr": 0.8703127076087341,
+          "apy": 2329.3449471841964,
+          "apr": 0.8778600334006759,
           "bin_step": null,
           "age_hours": null,
           "token_x_mint": "CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp",
-          "token_y_mint": "So11111111111111111111111111111111111111112"
-        },
-        {
-          "address": "8AW7UaDsPZCshkAXVn2uGvLixZHZy9dHgKc43rVHnCPt",
-          "name": "DJT-SOL",
-          "token_x": "DJT",
-          "token_y": "SOL",
-          "tvl_usd": 50416.837058405894,
-          "volume_24h_usd": null,
-          "fees_24h_usd": null,
-          "apy": 493242.4822446064,
-          "apr": 2.3571570900987924,
-          "bin_step": null,
-          "age_hours": null,
-          "token_x_mint": "DJTu7vi8norVzdVAffgvb39VP7wjKeTsgaMBJrzfxvoF",
-          "token_y_mint": "So11111111111111111111111111111111111111112"
-        },
-        {
-          "address": "BFKBQT4yFZPtzyttHQayNmjDJYduvFaPXuytMgnaqexV",
-          "name": "XMR-SOL",
-          "token_x": "XMR",
-          "token_y": "SOL",
-          "tvl_usd": 20959.829054028636,
-          "volume_24h_usd": null,
-          "fees_24h_usd": null,
-          "apy": 224901342.78493795,
-          "apr": 4.0884924324739895,
-          "bin_step": null,
-          "age_hours": null,
-          "token_x_mint": "WXMRyRZhsa19ety5erZhHg4N3xj3EVN92u94422teJp",
           "token_y_mint": "So11111111111111111111111111111111111111112"
         },
         {
@@ -4427,74 +4422,74 @@
           "name": "SQQQ-USDC",
           "token_x": "SQQQ",
           "token_y": "USDC",
-          "tvl_usd": 1932.603043943926,
+          "tvl_usd": 1927.5807394018277,
           "volume_24h_usd": null,
           "fees_24h_usd": null,
           "apy": 18446744073709552000,
-          "apr": 44.268975989972205,
+          "apr": 44.25932557798348,
           "bin_step": null,
           "age_hours": null,
           "token_x_mint": "SQQQAa3gUxgnqcEsdjPA4RQNQBgB97TnG2hJhk2WaGE",
           "token_y_mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
         },
         {
-          "address": "DZ2vZJMLKt1cExzyFeyoGV3panTJufRFMiLXJKSa2mPP",
-          "name": "JupUSD-USDC",
-          "token_x": "JupUSD",
-          "token_y": "USDC",
-          "tvl_usd": 3771921.268721752,
+          "address": "8AW7UaDsPZCshkAXVn2uGvLixZHZy9dHgKc43rVHnCPt",
+          "name": "DJT-SOL",
+          "token_x": "DJT",
+          "token_y": "SOL",
+          "tvl_usd": 50920.0564550392,
           "volume_24h_usd": null,
           "fees_24h_usd": null,
-          "apy": 0.6583753786025381,
-          "apr": 0.0017978724732758808,
+          "apy": 237241.7376169032,
+          "apr": 2.152170850735008,
           "bin_step": null,
           "age_hours": null,
-          "token_x_mint": "JuprjznTrTSp2UFa3ZBUFgwdAmtZCq4MQCwysN55USD",
-          "token_y_mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+          "token_x_mint": "DJTu7vi8norVzdVAffgvb39VP7wjKeTsgaMBJrzfxvoF",
+          "token_y_mint": "So11111111111111111111111111111111111111112"
         },
         {
           "address": "EXWUUH9Au6XimBjgaJ5RxP1ZfWz6JVxzjs8cNRyyxLNr",
           "name": "BASKET-SOL",
           "token_x": "BASKET",
           "token_y": "SOL",
-          "tvl_usd": 43044.604052350325,
+          "tvl_usd": 38749.96172160561,
           "volume_24h_usd": null,
           "fees_24h_usd": null,
           "apy": 18446744073709552000,
-          "apr": 51.26189110345006,
+          "apr": 59.97956849786451,
           "bin_step": null,
           "age_hours": null,
           "token_x_mint": "3Tg6YnNrfPdFfsY14MaNsDMWLseAyrUDS3myJtbaJN6f",
           "token_y_mint": "So11111111111111111111111111111111111111112"
         },
         {
+          "address": "DZ2vZJMLKt1cExzyFeyoGV3panTJufRFMiLXJKSa2mPP",
+          "name": "JupUSD-USDC",
+          "token_x": "JupUSD",
+          "token_y": "USDC",
+          "tvl_usd": 3771494.4614905585,
+          "volume_24h_usd": null,
+          "fees_24h_usd": null,
+          "apy": 0.6475500726616623,
+          "apr": 0.001768405977198178,
+          "bin_step": null,
+          "age_hours": null,
+          "token_x_mint": "JuprjznTrTSp2UFa3ZBUFgwdAmtZCq4MQCwysN55USD",
+          "token_y_mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+        },
+        {
           "address": "E4hubXJx4vtJebyVqat4Q2WKTXGPHjCa16iqcBg8YEok",
           "name": "JIMMY-SOL",
           "token_x": "JIMMY",
           "token_y": "SOL",
-          "tvl_usd": 76134.954473527,
+          "tvl_usd": 57263.253181464235,
           "volume_24h_usd": null,
           "fees_24h_usd": null,
           "apy": 18446744073709552000,
-          "apr": 24.523034125391582,
+          "apr": 31.28979325001298,
           "bin_step": null,
           "age_hours": null,
           "token_x_mint": "38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump",
-          "token_y_mint": "So11111111111111111111111111111111111111112"
-        },
-        {
-          "address": "3potGhhaNyzvCNq1CGh2wLbZLLMjpdPtG1Hpj8q2DDVR",
-          "name": "ETH-SOL",
-          "token_x": "ETH",
-          "token_y": "SOL",
-          "tvl_usd": 79837.26660885336,
-          "volume_24h_usd": null,
-          "fees_24h_usd": null,
-          "apy": 187.1214445666394,
-          "apr": 0.28938643484996074,
-          "bin_step": null,
-          "age_hours": null,
-          "token_x_mint": "7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs",
           "token_y_mint": "So11111111111111111111111111111111111111112"
         },
         {
@@ -4502,29 +4497,14 @@
           "name": "Pompom-SOL",
           "token_x": "Pompom",
           "token_y": "SOL",
-          "tvl_usd": 49410.81520735313,
+          "tvl_usd": 23182.081719994276,
           "volume_24h_usd": null,
           "fees_24h_usd": null,
           "apy": 18446744073709552000,
-          "apr": 34.88135732991077,
+          "apr": 86.46055172166986,
           "bin_step": null,
           "age_hours": null,
           "token_x_mint": "5EmvWDizkpjAXbcfCcVq69w1id8GaLzi4LLwtuSgpump",
-          "token_y_mint": "So11111111111111111111111111111111111111112"
-        },
-        {
-          "address": "FUzBjcJKSVw3RShNGHEqWPoiwyRhnPCsxLWccMKjByd6",
-          "name": "FIONA-SOL",
-          "token_x": "FIONA",
-          "token_y": "SOL",
-          "tvl_usd": 36554.32062399628,
-          "volume_24h_usd": null,
-          "fees_24h_usd": null,
-          "apy": 1063709763.1222792,
-          "apr": 4.532556145305603,
-          "bin_step": null,
-          "age_hours": null,
-          "token_x_mint": "B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump",
           "token_y_mint": "So11111111111111111111111111111111111111112"
         },
         {
@@ -4532,26 +4512,41 @@
           "name": "wNEAR-USDC",
           "token_x": "wNEAR",
           "token_y": "USDC",
-          "tvl_usd": 934115.944103827,
+          "tvl_usd": 945706.022070936,
           "volume_24h_usd": null,
           "fees_24h_usd": null,
-          "apy": 48.772177104010986,
-          "apr": 0.10889374955204954,
+          "apy": 52.08202178237089,
+          "apr": 0.11492895339523052,
           "bin_step": null,
           "age_hours": null,
           "token_x_mint": "3ZLekZYq2qkZiSpnSvabjit34tUkjSwD1JFuW9as9wBG",
           "token_y_mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
         },
         {
+          "address": "3potGhhaNyzvCNq1CGh2wLbZLLMjpdPtG1Hpj8q2DDVR",
+          "name": "ETH-SOL",
+          "token_x": "ETH",
+          "token_y": "SOL",
+          "tvl_usd": 80074.93378989336,
+          "volume_24h_usd": null,
+          "fees_24h_usd": null,
+          "apy": 166.5022176698202,
+          "apr": 0.26891225884194125,
+          "bin_step": null,
+          "age_hours": null,
+          "token_x_mint": "7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs",
+          "token_y_mint": "So11111111111111111111111111111111111111112"
+        },
+        {
           "address": "NVRHVFCy92Vamskg85XhH3kA9LrDXoDBzWAHqM1Ng4X",
           "name": "BASKET-SOL",
           "token_x": "BASKET",
           "token_y": "SOL",
-          "tvl_usd": 9125.129497598327,
+          "tvl_usd": 6284.800390732858,
           "volume_24h_usd": null,
           "fees_24h_usd": null,
           "apy": 18446744073709552000,
-          "apr": 72.63869819548846,
+          "apr": 110.35940554439289,
           "bin_step": null,
           "age_hours": null,
           "token_x_mint": "3Tg6YnNrfPdFfsY14MaNsDMWLseAyrUDS3myJtbaJN6f",
@@ -4562,56 +4557,71 @@
           "name": "BP-USDC",
           "token_x": "BP",
           "token_y": "USDC",
-          "tvl_usd": 2333437.4976907037,
+          "tvl_usd": 2333254.0032438957,
           "volume_24h_usd": null,
           "fees_24h_usd": null,
-          "apy": 21.75597138184331,
-          "apr": 0.053945674497258886,
+          "apy": 22.134342046891597,
+          "apr": 0.05479621784451063,
           "bin_step": null,
           "age_hours": null,
           "token_x_mint": "BPxxfRCXkUVhig4HS1Lh7kZqV6SPJhzfEk4x6fVBjPCy",
           "token_y_mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
         },
         {
-          "address": "FCn5zw4gAcfRpQgst5ThFuzBGXbbJ6RocVErgC4vJ9j1",
-          "name": "NVDAx-SOL",
-          "token_x": "NVDAx",
-          "token_y": "SOL",
-          "tvl_usd": 252094.4165952274,
-          "volume_24h_usd": null,
-          "fees_24h_usd": null,
-          "apy": 315.19774508771593,
-          "apr": 0.3907847898847745,
-          "bin_step": null,
-          "age_hours": null,
-          "token_x_mint": "Xsc9qvGR1efVDFGLrVsmkzv3qi45LTBjeUKSPmx9qEh",
-          "token_y_mint": "So11111111111111111111111111111111111111112"
-        },
-        {
           "address": "JCLQiP7t1uxHiZHPotpUoVvPFFE48UxpkXHsVJJJvUrJ",
           "name": "CTM-SOL",
           "token_x": "CTM",
           "token_y": "SOL",
-          "tvl_usd": 1997040.8644041584,
+          "tvl_usd": 2007583.19841442,
           "volume_24h_usd": null,
           "fees_24h_usd": null,
-          "apy": 0.9012440488834984,
-          "apr": 0.0024581318056947177,
+          "apy": 0.9113493327654432,
+          "apr": 0.0024855695321293675,
           "bin_step": null,
           "age_hours": null,
           "token_x_mint": "C8fU5GdfAt5mnw2RK7HE6XJGFNxHpaskZMkXxdm88888",
           "token_y_mint": "So11111111111111111111111111111111111111112"
         },
         {
+          "address": "3p56hq3LRGtzREyEqfr7RxTt9v4UHiTezY6YLpw4kM3E",
+          "name": "ANT-USDC",
+          "token_x": "ANT",
+          "token_y": "USDC",
+          "tvl_usd": 720281.6847318982,
+          "volume_24h_usd": null,
+          "fees_24h_usd": null,
+          "apy": 89.17365559840289,
+          "apr": 0.17480883745365378,
+          "bin_step": null,
+          "age_hours": null,
+          "token_x_mint": "ANTBTZQ1EUuTxUs3tfeampxdqTWPHmwyJmcWj4xoAyNe",
+          "token_y_mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+        },
+        {
+          "address": "54Vp27uLaw4wNLo5n7r4fcC6zLamoQc28xBARjss4EUJ",
+          "name": "ANTFUN-USDT",
+          "token_x": "ANTFUN",
+          "token_y": "USDT",
+          "tvl_usd": 11534494.290963702,
+          "volume_24h_usd": null,
+          "fees_24h_usd": null,
+          "apy": 0.633465862924032,
+          "apr": 0.0017300640095120822,
+          "bin_step": null,
+          "age_hours": null,
+          "token_x_mint": "CWZ6BsdnjkDVTGkmL6bGbJXXig6ceef12KvyGQW14cMt",
+          "token_y_mint": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB"
+        },
+        {
           "address": "5pw5tNUaZJpUCnYjZ1V3gd7XkLbrb4zA9pir4LFph2mj",
           "name": "SPCX-SPCXx",
           "token_x": "SPCX",
           "token_y": "SPCXx",
-          "tvl_usd": 27554.00128905377,
+          "tvl_usd": 27741.754201159587,
           "volume_24h_usd": null,
           "fees_24h_usd": null,
-          "apy": 316.00138212679144,
-          "apr": 0.39131663739751765,
+          "apy": 311.3435575478579,
+          "apr": 0.3882197338160893,
           "bin_step": null,
           "age_hours": null,
           "token_x_mint": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
@@ -4622,11 +4632,11 @@
           "name": "HONEY-USDC",
           "token_x": "HONEY",
           "token_y": "USDC",
-          "tvl_usd": 166.33566912234264,
+          "tvl_usd": 93.47946243932456,
           "volume_24h_usd": null,
           "fees_24h_usd": null,
           "apy": 18446744073709552000,
-          "apr": 28551.369075310635,
+          "apr": 50804.63624184424,
           "bin_step": null,
           "age_hours": null,
           "token_x_mint": "4vMsoUT2BWatFweudnQM1xedRLfJgJ7hswhcpz4xgBTy",
@@ -4637,11 +4647,11 @@
           "name": "Bonk-USDC",
           "token_x": "Bonk",
           "token_y": "USDC",
-          "tvl_usd": 193126.25093703717,
+          "tvl_usd": 191925.43953160092,
           "volume_24h_usd": null,
           "fees_24h_usd": null,
-          "apy": 531.5812732429868,
-          "apr": 0.5062239772899064,
+          "apy": 552.8846081247464,
+          "apr": 0.5153591060153084,
           "bin_step": null,
           "age_hours": null,
           "token_x_mint": "DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263",
@@ -4652,44 +4662,119 @@
           "name": "4CHAN-SOL",
           "token_x": "4CHAN",
           "token_y": "SOL",
-          "tvl_usd": 10388.256921210788,
+          "tvl_usd": 4329.395023308769,
           "volume_24h_usd": null,
           "fees_24h_usd": null,
           "apy": 18446744073709552000,
-          "apr": 151.49401050482442,
+          "apr": 375.5502596632757,
           "bin_step": null,
           "age_hours": null,
           "token_x_mint": "DVdWuNK8ncn79B6z8nCiwcNAiwyFcmBPfChgxJGTpump",
           "token_y_mint": "So11111111111111111111111111111111111111112"
         },
         {
-          "address": "54Vp27uLaw4wNLo5n7r4fcC6zLamoQc28xBARjss4EUJ",
-          "name": "ANTFUN-USDT",
-          "token_x": "ANTFUN",
-          "token_y": "USDT",
-          "tvl_usd": 11762958.13712204,
+          "address": "FUzBjcJKSVw3RShNGHEqWPoiwyRhnPCsxLWccMKjByd6",
+          "name": "FIONA-SOL",
+          "token_x": "FIONA",
+          "token_y": "SOL",
+          "tvl_usd": 36122.52703990949,
           "volume_24h_usd": null,
           "fees_24h_usd": null,
-          "apy": 0.5695794857399461,
-          "apr": 0.0015560765315211665,
+          "apy": 380199796.2233816,
+          "apr": 4.238326443568978,
           "bin_step": null,
           "age_hours": null,
-          "token_x_mint": "CWZ6BsdnjkDVTGkmL6bGbJXXig6ceef12KvyGQW14cMt",
-          "token_y_mint": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB"
+          "token_x_mint": "B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump",
+          "token_y_mint": "So11111111111111111111111111111111111111112"
+        },
+        {
+          "address": "FCn5zw4gAcfRpQgst5ThFuzBGXbbJ6RocVErgC4vJ9j1",
+          "name": "NVDAx-SOL",
+          "token_x": "NVDAx",
+          "token_y": "SOL",
+          "tvl_usd": 254269.1840004201,
+          "volume_24h_usd": null,
+          "fees_24h_usd": null,
+          "apy": 282.47674287429743,
+          "apr": 0.3682098391264236,
+          "bin_step": null,
+          "age_hours": null,
+          "token_x_mint": "Xsc9qvGR1efVDFGLrVsmkzv3qi45LTBjeUKSPmx9qEh",
+          "token_y_mint": "So11111111111111111111111111111111111111112"
         },
         {
           "address": "5wA2qjsigK29arVDutgC3JScvpoBGiE2Xy3z4K3Mf3RJ",
           "name": "NVDAx-SOL",
           "token_x": "NVDAx",
           "token_y": "SOL",
-          "tvl_usd": 41552.18842736351,
+          "tvl_usd": 40876.35846599496,
           "volume_24h_usd": null,
           "fees_24h_usd": null,
-          "apy": 5392.395757119264,
-          "apr": 1.1035652989573523,
+          "apy": 5975.153285780721,
+          "apr": 1.1315021826401477,
           "bin_step": null,
           "age_hours": null,
           "token_x_mint": "Xsc9qvGR1efVDFGLrVsmkzv3qi45LTBjeUKSPmx9qEh",
+          "token_y_mint": "So11111111111111111111111111111111111111112"
+        },
+        {
+          "address": "ForWDAgkpGS5CnvDN8YBuEcDFtKtuhiu7CDm4bpn15TZ",
+          "name": "ZEC-SOL",
+          "token_x": "ZEC",
+          "token_y": "SOL",
+          "tvl_usd": 91963.62048010906,
+          "volume_24h_usd": null,
+          "fees_24h_usd": null,
+          "apy": 510.2694344491181,
+          "apr": 0.4967724097845789,
+          "bin_step": null,
+          "age_hours": null,
+          "token_x_mint": "A7bdiYdS5GjqGFtxf17ppRHtDKPkkRqbKtR27dxvQXaS",
+          "token_y_mint": "So11111111111111111111111111111111111111112"
+        },
+        {
+          "address": "HbjYfcWZBjCBYTJpZkLGxqArVmZVu3mQcRudb6Wg1sVh",
+          "name": "PUMP-SOL",
+          "token_x": "PUMP",
+          "token_y": "SOL",
+          "tvl_usd": 1245865.8678762445,
+          "volume_24h_usd": null,
+          "fees_24h_usd": null,
+          "apy": 30.277423238532887,
+          "apr": 0.07249092378262148,
+          "bin_step": null,
+          "age_hours": null,
+          "token_x_mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
+          "token_y_mint": "So11111111111111111111111111111111111111112"
+        },
+        {
+          "address": "8yb6CZ6aLUFoSqfk4CQ5MT84myFACAGrAngTxJNsue8S",
+          "name": "SOL-USDC",
+          "token_x": "SOL",
+          "token_y": "USDC",
+          "tvl_usd": 101742.4969176358,
+          "volume_24h_usd": null,
+          "fees_24h_usd": null,
+          "apy": 109.7363490186082,
+          "apr": 0.2031323567456595,
+          "bin_step": null,
+          "age_hours": null,
+          "token_x_mint": "So11111111111111111111111111111111111111112",
+          "token_y_mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+        },
+        {
+          "address": "2QDGj5BWMSNyEfmyDFx7eEvWWm4KujUPJ38Xdkntvxtd",
+          "name": "PUMP-SOL",
+          "token_x": "PUMP",
+          "token_y": "SOL",
+          "tvl_usd": 251619.37052129008,
+          "volume_24h_usd": null,
+          "fees_24h_usd": null,
+          "apy": 95.26203507975572,
+          "apr": 0.1835030214244855,
+          "bin_step": null,
+          "age_hours": null,
+          "token_x_mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
           "token_y_mint": "So11111111111111111111111111111111111111112"
         },
         {
@@ -4697,59 +4782,44 @@
           "name": "SOL-USDC",
           "token_x": "SOL",
           "token_y": "USDC",
-          "tvl_usd": 395920.6676852121,
+          "tvl_usd": 395866.1529733211,
           "volume_24h_usd": null,
           "fees_24h_usd": null,
-          "apy": 23.353458657733373,
-          "apr": 0.057518918248434005,
+          "apy": 23.288927677432692,
+          "apr": 0.057375472689041765,
           "bin_step": null,
           "age_hours": null,
           "token_x_mint": "So11111111111111111111111111111111111111112",
           "token_y_mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
-        },
-        {
-          "address": "8yb6CZ6aLUFoSqfk4CQ5MT84myFACAGrAngTxJNsue8S",
-          "name": "SOL-USDC",
-          "token_x": "SOL",
-          "token_y": "USDC",
-          "tvl_usd": 101438.04692256002,
-          "volume_24h_usd": null,
-          "fees_24h_usd": null,
-          "apy": 106.12616461819935,
-          "apr": 0.1983658674635478,
-          "bin_step": null,
-          "age_hours": null,
-          "token_x_mint": "So11111111111111111111111111111111111111112",
-          "token_y_mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
-        },
-        {
-          "address": "ForWDAgkpGS5CnvDN8YBuEcDFtKtuhiu7CDm4bpn15TZ",
-          "name": "ZEC-SOL",
-          "token_x": "ZEC",
-          "token_y": "SOL",
-          "tvl_usd": 92034.0865557962,
-          "volume_24h_usd": null,
-          "fees_24h_usd": null,
-          "apy": 470.7964356869825,
-          "apr": 0.4783631110162502,
-          "bin_step": null,
-          "age_hours": null,
-          "token_x_mint": "A7bdiYdS5GjqGFtxf17ppRHtDKPkkRqbKtR27dxvQXaS",
-          "token_y_mint": "So11111111111111111111111111111111111111112"
         },
         {
           "address": "6HfgUd7WLGEAsmYR2NWu2H11qpowzq1gXQGbUzYrwrb",
           "name": "4CHAN-SOL",
           "token_x": "4CHAN",
           "token_y": "SOL",
-          "tvl_usd": 4435.929426569166,
+          "tvl_usd": 3243.1240620399444,
           "volume_24h_usd": null,
           "fees_24h_usd": null,
           "apy": 18446744073709552000,
-          "apr": 243.9812707000743,
+          "apr": 339.03340457194975,
           "bin_step": null,
           "age_hours": null,
           "token_x_mint": "DVdWuNK8ncn79B6z8nCiwcNAiwyFcmBPfChgxJGTpump",
+          "token_y_mint": "So11111111111111111111111111111111111111112"
+        },
+        {
+          "address": "3Mt1bpU3fnSXyPEm66HKKXyQTpLWrwYziPLqwTqK4ZT7",
+          "name": "ORE-SOL",
+          "token_x": "ORE",
+          "token_y": "SOL",
+          "tvl_usd": 100896.9822639214,
+          "volume_24h_usd": null,
+          "fees_24h_usd": null,
+          "apy": 5045.728342148889,
+          "apr": 1.08550742632155,
+          "bin_step": null,
+          "age_hours": null,
+          "token_x_mint": "oreoU2P8bN6jkk3jbaiVxYnG1dCXcYxwhwyK9jSybcp",
           "token_y_mint": "So11111111111111111111111111111111111111112"
         },
         {
@@ -4757,74 +4827,29 @@
           "name": "TSLA-TSLAx",
           "token_x": "TSLA",
           "token_y": "TSLAx",
-          "tvl_usd": 47972.063676368765,
+          "tvl_usd": 48009.485736603485,
           "volume_24h_usd": null,
           "fees_24h_usd": null,
-          "apy": 55.30922795767674,
-          "apr": 0.12068865037310168,
+          "apy": 55.11671127207123,
+          "apr": 0.1203484219051754,
           "bin_step": null,
           "age_hours": null,
           "token_x_mint": "TSLAqBbv4CNCnzWFeB7LmydAyEiNMJtve7DYKLpdK4S",
           "token_y_mint": "XsDoVfqeBukxuZHWhdvWHBhgEHjGNst4MLodqsJHzoB"
         },
         {
-          "address": "3Mt1bpU3fnSXyPEm66HKKXyQTpLWrwYziPLqwTqK4ZT7",
-          "name": "ORE-SOL",
-          "token_x": "ORE",
+          "address": "8W4qk5sGUpMkj76trXzhExtrjkkrUVWygcMkKWWZyHdj",
+          "name": "JIMMY-SOL",
+          "token_x": "JIMMY",
           "token_y": "SOL",
-          "tvl_usd": 98925.76105964847,
+          "tvl_usd": 23375.335240578876,
           "volume_24h_usd": null,
           "fees_24h_usd": null,
-          "apy": 5223.276934529776,
-          "apr": 1.0949024886509595,
+          "apy": 18446744073709552000,
+          "apr": 30.037475575698817,
           "bin_step": null,
           "age_hours": null,
-          "token_x_mint": "oreoU2P8bN6jkk3jbaiVxYnG1dCXcYxwhwyK9jSybcp",
-          "token_y_mint": "So11111111111111111111111111111111111111112"
-        },
-        {
-          "address": "3p56hq3LRGtzREyEqfr7RxTt9v4UHiTezY6YLpw4kM3E",
-          "name": "ANT-USDC",
-          "token_x": "ANT",
-          "token_y": "USDC",
-          "tvl_usd": 706274.0912789553,
-          "volume_24h_usd": null,
-          "fees_24h_usd": null,
-          "apy": 69.10817279171447,
-          "apr": 0.14404018627574394,
-          "bin_step": null,
-          "age_hours": null,
-          "token_x_mint": "ANTBTZQ1EUuTxUs3tfeampxdqTWPHmwyJmcWj4xoAyNe",
-          "token_y_mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
-        },
-        {
-          "address": "Aq7nhS8pDPRvPA2uWotwyk79aG8Hfegf5CdA3iXABxAR",
-          "name": "NVDA-NVDAx",
-          "token_x": "NVDA",
-          "token_y": "NVDAx",
-          "tvl_usd": 29421.373422347384,
-          "volume_24h_usd": null,
-          "fees_24h_usd": null,
-          "apy": 62.8612866249598,
-          "apr": 0.13371360475871094,
-          "bin_step": null,
-          "age_hours": null,
-          "token_x_mint": "NVDAVuiB7hwd3m5Wa1JuHNovPaPG6BH1QNztbKFxNjv",
-          "token_y_mint": "Xsc9qvGR1efVDFGLrVsmkzv3qi45LTBjeUKSPmx9qEh"
-        },
-        {
-          "address": "8N9bUK6zfZFmuGa4dEpeEoj9Cs4VZSxhdMCMtZALHR5z",
-          "name": "mihao-SOL",
-          "token_x": "mihao",
-          "token_y": "SOL",
-          "tvl_usd": 228311.33477568428,
-          "volume_24h_usd": null,
-          "fees_24h_usd": null,
-          "apy": 40621.38854398734,
-          "apr": 1.6600218814860834,
-          "bin_step": null,
-          "age_hours": null,
-          "token_x_mint": "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump",
+          "token_x_mint": "38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump",
           "token_y_mint": "So11111111111111111111111111111111111111112"
         },
         {
@@ -4832,89 +4857,74 @@
           "name": "SOL-USDC",
           "token_x": "SOL",
           "token_y": "USDC",
-          "tvl_usd": 33331.237731268506,
+          "tvl_usd": 33545.252677836455,
           "volume_24h_usd": null,
           "fees_24h_usd": null,
-          "apy": 414.4188596091633,
-          "apr": 0.44973916746181286,
+          "apy": 446.1262100465202,
+          "apr": 0.4662011372140642,
           "bin_step": null,
           "age_hours": null,
           "token_x_mint": "So11111111111111111111111111111111111111112",
           "token_y_mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
         },
         {
+          "address": "8N9bUK6zfZFmuGa4dEpeEoj9Cs4VZSxhdMCMtZALHR5z",
+          "name": "mihao-SOL",
+          "token_x": "mihao",
+          "token_y": "SOL",
+          "tvl_usd": 222300.52717298345,
+          "volume_24h_usd": null,
+          "fees_24h_usd": null,
+          "apy": 48277.13639375333,
+          "apr": 1.7080150217943657,
+          "bin_step": null,
+          "age_hours": null,
+          "token_x_mint": "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump",
+          "token_y_mint": "So11111111111111111111111111111111111111112"
+        },
+        {
+          "address": "Aq7nhS8pDPRvPA2uWotwyk79aG8Hfegf5CdA3iXABxAR",
+          "name": "NVDA-NVDAx",
+          "token_x": "NVDA",
+          "token_y": "NVDAx",
+          "tvl_usd": 29836.077837471043,
+          "volume_24h_usd": null,
+          "fees_24h_usd": null,
+          "apy": 54.30482742523066,
+          "apr": 0.11890895820494073,
+          "bin_step": null,
+          "age_hours": null,
+          "token_x_mint": "NVDAVuiB7hwd3m5Wa1JuHNovPaPG6BH1QNztbKFxNjv",
+          "token_y_mint": "Xsc9qvGR1efVDFGLrVsmkzv3qi45LTBjeUKSPmx9qEh"
+        },
+        {
           "address": "9ToMYnmEeYKc1AWYAFo8yjPKM1bt3vPhgw1U6qh9RxBd",
           "name": "ZEC-USDC",
           "token_x": "ZEC",
           "token_y": "USDC",
-          "tvl_usd": 285253.4296212988,
+          "tvl_usd": 331776.0243838618,
           "volume_24h_usd": null,
           "fees_24h_usd": null,
-          "apy": 143.22898923531375,
-          "apr": 0.2438126740642815,
+          "apy": 114.47712056963364,
+          "apr": 0.2092687669200443,
           "bin_step": null,
           "age_hours": null,
           "token_x_mint": "A7bdiYdS5GjqGFtxf17ppRHtDKPkkRqbKtR27dxvQXaS",
           "token_y_mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
         },
         {
-          "address": "8nUqqRckfRdFh5YqiEoZtfPoZWuDfWQWJstuWNT5hHf2",
-          "name": "TTWO-USDC",
-          "token_x": "TTWO",
-          "token_y": "USDC",
-          "tvl_usd": 3688.6163534614375,
-          "volume_24h_usd": null,
-          "fees_24h_usd": null,
-          "apy": 9244.50318454064,
-          "apr": 1.2508747952468664,
-          "bin_step": null,
-          "age_hours": null,
-          "token_x_mint": "TTWofwAge91oFhZs7kpQdyrVRkmevgM88xijGvQFbKo",
-          "token_y_mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
-        },
-        {
-          "address": "HbjYfcWZBjCBYTJpZkLGxqArVmZVu3mQcRudb6Wg1sVh",
-          "name": "PUMP-SOL",
-          "token_x": "PUMP",
-          "token_y": "SOL",
-          "tvl_usd": 1223340.8966554536,
-          "volume_24h_usd": null,
-          "fees_24h_usd": null,
-          "apy": 22.215727180934785,
-          "apr": 0.05497882091335534,
-          "bin_step": null,
-          "age_hours": null,
-          "token_x_mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
-          "token_y_mint": "So11111111111111111111111111111111111111112"
-        },
-        {
           "address": "7o3bfXjeDL6Wzuwk1VR8nvEwSJTA2hHJhBgUA95nFDDa",
           "name": "BP-SOL",
           "token_x": "BP",
           "token_y": "SOL",
-          "tvl_usd": 194394.19148638504,
+          "tvl_usd": 194840.55931953964,
           "volume_24h_usd": null,
           "fees_24h_usd": null,
-          "apy": 262.9734707017017,
-          "apr": 0.35381886698625353,
+          "apy": 261.0768836830334,
+          "apr": 0.35237850080861777,
           "bin_step": null,
           "age_hours": null,
           "token_x_mint": "BPxxfRCXkUVhig4HS1Lh7kZqV6SPJhzfEk4x6fVBjPCy",
-          "token_y_mint": "So11111111111111111111111111111111111111112"
-        },
-        {
-          "address": "8W4qk5sGUpMkj76trXzhExtrjkkrUVWygcMkKWWZyHdj",
-          "name": "JIMMY-SOL",
-          "token_x": "JIMMY",
-          "token_y": "SOL",
-          "tvl_usd": 21575.10726664836,
-          "volume_24h_usd": null,
-          "fees_24h_usd": null,
-          "apy": 18446744073709552000,
-          "apr": 26.02194511607503,
-          "bin_step": null,
-          "age_hours": null,
-          "token_x_mint": "38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump",
           "token_y_mint": "So11111111111111111111111111111111111111112"
         },
         {
@@ -4922,59 +4932,89 @@
           "name": "SPCX-USDC",
           "token_x": "SPCX",
           "token_y": "USDC",
-          "tvl_usd": 1085749.6904898037,
+          "tvl_usd": 1085575.4693446625,
           "volume_24h_usd": null,
           "fees_24h_usd": null,
-          "apy": 122.67614971936376,
-          "apr": 0.21956899813381875,
+          "apy": 122.70472915789064,
+          "apr": 0.2196042361834732,
           "bin_step": null,
           "age_hours": null,
           "token_x_mint": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb",
           "token_y_mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
         },
         {
+          "address": "xg71xrhn7MEj5akrZGteuYeiTLbBzyNCpBn69bRYd5a",
+          "name": "GTA6-SOL",
+          "token_x": "GTA6",
+          "token_y": "SOL",
+          "tvl_usd": 47296.51436907189,
+          "volume_24h_usd": null,
+          "fees_24h_usd": null,
+          "apy": 18446744073709552000,
+          "apr": 12.489471693821738,
+          "bin_step": null,
+          "age_hours": null,
+          "token_x_mint": "4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz",
+          "token_y_mint": "So11111111111111111111111111111111111111112"
+        },
+        {
           "address": "F1KKNyUCsQcZLRjwQ4abX6Ri8gDAQ46nHwSHFKA5sFQv",
           "name": "USDC-SANC",
           "token_x": "USDC",
           "token_y": "SANC",
-          "tvl_usd": 404247.24562033935,
+          "tvl_usd": 407420.18924000446,
           "volume_24h_usd": null,
           "fees_24h_usd": null,
-          "apy": 113.8557984134501,
-          "apr": 0.20847227937162133,
+          "apy": 109.90714147741213,
+          "apr": 0.20335582052389967,
           "bin_step": null,
           "age_hours": null,
           "token_x_mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
           "token_y_mint": "CLoUDKc4Ane7HeQcPpE3YHnznRxhMimJ4MyaUqyHFzAu"
         },
         {
-          "address": "7i9rB1v9ck6bWJEaqRBAHowShyuFzev6QPcZ3ARCReMD",
-          "name": "AVGOx-SOL",
-          "token_x": "AVGOx",
-          "token_y": "SOL",
-          "tvl_usd": 1514.256706690708,
+          "address": "8nUqqRckfRdFh5YqiEoZtfPoZWuDfWQWJstuWNT5hHf2",
+          "name": "TTWO-USDC",
+          "token_x": "TTWO",
+          "token_y": "USDC",
+          "tvl_usd": 7224.676914257896,
           "volume_24h_usd": null,
           "fees_24h_usd": null,
-          "apy": 328726644643772.1,
-          "apr": 8.21630433389446,
+          "apy": 609.0777126199162,
+          "apr": 0.5380987273702476,
           "bin_step": null,
           "age_hours": null,
-          "token_x_mint": "XsgSaSvNSqLTtFuyWPBhK9196Xb9Bbdyjj4fH3cPJGo",
-          "token_y_mint": "So11111111111111111111111111111111111111112"
+          "token_x_mint": "TTWofwAge91oFhZs7kpQdyrVRkmevgM88xijGvQFbKo",
+          "token_y_mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
         },
         {
           "address": "4kdxjt8pKEW4qV4ji4HANixwswDJw3Egn8L4x2BEWQqT",
           "name": "WBTC-SOL",
           "token_x": "WBTC",
           "token_y": "SOL",
-          "tvl_usd": 80292.61883650994,
+          "tvl_usd": 80804.79089154898,
           "volume_24h_usd": null,
           "fees_24h_usd": null,
-          "apy": 51.73595086238188,
-          "apr": 0.11430408803021436,
+          "apy": 51.3698024365907,
+          "apr": 0.11364142150993684,
           "bin_step": null,
           "age_hours": null,
           "token_x_mint": "3NZ9JMVBmGAqocybic2c7LQCJScmgsAZ6vQqTDzcqmJh",
+          "token_y_mint": "So11111111111111111111111111111111111111112"
+        },
+        {
+          "address": "4n9rkpKkPUGFquBh6UXqNYbaCNyBcFq9VwNbutwGX5d6",
+          "name": "DOGE-SOL",
+          "token_x": "DOGE",
+          "token_y": "SOL",
+          "tvl_usd": 116870.33229835438,
+          "volume_24h_usd": null,
+          "fees_24h_usd": null,
+          "apy": 826.1967079444705,
+          "apr": 0.6117034349961417,
+          "bin_step": null,
+          "age_hours": null,
+          "token_x_mint": "DoGEV7LASBkQbibMc5k5vKnTZoMg423GpJ5QtJEGfm7R",
           "token_y_mint": "So11111111111111111111111111111111111111112"
         },
         {
@@ -4982,14 +5022,29 @@
           "name": "ZEC-SOL",
           "token_x": "ZEC",
           "token_y": "SOL",
-          "tvl_usd": 337467.58630329225,
+          "tvl_usd": 332900.41439182754,
           "volume_24h_usd": null,
           "fees_24h_usd": null,
-          "apy": 59.57950572647559,
-          "apr": 0.1281291607149484,
+          "apy": 60.39076404492451,
+          "apr": 0.12952022344760988,
           "bin_step": null,
           "age_hours": null,
           "token_x_mint": "A7bdiYdS5GjqGFtxf17ppRHtDKPkkRqbKtR27dxvQXaS",
+          "token_y_mint": "So11111111111111111111111111111111111111112"
+        },
+        {
+          "address": "EPacVgk1JSysXuGhaeg6Ef8N2t4YSHkq5KZu6yr1dQPq",
+          "name": "HONEY-SOL",
+          "token_x": "HONEY",
+          "token_y": "SOL",
+          "tvl_usd": 11940.845676104718,
+          "volume_24h_usd": null,
+          "fees_24h_usd": null,
+          "apy": 18446744073709552000,
+          "apr": 82.44152803398394,
+          "bin_step": null,
+          "age_hours": null,
+          "token_x_mint": "4vMsoUT2BWatFweudnQM1xedRLfJgJ7hswhcpz4xgBTy",
           "token_y_mint": "So11111111111111111111111111111111111111112"
         },
         {
@@ -4997,11 +5052,11 @@
           "name": "FIONA-SOL",
           "token_x": "FIONA",
           "token_y": "SOL",
-          "tvl_usd": 125050.44656826252,
+          "tvl_usd": 115619.01804927834,
           "volume_24h_usd": null,
           "fees_24h_usd": null,
-          "apy": 4471307815.141969,
-          "apr": 4.944599559622572,
+          "apy": 12377455292.526466,
+          "apr": 5.237759345498799,
           "bin_step": null,
           "age_hours": null,
           "token_x_mint": "B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump",
@@ -5012,59 +5067,29 @@
           "name": "BTC-SOL",
           "token_x": "BTC",
           "token_y": "SOL",
-          "tvl_usd": 93028.3645153854,
+          "tvl_usd": 90855.68053801853,
           "volume_24h_usd": null,
           "fees_24h_usd": null,
-          "apy": 30573878.55237703,
-          "apr": 3.5209768664133327,
+          "apy": 25576026.958580486,
+          "apr": 3.4703660954219764,
           "bin_step": null,
           "age_hours": null,
           "token_x_mint": "C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump",
           "token_y_mint": "So11111111111111111111111111111111111111112"
         },
         {
-          "address": "4n9rkpKkPUGFquBh6UXqNYbaCNyBcFq9VwNbutwGX5d6",
-          "name": "DOGE-SOL",
-          "token_x": "DOGE",
+          "address": "7i9rB1v9ck6bWJEaqRBAHowShyuFzev6QPcZ3ARCReMD",
+          "name": "AVGOx-SOL",
+          "token_x": "AVGOx",
           "token_y": "SOL",
-          "tvl_usd": 116334.20742760066,
+          "tvl_usd": 1536.6116907165108,
           "volume_24h_usd": null,
           "fees_24h_usd": null,
-          "apy": 737.1159588082384,
-          "apr": 0.5838326064214064,
+          "apy": 4644880748888.421,
+          "apr": 6.960786538336147,
           "bin_step": null,
           "age_hours": null,
-          "token_x_mint": "DoGEV7LASBkQbibMc5k5vKnTZoMg423GpJ5QtJEGfm7R",
-          "token_y_mint": "So11111111111111111111111111111111111111112"
-        },
-        {
-          "address": "2QDGj5BWMSNyEfmyDFx7eEvWWm4KujUPJ38Xdkntvxtd",
-          "name": "PUMP-SOL",
-          "token_x": "PUMP",
-          "token_y": "SOL",
-          "tvl_usd": 246628.7972144226,
-          "volume_24h_usd": null,
-          "fees_24h_usd": null,
-          "apy": 49.28791165723698,
-          "apr": 0.10984289919458626,
-          "bin_step": null,
-          "age_hours": null,
-          "token_x_mint": "pumpCmXqMfrsAkQ5r49WcJnRayYRqmXz6ae8H7H9Dfn",
-          "token_y_mint": "So11111111111111111111111111111111111111112"
-        },
-        {
-          "address": "EPacVgk1JSysXuGhaeg6Ef8N2t4YSHkq5KZu6yr1dQPq",
-          "name": "HONEY-SOL",
-          "token_x": "HONEY",
-          "token_y": "SOL",
-          "tvl_usd": 13318.460094987196,
-          "volume_24h_usd": null,
-          "fees_24h_usd": null,
-          "apy": 18446744073709552000,
-          "apr": 70.94778288827307,
-          "bin_step": null,
-          "age_hours": null,
-          "token_x_mint": "4vMsoUT2BWatFweudnQM1xedRLfJgJ7hswhcpz4xgBTy",
+          "token_x_mint": "XsgSaSvNSqLTtFuyWPBhK9196Xb9Bbdyjj4fH3cPJGo",
           "token_y_mint": "So11111111111111111111111111111111111111112"
         },
         {
@@ -5072,11 +5097,11 @@
           "name": "tSpaceX-USDC",
           "token_x": "tSpaceX",
           "token_y": "USDC",
-          "tvl_usd": 524010.45284773014,
+          "tvl_usd": 561616.5227012082,
           "volume_24h_usd": null,
           "fees_24h_usd": null,
-          "apy": 55.536416863452274,
-          "apr": 0.12108961331809004,
+          "apy": 49.553455202239995,
+          "apr": 0.11033032679491858,
           "bin_step": null,
           "age_hours": null,
           "token_x_mint": "TSPXcLV76s6V2zDiZQ18kBfcbnjaE2ZzNT3ga2Pd99v",
@@ -5087,29 +5112,14 @@
           "name": "mihao-SOL",
           "token_x": "mihao",
           "token_y": "SOL",
-          "tvl_usd": 39757.852329050766,
+          "tvl_usd": 39959.03257582601,
           "volume_24h_usd": null,
           "fees_24h_usd": null,
-          "apy": 32933.00102447364,
-          "apr": 1.6017591548625736,
+          "apy": 27684.978332355644,
+          "apr": 1.5536108972756149,
           "bin_step": null,
           "age_hours": null,
           "token_x_mint": "4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump",
-          "token_y_mint": "So11111111111111111111111111111111111111112"
-        },
-        {
-          "address": "HKfE9AfRahft9ZLzGPeigNSGb19FqeauucUuqnAw2Fae",
-          "name": "Huss-SOL",
-          "token_x": "Huss",
-          "token_y": "SOL",
-          "tvl_usd": 75404.2022501745,
-          "volume_24h_usd": null,
-          "fees_24h_usd": null,
-          "apy": 689222514923275300,
-          "apr": 10.507757407793273,
-          "bin_step": null,
-          "age_hours": null,
-          "token_x_mint": "CUg7AzWL5p8imZVqqdjEPgRhUsXAkBMW5JxkSJ9fpump",
           "token_y_mint": "So11111111111111111111111111111111111111112"
         },
         {
@@ -5117,11 +5127,11 @@
           "name": "JUP-USDC",
           "token_x": "JUP",
           "token_y": "USDC",
-          "tvl_usd": 478902.6909088268,
+          "tvl_usd": 470836.5654555296,
           "volume_24h_usd": null,
           "fees_24h_usd": null,
-          "apy": 45.28824213344818,
-          "apr": 0.10239470542898305,
+          "apy": 46.53075785188594,
+          "apr": 0.10473019329654051,
           "bin_step": null,
           "age_hours": null,
           "token_x_mint": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
@@ -5132,44 +5142,14 @@
           "name": "HYPE-USDC",
           "token_x": "HYPE",
           "token_y": "USDC",
-          "tvl_usd": 71692.72343880132,
+          "tvl_usd": 71748.52289470984,
           "volume_24h_usd": null,
           "fees_24h_usd": null,
-          "apy": 244.22586840766775,
-          "apr": 0.33923928281719,
+          "apy": 239.0365775797441,
+          "apr": 0.33506359801823565,
           "bin_step": null,
           "age_hours": null,
           "token_x_mint": "98sMhvDwXj1RQi5c5Mndm3vPe9cBqPrbLaufMXFNMh5g",
-          "token_y_mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
-        },
-        {
-          "address": "HfgjZDmexhFVD28Vkb1NbQwWeXP3uDcVTLPjSGHmRHhL",
-          "name": "JUP-USDC",
-          "token_x": "JUP",
-          "token_y": "USDC",
-          "tvl_usd": 204955.3257903597,
-          "volume_24h_usd": null,
-          "fees_24h_usd": null,
-          "apy": 54.27834372792289,
-          "apr": 0.11886187570482049,
-          "bin_step": null,
-          "age_hours": null,
-          "token_x_mint": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
-          "token_y_mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
-        },
-        {
-          "address": "2N1KNuLSt167P6p9P8HYcisTvTTv4vYTM8QJBbtv1xYU",
-          "name": "CARDS-USDC",
-          "token_x": "CARDS",
-          "token_y": "USDC",
-          "tvl_usd": 190681.27869751063,
-          "volume_24h_usd": null,
-          "fees_24h_usd": null,
-          "apy": 207.69727299463608,
-          "apr": 0.30840506790216365,
-          "bin_step": null,
-          "age_hours": null,
-          "token_x_mint": "CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp",
           "token_y_mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
         },
         {
@@ -5177,74 +5157,89 @@
           "name": "DCTY-SOL",
           "token_x": "DCTY",
           "token_y": "SOL",
-          "tvl_usd": 47350.701484931735,
+          "tvl_usd": 54162.48631638184,
           "volume_24h_usd": null,
           "fees_24h_usd": null,
-          "apy": 369379600083.2171,
-          "apr": 6.221457088156803,
+          "apy": 88094055957.46718,
+          "apr": 5.805124615024361,
           "bin_step": null,
           "age_hours": null,
           "token_x_mint": "9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump",
           "token_y_mint": "So11111111111111111111111111111111111111112"
         },
         {
+          "address": "53oyyjgybx6dH7i5aGeKfBUi3xPJQDeBkaENPri57x2H",
+          "name": "cbBTC-WBTC",
+          "token_x": "cbBTC",
+          "token_y": "WBTC",
+          "tvl_usd": 254837.73059577783,
+          "volume_24h_usd": null,
+          "fees_24h_usd": null,
+          "apy": 4.190438910401317,
+          "apr": 0.011247257668484728,
+          "bin_step": null,
+          "age_hours": null,
+          "token_x_mint": "cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij",
+          "token_y_mint": "3NZ9JMVBmGAqocybic2c7LQCJScmgsAZ6vQqTDzcqmJh"
+        },
+        {
+          "address": "HfgjZDmexhFVD28Vkb1NbQwWeXP3uDcVTLPjSGHmRHhL",
+          "name": "JUP-USDC",
+          "token_x": "JUP",
+          "token_y": "USDC",
+          "tvl_usd": 202613.7208292043,
+          "volume_24h_usd": null,
+          "fees_24h_usd": null,
+          "apy": 53.88016916029517,
+          "apr": 0.1181530310203092,
+          "bin_step": null,
+          "age_hours": null,
+          "token_x_mint": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
+          "token_y_mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+        },
+        {
           "address": "AG1EhPjsBrkxQWkViuLXF6pQnHwfr9f9sdNneeoykcEJ",
           "name": "SI-SOL",
           "token_x": "SI",
           "token_y": "SOL",
-          "tvl_usd": 175802.77136154898,
+          "tvl_usd": 196500.4096893705,
           "volume_24h_usd": null,
           "fees_24h_usd": null,
-          "apy": 9475.129579272409,
-          "apr": 1.2576382445634402,
+          "apy": 7444.826958792102,
+          "apr": 1.1915491504552198,
           "bin_step": null,
           "age_hours": null,
           "token_x_mint": "DEW9dSN6QpWyNthphCpMmAbZP1Q4cEKR9xQXAri98WDP",
           "token_y_mint": "So11111111111111111111111111111111111111112"
         },
         {
-          "address": "4XtavTkbwQpoTiQWswbyvBF3z4Cj5CjjfGGiDMZFk116",
-          "name": "CLAUDIA-SOL",
-          "token_x": "CLAUDIA",
-          "token_y": "SOL",
-          "tvl_usd": 213795.1034562341,
+          "address": "2N1KNuLSt167P6p9P8HYcisTvTTv4vYTM8QJBbtv1xYU",
+          "name": "CARDS-USDC",
+          "token_x": "CARDS",
+          "token_y": "USDC",
+          "tvl_usd": 191259.2064921255,
           "volume_24h_usd": null,
           "fees_24h_usd": null,
-          "apy": 1328.711260145832,
-          "apr": 0.7312518930445467,
+          "apy": 199.87359436945852,
+          "apr": 0.3013272855920165,
           "bin_step": null,
           "age_hours": null,
-          "token_x_mint": "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM",
-          "token_y_mint": "So11111111111111111111111111111111111111112"
+          "token_x_mint": "CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp",
+          "token_y_mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
         },
         {
-          "address": "5D6YvjigZaStjPhvehtXj7Xx8DNRGtJAuwgMv1br8k7M",
-          "name": "FLOAT-SOL",
-          "token_x": "FLOAT",
+          "address": "HKfE9AfRahft9ZLzGPeigNSGb19FqeauucUuqnAw2Fae",
+          "name": "Huss-SOL",
+          "token_x": "Huss",
           "token_y": "SOL",
-          "tvl_usd": 126729.33691003986,
+          "tvl_usd": 88612.7395857184,
           "volume_24h_usd": null,
           "fees_24h_usd": null,
-          "apy": 74640.23339993686,
-          "apr": 1.829298496528452,
+          "apy": 25891541251733.223,
+          "apr": 7.465465879521186,
           "bin_step": null,
           "age_hours": null,
-          "token_x_mint": "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr",
-          "token_y_mint": "So11111111111111111111111111111111111111112"
-        },
-        {
-          "address": "Ad36eQiYRSJEKdTjCYR1UhFBKkWWr9MUf3iG4zM5pwHB",
-          "name": "SPYx-SOL",
-          "token_x": "SPYx",
-          "token_y": "SOL",
-          "tvl_usd": 49544.52040724668,
-          "volume_24h_usd": null,
-          "fees_24h_usd": null,
-          "apy": 1730.851669318103,
-          "apr": 0.7997195341128425,
-          "bin_step": null,
-          "age_hours": null,
-          "token_x_mint": "XsoCS1TfEyfFhfvj8EtZ528L3CaKBDBRqRapnBbDF2W",
+          "token_x_mint": "CUg7AzWL5p8imZVqqdjEPgRhUsXAkBMW5JxkSJ9fpump",
           "token_y_mint": "So11111111111111111111111111111111111111112"
         },
         {
@@ -5252,29 +5247,29 @@
           "name": "hSOL-SOL",
           "token_x": "hSOL",
           "token_y": "SOL",
-          "tvl_usd": 5640.72934738273,
+          "tvl_usd": 7084.422536450537,
           "volume_24h_usd": null,
           "fees_24h_usd": null,
-          "apy": 261.30632530746544,
-          "apr": 0.35255315127920395,
+          "apy": 185.92152401375105,
+          "apr": 0.2882357522311995,
           "bin_step": null,
           "age_hours": null,
           "token_x_mint": "he1iusmfkpAdwvxLNGV8Y1iSbj4rUy6yMhEA3fotn9A",
           "token_y_mint": "So11111111111111111111111111111111111111112"
         },
         {
-          "address": "5khV9XKkMHD9Qzmg1Gz9Cy4qSkk9zhNnxUXGcSNQGars",
-          "name": "ONyc-SOL",
-          "token_x": "ONyc",
+          "address": "4XtavTkbwQpoTiQWswbyvBF3z4Cj5CjjfGGiDMZFk116",
+          "name": "CLAUDIA-SOL",
+          "token_x": "CLAUDIA",
           "token_y": "SOL",
-          "tvl_usd": 304456.70614100265,
+          "tvl_usd": 219252.88664561376,
           "volume_24h_usd": null,
           "fees_24h_usd": null,
-          "apy": 61.00181486939189,
-          "apr": 0.13056336571207203,
+          "apy": 1169.609217800621,
+          "apr": 0.6986744186998031,
           "bin_step": null,
           "age_hours": null,
-          "token_x_mint": "5Y8NV33Vv7WbnLfq3zBcKSdYPrk7g2KoiQoe7M2tcxp5",
+          "token_x_mint": "2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM",
           "token_y_mint": "So11111111111111111111111111111111111111112"
         },
         {
@@ -5282,29 +5277,74 @@
           "name": "ORE-USDC",
           "token_x": "ORE",
           "token_y": "USDC",
-          "tvl_usd": 468433.6403465716,
+          "tvl_usd": 470254.84448213753,
           "volume_24h_usd": null,
           "fees_24h_usd": null,
-          "apy": 126.9889610531377,
-          "apr": 0.22483626909030277,
+          "apy": 128.2710446605702,
+          "apr": 0.22638285423171656,
           "bin_step": null,
           "age_hours": null,
           "token_x_mint": "oreoU2P8bN6jkk3jbaiVxYnG1dCXcYxwhwyK9jSybcp",
           "token_y_mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
         },
         {
+          "address": "5khV9XKkMHD9Qzmg1Gz9Cy4qSkk9zhNnxUXGcSNQGars",
+          "name": "ONyc-SOL",
+          "token_x": "ONyc",
+          "token_y": "SOL",
+          "tvl_usd": 304918.6694441271,
+          "volume_24h_usd": null,
+          "fees_24h_usd": null,
+          "apy": 61.008957338500046,
+          "apr": 0.13057553546573114,
+          "bin_step": null,
+          "age_hours": null,
+          "token_x_mint": "5Y8NV33Vv7WbnLfq3zBcKSdYPrk7g2KoiQoe7M2tcxp5",
+          "token_y_mint": "So11111111111111111111111111111111111111112"
+        },
+        {
           "address": "GYqytuXSiX3GaPuCkLMY4jeRR3mAtyAuQqhD32d45g5y",
           "name": "MET-SOL",
           "token_x": "MET",
           "token_y": "SOL",
-          "tvl_usd": 124614.26136699478,
+          "tvl_usd": 124477.59179754448,
           "volume_24h_usd": null,
           "fees_24h_usd": null,
-          "apy": 26.330957465569504,
-          "apr": 0.0640574734963783,
+          "apy": 26.461484433141624,
+          "apr": 0.06434058144089194,
           "bin_step": null,
           "age_hours": null,
           "token_x_mint": "METvsvVRapdj9cFLzq4Tr43xK4tAjQfwX76z3n6mWQL",
+          "token_y_mint": "So11111111111111111111111111111111111111112"
+        },
+        {
+          "address": "FbkX1h2YTs171cEMa4GrV7XbAiQt5zSmV2CjfYWxXJDP",
+          "name": "SOL-USDC",
+          "token_x": "SOL",
+          "token_y": "USDC",
+          "tvl_usd": 30157.981353190982,
+          "volume_24h_usd": null,
+          "fees_24h_usd": null,
+          "apy": 110.97484262704174,
+          "apr": 0.20474869737864607,
+          "bin_step": null,
+          "age_hours": null,
+          "token_x_mint": "So11111111111111111111111111111111111111112",
+          "token_y_mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+        },
+        {
+          "address": "Ad36eQiYRSJEKdTjCYR1UhFBKkWWr9MUf3iG4zM5pwHB",
+          "name": "SPYx-SOL",
+          "token_x": "SPYx",
+          "token_y": "SOL",
+          "tvl_usd": 49744.41538822306,
+          "volume_24h_usd": null,
+          "fees_24h_usd": null,
+          "apy": 1567.5415246486946,
+          "apr": 0.773920634657763,
+          "bin_step": null,
+          "age_hours": null,
+          "token_x_mint": "XsoCS1TfEyfFhfvj8EtZ528L3CaKBDBRqRapnBbDF2W",
           "token_y_mint": "So11111111111111111111111111111111111111112"
         },
         {
@@ -5312,29 +5352,44 @@
           "name": "QQQ-USDC",
           "token_x": "QQQ",
           "token_y": "USDC",
-          "tvl_usd": 434021.0981150301,
+          "tvl_usd": 436431.2976857685,
           "volume_24h_usd": null,
           "fees_24h_usd": null,
-          "apy": 49.43653431829007,
-          "apr": 0.1101158150752243,
+          "apy": 49.07537390036403,
+          "apr": 0.10945214482001328,
           "bin_step": null,
           "age_hours": null,
           "token_x_mint": "QQQvDYxG7g11Rr4rnaJqDddmP9ocH74YhE3mDaG37R9",
           "token_y_mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
         },
         {
-          "address": "FbkX1h2YTs171cEMa4GrV7XbAiQt5zSmV2CjfYWxXJDP",
-          "name": "SOL-USDC",
-          "token_x": "SOL",
-          "token_y": "USDC",
-          "tvl_usd": 29942.24112595252,
+          "address": "Cokh3k8e1yqXUkekLjeVrHhH6sQkJAJbpKuuYfQ1DYG5",
+          "name": "SKHY-MU",
+          "token_x": "SKHY",
+          "token_y": "MU",
+          "tvl_usd": 195843.80823034875,
           "volume_24h_usd": null,
           "fees_24h_usd": null,
-          "apy": 108.40011593582751,
-          "apr": 0.20137774803243896,
+          "apy": 70.38456637067236,
+          "apr": 0.14610329863124005,
           "bin_step": null,
           "age_hours": null,
-          "token_x_mint": "So11111111111111111111111111111111111111112",
+          "token_x_mint": "SKHYhSjuRWHgikq8eRKbtBbpABgJSkd7ytQV14i9EQ3",
+          "token_y_mint": "MUxEsUKSMACyw5fZf68wxf5FLnZVhtU9CwH8uNNGay1"
+        },
+        {
+          "address": "F1mbBZYKXGFx5nraY3cK4RgNR5EuShntQ8xDKDD5HY1z",
+          "name": "TTWO-USDC",
+          "token_x": "TTWO",
+          "token_y": "USDC",
+          "tvl_usd": 12236.137178136569,
+          "volume_24h_usd": null,
+          "fees_24h_usd": null,
+          "apy": 1040.573974364335,
+          "apr": 0.6691098963561134,
+          "bin_step": null,
+          "age_hours": null,
+          "token_x_mint": "TTWofwAge91oFhZs7kpQdyrVRkmevgM88xijGvQFbKo",
           "token_y_mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
         },
         {
@@ -5342,29 +5397,44 @@
           "name": "HYPE-USDC",
           "token_x": "HYPE",
           "token_y": "USDC",
-          "tvl_usd": 146520.74650587628,
+          "tvl_usd": 147231.62631872948,
           "volume_24h_usd": null,
           "fees_24h_usd": null,
-          "apy": 61.464539972822685,
-          "apr": 0.1313506733217648,
+          "apy": 58.10558030961106,
+          "apr": 0.12558368176660972,
           "bin_step": null,
           "age_hours": null,
           "token_x_mint": "98sMhvDwXj1RQi5c5Mndm3vPe9cBqPrbLaufMXFNMh5g",
           "token_y_mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
         },
         {
-          "address": "F1mbBZYKXGFx5nraY3cK4RgNR5EuShntQ8xDKDD5HY1z",
-          "name": "TTWO-USDC",
-          "token_x": "TTWO",
-          "token_y": "USDC",
-          "tvl_usd": 12242.78166761988,
+          "address": "5D6YvjigZaStjPhvehtXj7Xx8DNRGtJAuwgMv1br8k7M",
+          "name": "FLOAT-SOL",
+          "token_x": "FLOAT",
+          "token_y": "SOL",
+          "tvl_usd": 123086.60583289844,
           "volume_24h_usd": null,
           "fees_24h_usd": null,
-          "apy": 1121.7407253440397,
-          "apr": 0.688071962464257,
+          "apy": 21967.18802283777,
+          "apr": 1.4895261111773763,
           "bin_step": null,
           "age_hours": null,
-          "token_x_mint": "TTWofwAge91oFhZs7kpQdyrVRkmevgM88xijGvQFbKo",
+          "token_x_mint": "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr",
+          "token_y_mint": "So11111111111111111111111111111111111111112"
+        },
+        {
+          "address": "Nji2FYabKy5aRPNEvrPdqswn77KgBb7epqY6go11cEY",
+          "name": "BP-USDC",
+          "token_x": "BP",
+          "token_y": "USDC",
+          "tvl_usd": 460133.72592888144,
+          "volume_24h_usd": null,
+          "fees_24h_usd": null,
+          "apy": 78.54162702385376,
+          "apr": 0.1589348232479673,
+          "bin_step": null,
+          "age_hours": null,
+          "token_x_mint": "BPxxfRCXkUVhig4HS1Lh7kZqV6SPJhzfEk4x6fVBjPCy",
           "token_y_mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
         },
         {
@@ -5372,163 +5442,103 @@
           "name": "Rings-SOL",
           "token_x": "Rings",
           "token_y": "SOL",
-          "tvl_usd": 108466.23510154184,
+          "tvl_usd": 107297.05535260087,
           "volume_24h_usd": null,
           "fees_24h_usd": null,
-          "apy": 65863848.7471796,
-          "apr": 3.738867060929121,
+          "apy": 20737356.62430705,
+          "apr": 3.4109322707448477,
           "bin_step": null,
           "age_hours": null,
           "token_x_mint": "65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring",
           "token_y_mint": "So11111111111111111111111111111111111111112"
         },
         {
-          "address": "Cokh3k8e1yqXUkekLjeVrHhH6sQkJAJbpKuuYfQ1DYG5",
-          "name": "SKHY-MU",
-          "token_x": "SKHY",
-          "token_y": "MU",
-          "tvl_usd": 192891.14322159532,
-          "volume_24h_usd": null,
-          "fees_24h_usd": null,
-          "apy": 65.74583927498689,
-          "apr": 0.13853020438537436,
-          "bin_step": null,
-          "age_hours": null,
-          "token_x_mint": "SKHYhSjuRWHgikq8eRKbtBbpABgJSkd7ytQV14i9EQ3",
-          "token_y_mint": "MUxEsUKSMACyw5fZf68wxf5FLnZVhtU9CwH8uNNGay1"
-        },
-        {
-          "address": "Nji2FYabKy5aRPNEvrPdqswn77KgBb7epqY6go11cEY",
-          "name": "BP-USDC",
-          "token_x": "BP",
-          "token_y": "USDC",
-          "tvl_usd": 460193.44431946205,
-          "volume_24h_usd": null,
-          "fees_24h_usd": null,
-          "apy": 81.43808359568372,
-          "apr": 0.1633508812873338,
-          "bin_step": null,
-          "age_hours": null,
-          "token_x_mint": "BPxxfRCXkUVhig4HS1Lh7kZqV6SPJhzfEk4x6fVBjPCy",
-          "token_y_mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
-        },
-        {
-          "address": "CGYxcqLiJEoYapZrU7uVGBGfEE15pXDV4mB9AQ8Fsuff",
-          "name": "tKalshi-USDC",
-          "token_x": "tKalshi",
-          "token_y": "USDC",
-          "tvl_usd": 802240.0726748725,
-          "volume_24h_usd": null,
-          "fees_24h_usd": null,
-          "apy": 0.7980928318448433,
-          "apr": 0.0021779001956755343,
-          "bin_step": null,
-          "age_hours": null,
-          "token_x_mint": "TKLSidmLVt3cqGaaodG8tyRzoANfQwoh67AccjmubeZ",
-          "token_y_mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
-        },
-        {
           "address": "5cvcHrD2uh2CXhmZnMHsTVWJW1qtyikVaN3MCJNaCKMh",
           "name": "JupSOL-JitoSOL",
           "token_x": "JupSOL",
           "token_y": "JitoSOL",
-          "tvl_usd": 255255.23785556064,
+          "tvl_usd": 255559.5356511403,
           "volume_24h_usd": null,
           "fees_24h_usd": null,
-          "apy": 3.26274064761809,
-          "apr": 0.008796670266055337,
+          "apy": 3.2225423330414005,
+          "apr": 0.008689987603005841,
           "bin_step": null,
           "age_hours": null,
           "token_x_mint": "jupSoLaHXQiZZTSfEWMTRRgpnyFm8f6sZdosWBjx93v",
           "token_y_mint": "J1toso1uCk3RLmjorhTtrVwY9HJ7X8V9yYac6Y7kGCPn"
         },
         {
-          "address": "53oyyjgybx6dH7i5aGeKfBUi3xPJQDeBkaENPri57x2H",
-          "name": "cbBTC-WBTC",
-          "token_x": "cbBTC",
-          "token_y": "WBTC",
-          "tvl_usd": 253925.21174246515,
+          "address": "CGYxcqLiJEoYapZrU7uVGBGfEE15pXDV4mB9AQ8Fsuff",
+          "name": "tKalshi-USDC",
+          "token_x": "tKalshi",
+          "token_y": "USDC",
+          "tvl_usd": 802144.0720631429,
           "volume_24h_usd": null,
           "fees_24h_usd": null,
-          "apy": 2.503734820598713,
-          "apr": 0.006775311486651151,
+          "apy": 0.7655533412965099,
+          "apr": 0.002089440601111803,
           "bin_step": null,
           "age_hours": null,
-          "token_x_mint": "cbbtcf3aa214zXHbiAZQwf4122FBYbraNdFqgw4iMij",
-          "token_y_mint": "3NZ9JMVBmGAqocybic2c7LQCJScmgsAZ6vQqTDzcqmJh"
+          "token_x_mint": "TKLSidmLVt3cqGaaodG8tyRzoANfQwoh67AccjmubeZ",
+          "token_y_mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
         },
         {
-          "address": "HDojZeCdUee8nczxsc9MeiMKVF961HqEFeKEvHw74xVR",
-          "name": "PEPE-SOL",
-          "token_x": "PEPE",
+          "address": "3gUa73kgEfZW6zj97uShGaCd4GAPjc7kd61aKkcCMqpw",
+          "name": "DCTY-SOL",
+          "token_x": "DCTY",
           "token_y": "SOL",
-          "tvl_usd": 41088.653490535195,
+          "tvl_usd": 18636.265928602003,
           "volume_24h_usd": null,
           "fees_24h_usd": null,
-          "apy": 1430.2786749391344,
-          "apr": 0.7502068927305902,
+          "apy": 24708659.623847134,
+          "apr": 3.460586041341291,
           "bin_step": null,
           "age_hours": null,
-          "token_x_mint": "PEPEqnuuCDbBC89p1u9vpnP1KQ2oj1xTcQBsjt9X55m",
+          "token_x_mint": "9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump",
           "token_y_mint": "So11111111111111111111111111111111111111112"
-        },
-        {
-          "address": "H1tk6dsTZniLopJPnHnNQ4L2PDSp7he1vS7sTLeNLZMo",
-          "name": "JupSOL-INF",
-          "token_x": "JupSOL",
-          "token_y": "INF",
-          "tvl_usd": 208166.06850332048,
-          "volume_24h_usd": null,
-          "fees_24h_usd": null,
-          "apy": 3.037143259443642,
-          "apr": 0.008197418546753219,
-          "bin_step": null,
-          "age_hours": null,
-          "token_x_mint": "jupSoLaHXQiZZTSfEWMTRRgpnyFm8f6sZdosWBjx93v",
-          "token_y_mint": "5oVNBeEEQvYi1cX3ir8Dx5n1P7pdxydbGF2X4TxVusJm"
         }
       ],
       "url": "https://dlmm.datapi.meteora.ag/swagger-ui/",
       "note": "Métricas apenas quando presentes na resposta; APY não calculado a partir de volume."
     },
     "jupiter": {
-      "observation_time": "2026-11-25T20:42:44.499Z",
+      "observation_time": "2026-11-25T23:15:47.763Z",
       "prices": {
         "SOL": {
-          "usd": 70.06706152548159,
-          "change24h": 1.5812754603395776,
-          "liquidity": 762855598.7957417,
-          "blockId": 473884331,
+          "usd": 70.47429483785344,
+          "change24h": 0.7955737353325718,
+          "liquidity": 764384951.4974132,
+          "blockId": 473926939,
           "mint": "So11111111111111111111111111111111111111112"
         },
         "USDC": {
-          "usd": 0.9995705666482722,
-          "change24h": 0.009361219912077284,
-          "liquidity": 357312063.0828956,
-          "blockId": 473884339,
+          "usd": 0.9994302515050595,
+          "change24h": -0.0046995435958311635,
+          "liquidity": 359125028.2704487,
+          "blockId": 473926940,
           "mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
         },
         "JUP": {
-          "usd": 0.2283135702494459,
-          "change24h": 3.376788272792139,
-          "liquidity": 4286846.622634848,
-          "blockId": 473884338,
+          "usd": 0.22479792017412065,
+          "change24h": 0.8186894351081584,
+          "liquidity": 4251744.606825866,
+          "blockId": 473926891,
           "mint": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN"
         }
       },
       "url": "https://developers.jup.ag/docs/price"
     },
     "gecko_solana": {
-      "observation_time": "2026-11-25T20:42:44.499Z",
+      "observation_time": "2026-11-25T23:15:47.763Z",
       "pools": [
         {
           "id": "solana_FnHWfV49ywCtGCDTyf34AVN8BiXxcgXUKqLctkrkP1gQ",
           "network": "solana",
           "name": "JIMMY / SOL",
           "address": "FnHWfV49ywCtGCDTyf34AVN8BiXxcgXUKqLctkrkP1gQ",
-          "reserve_usd": 91225.3834,
-          "volume_24h_usd": 3407527.75615863,
-          "price_change_24h_pct": 33.97,
+          "reserve_usd": 72735.4645,
+          "volume_24h_usd": 3193793.42765224,
+          "price_change_24h_pct": -45.931,
           "url": "https://www.geckoterminal.com/solana/pools/FnHWfV49ywCtGCDTyf34AVN8BiXxcgXUKqLctkrkP1gQ"
         },
         {
@@ -5536,9 +5546,9 @@
           "network": "solana",
           "name": "ANSEM / SOL",
           "address": "FnzKY6x7entQ1eR3D225dQyT7ybfka4PskBMQhb8L3CC",
-          "reserve_usd": 748260.3841,
-          "volume_24h_usd": 2509105.2569548,
-          "price_change_24h_pct": -10.989,
+          "reserve_usd": 790148.5055,
+          "volume_24h_usd": 2380642.98472932,
+          "price_change_24h_pct": 0.978,
           "url": "https://www.geckoterminal.com/solana/pools/FnzKY6x7entQ1eR3D225dQyT7ybfka4PskBMQhb8L3CC"
         },
         {
@@ -5546,9 +5556,9 @@
           "network": "solana",
           "name": "BASKET / SOL",
           "address": "CixcofsPwHnYWjsoDxXxvLd6uM5fH7w8MFPL9mpQpqtX",
-          "reserve_usd": 130080.1805,
-          "volume_24h_usd": 4917319.5289268,
-          "price_change_24h_pct": 1088.521,
+          "reserve_usd": 117872.9444,
+          "volume_24h_usd": 5138043.21858858,
+          "price_change_24h_pct": 863.146,
           "url": "https://www.geckoterminal.com/solana/pools/CixcofsPwHnYWjsoDxXxvLd6uM5fH7w8MFPL9mpQpqtX"
         },
         {
@@ -5556,9 +5566,9 @@
           "network": "solana",
           "name": "4CHAN / SOL",
           "address": "Ak4wr2ueEAJMqZSEcGPMX9EhCrwWRngP8CskvdEh1e6H",
-          "reserve_usd": 45534.4871,
-          "volume_24h_usd": 7257081.07577491,
-          "price_change_24h_pct": 932.443,
+          "reserve_usd": 36306.8992,
+          "volume_24h_usd": 7150949.23542799,
+          "price_change_24h_pct": 221.222,
           "url": "https://www.geckoterminal.com/solana/pools/Ak4wr2ueEAJMqZSEcGPMX9EhCrwWRngP8CskvdEh1e6H"
         },
         {
@@ -5566,9 +5576,9 @@
           "network": "solana",
           "name": "BP / USDC",
           "address": "6qz7THwQvcjF3HyDGLuKaLBUk6EyJKeZXZMWLAeiwfjd",
-          "reserve_usd": 2338169.8489,
-          "volume_24h_usd": 535924.111333591,
-          "price_change_24h_pct": 1.431,
+          "reserve_usd": 2339800.7353,
+          "volume_24h_usd": 544409.186919706,
+          "price_change_24h_pct": 1.003,
           "url": "https://www.geckoterminal.com/solana/pools/6qz7THwQvcjF3HyDGLuKaLBUk6EyJKeZXZMWLAeiwfjd"
         },
         {
@@ -5576,9 +5586,9 @@
           "network": "solana",
           "name": "Pompom / SOL",
           "address": "7kNYdYbHbGMdQczmKSxqNzg4p4pGc6VpERzMfPBptGso",
-          "reserve_usd": 53328.3201,
-          "volume_24h_usd": 3238056.87469658,
-          "price_change_24h_pct": 1523.513,
+          "reserve_usd": 38307.6866,
+          "volume_24h_usd": 3520209.2326236,
+          "price_change_24h_pct": 725.227,
           "url": "https://www.geckoterminal.com/solana/pools/7kNYdYbHbGMdQczmKSxqNzg4p4pGc6VpERzMfPBptGso"
         },
         {
@@ -5586,9 +5596,9 @@
           "network": "solana",
           "name": "FIONA / SOL",
           "address": "DjbLtX1HRGZZrJgJ7CwTX6SN3D7tBLiytkGwomBUwTVB",
-          "reserve_usd": 180651.3905,
-          "volume_24h_usd": 1434264.70371244,
-          "price_change_24h_pct": -15.101,
+          "reserve_usd": 165079.2027,
+          "volume_24h_usd": 1443764.16162008,
+          "price_change_24h_pct": -32.605,
           "url": "https://www.geckoterminal.com/solana/pools/DjbLtX1HRGZZrJgJ7CwTX6SN3D7tBLiytkGwomBUwTVB"
         },
         {
@@ -5596,9 +5606,9 @@
           "network": "solana",
           "name": "PERRO / SOL",
           "address": "4s1epXdedd7TY1UtJ7frou3saSxuG98os7HcPtNEu8WH",
-          "reserve_usd": 26318.8718,
-          "volume_24h_usd": 2576406.8692331,
-          "price_change_24h_pct": 305.787,
+          "reserve_usd": 16358.4351,
+          "volume_24h_usd": 2651331.65150034,
+          "price_change_24h_pct": 62.337,
           "url": "https://www.geckoterminal.com/solana/pools/4s1epXdedd7TY1UtJ7frou3saSxuG98os7HcPtNEu8WH"
         },
         {
@@ -5606,19 +5616,29 @@
           "network": "solana",
           "name": "mihao / SOL",
           "address": "Ho1aSG6WGH1FfXdEHrK2f4Ggt1Hoxo9s5jcLMDqeyeBz",
-          "reserve_usd": 267477.0713,
-          "volume_24h_usd": 903764.325382285,
-          "price_change_24h_pct": -12.928,
+          "reserve_usd": 268361.2586,
+          "volume_24h_usd": 898320.707462487,
+          "price_change_24h_pct": -12.908,
           "url": "https://www.geckoterminal.com/solana/pools/Ho1aSG6WGH1FfXdEHrK2f4Ggt1Hoxo9s5jcLMDqeyeBz"
+        },
+        {
+          "id": "solana_4f4F69asRNnyyCidkkmNG9EsFt1fGw2CWiNeqcRwAtN8",
+          "network": "solana",
+          "name": "JaoJiu / SOL",
+          "address": "4f4F69asRNnyyCidkkmNG9EsFt1fGw2CWiNeqcRwAtN8",
+          "reserve_usd": 8463.7137,
+          "volume_24h_usd": 1720537.09086806,
+          "price_change_24h_pct": -51.592,
+          "url": "https://www.geckoterminal.com/solana/pools/4f4F69asRNnyyCidkkmNG9EsFt1fGw2CWiNeqcRwAtN8"
         },
         {
           "id": "solana_HMzvsEEmtzHhvZNw9uwbaG85HCTmFnkbhzUx16cy7ca3",
           "network": "solana",
           "name": "CATE / SOL",
           "address": "HMzvsEEmtzHhvZNw9uwbaG85HCTmFnkbhzUx16cy7ca3",
-          "reserve_usd": 1268871.4805,
-          "volume_24h_usd": 359799.642193955,
-          "price_change_24h_pct": 0.746,
+          "reserve_usd": 1272904.7675,
+          "volume_24h_usd": 377215.128893991,
+          "price_change_24h_pct": -4.624,
           "url": "https://www.geckoterminal.com/solana/pools/HMzvsEEmtzHhvZNw9uwbaG85HCTmFnkbhzUx16cy7ca3"
         },
         {
@@ -5626,29 +5646,19 @@
           "network": "solana",
           "name": "pippin / SOL",
           "address": "8WwcNqdZjCY5Pt7AkhupAFknV2txca9sq6YBkGzLbvdt",
-          "reserve_usd": 3417280.8639,
-          "volume_24h_usd": 1449858.75055643,
-          "price_change_24h_pct": 1.912,
+          "reserve_usd": 3415632.9141,
+          "volume_24h_usd": 1444550.11323586,
+          "price_change_24h_pct": 1.287,
           "url": "https://www.geckoterminal.com/solana/pools/8WwcNqdZjCY5Pt7AkhupAFknV2txca9sq6YBkGzLbvdt"
-        },
-        {
-          "id": "solana_4f4F69asRNnyyCidkkmNG9EsFt1fGw2CWiNeqcRwAtN8",
-          "network": "solana",
-          "name": "JaoJiu / SOL",
-          "address": "4f4F69asRNnyyCidkkmNG9EsFt1fGw2CWiNeqcRwAtN8",
-          "reserve_usd": 9674.5023,
-          "volume_24h_usd": 1715741.30304612,
-          "price_change_24h_pct": -41.869,
-          "url": "https://www.geckoterminal.com/solana/pools/4f4F69asRNnyyCidkkmNG9EsFt1fGw2CWiNeqcRwAtN8"
         },
         {
           "id": "solana_2uF4Xh61rDwxnG9woyxsVQP7zuA6kLFpb3NvnRQeoiSd",
           "network": "solana",
           "name": "PUMP / USDC",
           "address": "2uF4Xh61rDwxnG9woyxsVQP7zuA6kLFpb3NvnRQeoiSd",
-          "reserve_usd": 17980760.133,
-          "volume_24h_usd": 3046862.91872546,
-          "price_change_24h_pct": 4.865,
+          "reserve_usd": 18133702.9643,
+          "volume_24h_usd": 3637794.16234103,
+          "price_change_24h_pct": 3.214,
           "url": "https://www.geckoterminal.com/solana/pools/2uF4Xh61rDwxnG9woyxsVQP7zuA6kLFpb3NvnRQeoiSd"
         },
         {
@@ -5656,59 +5666,19 @@
           "network": "solana",
           "name": "DCTY / TTWO",
           "address": "DChXQ4qFPpNPEDfZLNiwvPhrVuuFGfqEDLAAZbiZHUWf",
-          "reserve_usd": 154275.0542,
-          "volume_24h_usd": 501085.54660176,
-          "price_change_24h_pct": -20.723,
+          "reserve_usd": 165296.51,
+          "volume_24h_usd": 545821.324467049,
+          "price_change_24h_pct": -8.892,
           "url": "https://www.geckoterminal.com/solana/pools/DChXQ4qFPpNPEDfZLNiwvPhrVuuFGfqEDLAAZbiZHUWf"
-        },
-        {
-          "id": "solana_LBgqGiqx81AaVbCg8tdvPFfKuk6rzKZmvqFzHiYoPN1",
-          "network": "solana",
-          "name": "Holders / SOL",
-          "address": "LBgqGiqx81AaVbCg8tdvPFfKuk6rzKZmvqFzHiYoPN1",
-          "reserve_usd": 7151.3675,
-          "volume_24h_usd": 517501.582875529,
-          "price_change_24h_pct": -94.468,
-          "url": "https://www.geckoterminal.com/solana/pools/LBgqGiqx81AaVbCg8tdvPFfKuk6rzKZmvqFzHiYoPN1"
-        },
-        {
-          "id": "solana_CSvKMfrQ2TedEZEDpFSoHbGqxNb1A3w5o2vVM6Y5eoQ5",
-          "network": "solana",
-          "name": "DUVAL / SOL",
-          "address": "CSvKMfrQ2TedEZEDpFSoHbGqxNb1A3w5o2vVM6Y5eoQ5",
-          "reserve_usd": 14977.1723,
-          "volume_24h_usd": 371352.709815828,
-          "price_change_24h_pct": -66.423,
-          "url": "https://www.geckoterminal.com/solana/pools/CSvKMfrQ2TedEZEDpFSoHbGqxNb1A3w5o2vVM6Y5eoQ5"
-        },
-        {
-          "id": "solana_FJk9sajdc2Q4heRPPu3yLzkmf2ZByZkpiHQLv9e2bn5A",
-          "network": "solana",
-          "name": "FLOAT / SOL",
-          "address": "FJk9sajdc2Q4heRPPu3yLzkmf2ZByZkpiHQLv9e2bn5A",
-          "reserve_usd": 285512.1667,
-          "volume_24h_usd": 318686.838144669,
-          "price_change_24h_pct": -15.34,
-          "url": "https://www.geckoterminal.com/solana/pools/FJk9sajdc2Q4heRPPu3yLzkmf2ZByZkpiHQLv9e2bn5A"
-        },
-        {
-          "id": "solana_TT7DKs9YjJZj1fwMGoPmKBmDreZzyMAMrHoDCGdfwqN",
-          "network": "solana",
-          "name": "WASTED / SOL",
-          "address": "TT7DKs9YjJZj1fwMGoPmKBmDreZzyMAMrHoDCGdfwqN",
-          "reserve_usd": 92572.0657,
-          "volume_24h_usd": 757472.815000031,
-          "price_change_24h_pct": -38.303,
-          "url": "https://www.geckoterminal.com/solana/pools/TT7DKs9YjJZj1fwMGoPmKBmDreZzyMAMrHoDCGdfwqN"
         },
         {
           "id": "solana_58fzJMbX5PatnfJPqWWsqkVFPRKptkbb5r2vCw4Qq3z9",
           "network": "solana",
           "name": "VINE / SOL",
           "address": "58fzJMbX5PatnfJPqWWsqkVFPRKptkbb5r2vCw4Qq3z9",
-          "reserve_usd": 1468402.5314,
-          "volume_24h_usd": 1371519.53076074,
-          "price_change_24h_pct": 17.356,
+          "reserve_usd": 1487386.0502,
+          "volume_24h_usd": 1399932.19333932,
+          "price_change_24h_pct": 17.298,
           "url": "https://www.geckoterminal.com/solana/pools/58fzJMbX5PatnfJPqWWsqkVFPRKptkbb5r2vCw4Qq3z9"
         },
         {
@@ -5716,15 +5686,55 @@
           "network": "solana",
           "name": "Huss / SOL",
           "address": "GkHcYZeXDi2SveqNaGSg3qxrkzShDr5Dxrd482kM2hXx",
-          "reserve_usd": 77381.723,
-          "volume_24h_usd": 1103378.95732913,
-          "price_change_24h_pct": 49.527,
+          "reserve_usd": 76512.6646,
+          "volume_24h_usd": 533081.140904442,
+          "price_change_24h_pct": -16.704,
           "url": "https://www.geckoterminal.com/solana/pools/GkHcYZeXDi2SveqNaGSg3qxrkzShDr5Dxrd482kM2hXx"
+        },
+        {
+          "id": "solana_CSvKMfrQ2TedEZEDpFSoHbGqxNb1A3w5o2vVM6Y5eoQ5",
+          "network": "solana",
+          "name": "DUVAL / SOL",
+          "address": "CSvKMfrQ2TedEZEDpFSoHbGqxNb1A3w5o2vVM6Y5eoQ5",
+          "reserve_usd": 13457.9688,
+          "volume_24h_usd": 308000.172439981,
+          "price_change_24h_pct": -74.275,
+          "url": "https://www.geckoterminal.com/solana/pools/CSvKMfrQ2TedEZEDpFSoHbGqxNb1A3w5o2vVM6Y5eoQ5"
+        },
+        {
+          "id": "solana_ENYEHSyduTbFN1xoSEGaLu7c1F8AqKucdscMuV5Yypy2",
+          "network": "solana",
+          "name": "HONEY / SOL",
+          "address": "ENYEHSyduTbFN1xoSEGaLu7c1F8AqKucdscMuV5Yypy2",
+          "reserve_usd": 7315.5733,
+          "volume_24h_usd": 314411.432502969,
+          "price_change_24h_pct": -81.503,
+          "url": "https://www.geckoterminal.com/solana/pools/ENYEHSyduTbFN1xoSEGaLu7c1F8AqKucdscMuV5Yypy2"
+        },
+        {
+          "id": "solana_FJk9sajdc2Q4heRPPu3yLzkmf2ZByZkpiHQLv9e2bn5A",
+          "network": "solana",
+          "name": "FLOAT / SOL",
+          "address": "FJk9sajdc2Q4heRPPu3yLzkmf2ZByZkpiHQLv9e2bn5A",
+          "reserve_usd": 267407.1752,
+          "volume_24h_usd": 263554.656620452,
+          "price_change_24h_pct": -16.779,
+          "url": "https://www.geckoterminal.com/solana/pools/FJk9sajdc2Q4heRPPu3yLzkmf2ZByZkpiHQLv9e2bn5A"
+        },
+        {
+          "id": "solana_8ewuF2o8ACro7fqWepZ3tKhkbBjndZU4Ldk9scRPw83d",
+          "network": "solana",
+          "name": "swordcat / SOL",
+          "address": "8ewuF2o8ACro7fqWepZ3tKhkbBjndZU4Ldk9scRPw83d",
+          "reserve_usd": 89239.1951,
+          "volume_24h_usd": 80073.7838499728,
+          "price_change_24h_pct": 4.346,
+          "url": "https://www.geckoterminal.com/solana/pools/8ewuF2o8ACro7fqWepZ3tKhkbBjndZU4Ldk9scRPw83d"
         }
       ]
     },
     "kamino_liquidity": {
-      "observation_time": "2026-11-25T20:42:44.499Z",
+      "observation_time": "2026-11-25T23:15:47.763Z",
       "url": "https://api.kamino.finance/strategies?env=mainnet-beta&status=LIVE",
       "strategies": [
         {
@@ -6931,8 +6941,92 @@
       "note": "Catálogo oficial de estratégias Kamino; endpoint não comprova TVL/APY. Não atribuir rendimento ou risco sem outras métricas verificáveis."
     },
     "social_radar": {
-      "observation_time": "2026-11-25T20:42:44.499Z",
+      "observation_time": "2026-11-25T23:15:47.763Z",
       "posts": [
+        {
+          "platform": "Mastodon",
+          "topic": "bitcoin",
+          "author": "@newisty",
+          "text": "Coinbase executive explains a $1.5 billion Bitcoin and UAE hotels plan Coinbase Asset Management President Anthony Bassili discusses a $1.5 billion Abu Dhabi project pairing Bitcoin with UAE hotels and other market claims. https:// newisty.com/blog/coinbase-exec utive-explains-a-15-billion-bitcoin-and-uae-hotels-plan?utm_source=social&amp;utm_campaign=crypto_news # bitcoin # coinbase # etf",
+          "published_at": "2026-11-25T23:14:45.196Z",
+          "url": "https://mastodon.social/@newisty/117679619125510535",
+          "engagement": {
+            "likes": 0,
+            "reposts": 0,
+            "replies": 0
+          },
+          "kind": "publicacao nao verificada"
+        },
+        {
+          "platform": "Mastodon",
+          "topic": "bitcoin",
+          "author": "@newisty",
+          "text": "Bitcoin lender Ledn launches US custody accounts for bitcoin, gold and stablecoins Ledn launched Ledn Custody, moving eligible U.S. clients from its Cayman Islands entity to a U.S. company with BitGo Bank &amp; Trust as custodian. https:// newisty.com/blog/bitcoin-lende r-ledn-launches-us-custody-accounts-for-bitcoin-gold-and-stablecoins?utm_source=social&amp;utm_campaign=crypto_news # bitcoin # ledn # custody",
+          "published_at": "2026-11-25T23:11:12.851Z",
+          "url": "https://mastodon.social/@newisty/117679605207520182",
+          "engagement": {
+            "likes": 0,
+            "reposts": 0,
+            "replies": 0
+          },
+          "kind": "publicacao nao verificada"
+        },
+        {
+          "platform": "Mastodon",
+          "topic": "bitcoin",
+          "author": "@newisty",
+          "text": "Just 25 big managers drove the entire rise in Bitcoin ETF holdings last quarter Galaxy Research found 191 more managers held US spot Bitcoin ETFs in Q3, but the 25 largest added all the net growth while others trimmed. https:// newisty.com/blog/just-25-big-m anagers-drove-the-entire-rise-in-bitcoin-etf-holdings-last-quarter?utm_source=social&amp;utm_campaign=crypto_news # bitcoin # etf # 13f",
+          "published_at": "2026-11-25T23:04:18.751Z",
+          "url": "https://mastodon.social/@newisty/117679578070290120",
+          "engagement": {
+            "likes": 0,
+            "reposts": 0,
+            "replies": 0
+          },
+          "kind": "publicacao nao verificada"
+        },
+        {
+          "platform": "Mastodon",
+          "topic": "bitcoin",
+          "author": "@newisty",
+          "text": "Bitwise analyst Dragosch says bitcoin near &#39;fire sale&#39; levels as Fed tightening peaks André Dragosch argues Fed language is near peak hawkishness and that bitcoin has historically bottomed at this stage of the tightening cycle. https:// newisty.com/blog/bitwise-analy st-dragosch-says-bitcoin-near-fire-sale-levels-as-fed-tightening-peaks?utm_source=social&amp;utm_campaign=crypto_news # bitcoin # federalreserve # andredragosch",
+          "published_at": "2026-11-25T23:01:17.051Z",
+          "url": "https://mastodon.social/@newisty/117679566162425315",
+          "engagement": {
+            "likes": 0,
+            "reposts": 0,
+            "replies": 0
+          },
+          "kind": "publicacao nao verificada"
+        },
+        {
+          "platform": "Mastodon",
+          "topic": "defi",
+          "author": "@FeeLoop",
+          "text": "📊 Feeloop Market Digest ⚡【Arbitrage】 🔥 Max Funding: BIGTIME/USDT (-6865.1% APR (Short Pay Long)) 💧【LP Terminal】 🟢 Pools: 3.8M 📈 Top LP: [BSC] 0X55D3...7955/0XCAFD...9E20 (5053.0% APR) 👉 https:// feeloop.xyz ⏱️ 22:30 UTC | # Crypto # DeFi",
+          "published_at": "2026-11-25T22:30:04.699Z",
+          "url": "https://mastodon.social/@FeeLoop/117679443456619272",
+          "engagement": {
+            "likes": 0,
+            "reposts": 0,
+            "replies": 0
+          },
+          "kind": "publicacao nao verificada"
+        },
+        {
+          "platform": "Mastodon",
+          "topic": "bitcoin",
+          "author": "@WhisprNews",
+          "text": "📉 Ark Invest vendió $6,81M en acciones de ARKB y compró $61,6M en Anthropic mientras # Bitcoin caía un 2,2% hasta $58.924. Los ETF al contado de $BTC en EE. UU. encadenan su sexto día de salidas netas: $231,6M.",
+          "published_at": "2026-11-25T21:51:22.798Z",
+          "url": "https://mastodon.social/@WhisprNews/117679291287719148",
+          "engagement": {
+            "likes": 0,
+            "reposts": 0,
+            "replies": 0
+          },
+          "kind": "publicacao nao verificada"
+        },
         {
           "platform": "Mastodon",
           "topic": "bitcoin",
@@ -7439,25 +7533,11 @@
         },
         {
           "platform": "Mastodon",
-          "topic": "bitcoin",
+          "topic": "defi",
           "author": "@newisty",
           "text": "Ether and DeFi tokens fall twice as hard as bitcoin as stock selloff resumes Bitcoin is down 1.2% since midnight UTC while ether and DeFi tokens drop about twice as far as the equities selloff continues. https:// newisty.com/blog/ether-and-def i-tokens-fall-twice-as-hard-as-bitcoin-as-stock-selloff-resumes?utm_source=social&amp;utm_campaign=crypto_news # bitcoin # ethereum # defi",
           "published_at": "2026-11-25T14:12:46.968Z",
           "url": "https://mastodon.social/@newisty/117677488010104615",
-          "engagement": {
-            "likes": 0,
-            "reposts": 0,
-            "replies": 0
-          },
-          "kind": "publicacao nao verificada"
-        },
-        {
-          "platform": "Mastodon",
-          "topic": "bitcoin",
-          "author": "@newisty",
-          "text": "Fed&#39;s preferred inflation report lands with December rate hike already priced in October core PCE is forecast at 3.2% as markets brace for a December Fed rate increase. Bitcoin trades below $60,000 after a steep monthly slide. https:// newisty.com/blog/feds-preferre d-inflation-report-lands-with-december-rate-hike-already-priced-in?utm_source=social&amp;utm_campaign=crypto_news # bitcoin # fed # inflation",
-          "published_at": "2026-11-25T14:08:21.803Z",
-          "url": "https://mastodon.social/@newisty/117677470633175715",
           "engagement": {
             "likes": 0,
             "reposts": 0,
@@ -7472,48 +7552,6 @@
           "text": "Hyperliquid Token Drops 40% From Peak as Abraxas Exits and Exploit Hits Platform The native token slid below its pre-Trump levels after market maker Abraxas Capital closed out half a billion dollars in profit following a $13.5M bridged token drain. https:// basisdesk.news/analysis/hyperl iquid-token-slide-abraxas-exit-bridge-exploit?utm_source=mastodon # HYPE # ETH # DeFi # Hyperliquid # AbraxasCapitalManagement",
           "published_at": "2026-11-25T14:01:35.000Z",
           "url": "https://mstdn.social/@basisdesk/117677444014191499",
-          "engagement": {
-            "likes": 0,
-            "reposts": 0,
-            "replies": 0
-          },
-          "kind": "publicacao nao verificada"
-        },
-        {
-          "platform": "Mastodon",
-          "topic": "bitcoin",
-          "author": "@crypto_schlingel",
-          "text": "PCE-Inflation, BIP-Zahlen und verkürzter Handel wegen Thanksgiving in den USA. Die Volatilität am Mittwoch dürfte extrem werden. Passt auf eure Positionen auf und lasst euch nicht rausspülen! 🦃 # tradfi # S &amp;P # nasdaq # bitcoin # krypto # AiArt",
-          "published_at": "2026-11-25T14:00:36.921Z",
-          "url": "https://mastodon.social/@crypto_schlingel/117677440166567309",
-          "engagement": {
-            "likes": 0,
-            "reposts": 0,
-            "replies": 0
-          },
-          "kind": "publicacao nao verificada"
-        },
-        {
-          "platform": "Mastodon",
-          "topic": "bitcoin",
-          "author": "@crypto_schlingel",
-          "text": "Südkorea stoppt den Handel nach 5% Rutsch, Japan bricht ein und Trump bringt wieder neue Zölle ins Spiel. TradFi bebt! Wenn die Makrolage wackelt, leidet Krypto kurzfristig mit. Chance oder Warnung? Für mich Ersteres! 🌏 # S &amp;P # nasdaq # tradfi # bitcoin # AiArt US-Dollar DXY und VIX spiken gleichzeitig – klassische Risk-Off-Stimmung an den Weltmärkten. Anleger flüchten in Cash. Aber Cash schmilzt durch Inflation. Bitcoin bleibt für mich das beste Ventil gegen diesen Wahnsinn. 💵",
-          "published_at": "2026-11-25T14:00:36.012Z",
-          "url": "https://mastodon.social/@crypto_schlingel/117677440107334680",
-          "engagement": {
-            "likes": 0,
-            "reposts": 0,
-            "replies": 1
-          },
-          "kind": "publicacao nao verificada"
-        },
-        {
-          "platform": "Mastodon",
-          "topic": "bitcoin",
-          "author": "@loopwire",
-          "text": "🪙 Crypto Market Sheds 5% as Bitcoin ETF Outflows Hit Record, Hyperliquid Token Leads Declines Total crypto market value fell to $2.04 trillion as Bitcoin slipped under $58,800 and spot ETF redemptions climbed to nearly $5 billion for the month. # Crypto # Bitcoin # News https://www. loopwire.news/story-crypto-179 5614042840.html",
-          "published_at": "2026-11-25T13:42:05.501Z",
-          "url": "https://mastodon.social/@loopwire/117677367328874320",
           "engagement": {
             "likes": 0,
             "reposts": 0,
@@ -7870,20 +7908,6 @@
             "replies": 0
           },
           "kind": "publicacao nao verificada"
-        },
-        {
-          "platform": "Mastodon",
-          "topic": "defi",
-          "author": "@FeeLoop",
-          "text": "📊 Feeloop Market Digest ⚡【Arbitrage】 🔥 Max Funding: ACE/USDC (+4380.0% APR) 💧【LP Terminal】 🟢 Pools: 3.8M 📈 Top LP: [BSC] 0X55D3...7955/0XCAFD...9E20 (5053.0% APR) 👉 https:// feeloop.xyz ⏱️ 14:20 UTC | # Crypto # DeFi",
-          "published_at": "2026-11-24T14:20:06.691Z",
-          "url": "https://mastodon.social/@FeeLoop/117671854518395254",
-          "engagement": {
-            "likes": 0,
-            "reposts": 0,
-            "replies": 0
-          },
-          "kind": "publicacao nao verificada"
         }
       ],
       "window_hours": 48,
@@ -7895,13 +7919,13 @@
       "disclaimer": "Atividade social nao constitui prova de fatos, fluxo financeiro, manipulacao ou causalidade de precos."
     },
     "narratives": {
-      "observation_time": "2026-11-25T20:42:44.499Z",
+      "observation_time": "2026-11-25T23:15:47.763Z",
       "window_hours": 48,
       "assets": {
         "BTC": {
-          "mentions": 36,
-          "distinct_authors": 13,
-          "interactions": 14
+          "mentions": 37,
+          "distinct_authors": 12,
+          "interactions": 13
         },
         "ETH": {
           "mentions": 16,
@@ -7919,8 +7943,8 @@
           "interactions": 0
         },
         "HYPE": {
-          "mentions": 6,
-          "distinct_authors": 4,
+          "mentions": 5,
+          "distinct_authors": 3,
           "interactions": 1
         },
         "KMNO": {
@@ -7976,85 +8000,211 @@
       }
     },
     "coingecko": {
-      "observation_time": "2026-11-25T20:42:52.085Z",
+      "observation_time": "2026-11-25T23:15:53.033Z",
       "url": "https://www.coingecko.com/",
       "coins": {
         "BTC": {
           "id": "bitcoin",
           "name": "Bitcoin",
           "symbol": "BTC",
-          "price_usd": 59818,
-          "change_1h_pct": 0.3699,
-          "change_24h_pct": 0.3599,
-          "change_7d_pct": -5.0169,
-          "market_cap_usd": 1203381958230,
-          "volume_24h_usd": 35906351459,
+          "price_usd": 60144,
+          "change_1h_pct": -0.3055,
+          "change_24h_pct": 0.29565,
+          "change_7d_pct": -3.5643,
+          "market_cap_usd": 1209946577519,
+          "volume_24h_usd": 37527774199,
           "image_url": "https://coin-images.coingecko.com/coins/images/1/large/bitcoin.png?1696501400",
-          "last_updated": "2026-11-25T20:41:50.000Z",
+          "last_updated": "2026-11-25T23:14:58.000Z",
           "source": "CoinGecko · dados de mercado agregados"
         },
         "ETH": {
           "id": "ethereum",
           "name": "Ethereum",
           "symbol": "ETH",
-          "price_usd": 1681.35,
-          "change_1h_pct": 0.2086,
-          "change_24h_pct": 0.54467,
-          "change_7d_pct": -4.7613,
-          "market_cap_usd": 205546711237,
-          "volume_24h_usd": 12785992888,
+          "price_usd": 1686.67,
+          "change_1h_pct": -0.0209,
+          "change_24h_pct": 0.25515,
+          "change_7d_pct": -4.3622,
+          "market_cap_usd": 206197058573,
+          "volume_24h_usd": 13172447848,
           "image_url": "https://coin-images.coingecko.com/coins/images/279/large/ethereum.png?1696501628",
-          "last_updated": "2026-11-25T20:41:50.000Z",
+          "last_updated": "2026-11-25T23:14:58.000Z",
           "source": "CoinGecko · dados de mercado agregados"
         },
         "SOL": {
           "id": "solana",
           "name": "Solana",
           "symbol": "SOL",
-          "price_usd": 70.18,
-          "change_1h_pct": 0.7779,
-          "change_24h_pct": 1.57939,
-          "change_7d_pct": -4.6737,
-          "market_cap_usd": 41553663110,
-          "volume_24h_usd": 3284954317,
+          "price_usd": 70.49,
+          "change_1h_pct": -0.1994,
+          "change_24h_pct": 0.75348,
+          "change_7d_pct": -3.2745,
+          "market_cap_usd": 41741641421,
+          "volume_24h_usd": 3392483028,
           "image_url": "https://coin-images.coingecko.com/coins/images/4128/large/solana.png?1718769756",
-          "last_updated": "2026-11-25T20:41:50.000Z",
+          "last_updated": "2026-11-25T23:14:58.000Z",
           "source": "CoinGecko · dados de mercado agregados"
         },
         "HYPE": {
           "id": "hyperliquid",
           "name": "Hyperliquid",
           "symbol": "HYPE",
-          "price_usd": 61.3,
-          "change_1h_pct": 0.8435,
-          "change_24h_pct": 3.17403,
-          "change_7d_pct": -9.3848,
-          "market_cap_usd": 14569653960,
-          "volume_24h_usd": 1074842752,
+          "price_usd": 61.35,
+          "change_1h_pct": -0.4467,
+          "change_24h_pct": 1.74695,
+          "change_7d_pct": -6.8732,
+          "market_cap_usd": 14580338811,
+          "volume_24h_usd": 1060970752,
           "image_url": "https://coin-images.coingecko.com/coins/images/50882/large/hyperliquid.jpg?1729431300",
-          "last_updated": "2026-11-25T20:41:50.000Z",
+          "last_updated": "2026-11-25T23:14:58.000Z",
           "source": "CoinGecko · dados de mercado agregados"
         },
         "JUP": {
           "id": "jupiter-exchange-solana",
           "name": "Jupiter",
           "symbol": "JUP",
-          "price_usd": 0.228451,
-          "change_1h_pct": 1.2452,
-          "change_24h_pct": 3.15091,
-          "change_7d_pct": -10.7384,
-          "market_cap_usd": 758311923,
-          "volume_24h_usd": 45827299,
+          "price_usd": 0.224946,
+          "change_1h_pct": -0.5157,
+          "change_24h_pct": 0.7682,
+          "change_7d_pct": -11.2687,
+          "market_cap_usd": 746677313,
+          "volume_24h_usd": 46205141,
           "image_url": "https://coin-images.coingecko.com/coins/images/34188/large/jup.png?1704266489",
-          "last_updated": "2026-11-25T20:41:50.000Z",
+          "last_updated": "2026-11-25T23:14:58.000Z",
           "source": "CoinGecko · dados de mercado agregados"
         }
       },
       "attribution": "Dados fornecidos por CoinGecko",
       "note": "Valores agregados por ativo; podem divergir de pares spot de exchanges."
+    },
+    "stablecoins": {
+      "total_usd": 283297762451.6418,
+      "top": [
+        {
+          "name": "Tether",
+          "symbol": "USDT",
+          "usd": 173704024755.71472
+        },
+        {
+          "name": "USD Coin",
+          "symbol": "USDC",
+          "usd": 69088945540.62186
+        },
+        {
+          "name": "Ethena USDe",
+          "symbol": "USDe",
+          "usd": 4915831093.546202
+        },
+        {
+          "name": "Dai",
+          "symbol": "DAI",
+          "usd": 4555104085.463414
+        },
+        {
+          "name": "Sky Dollar",
+          "symbol": "USDS",
+          "usd": 3132418335.3149366
+        },
+        {
+          "name": "World Liberty Financial USD",
+          "symbol": "USD1",
+          "usd": 2848224161.8183374
+        },
+        {
+          "name": "Ripple USD",
+          "symbol": "RLUSD",
+          "usd": 2799172419.535597
+        },
+        {
+          "name": "Global Dollar",
+          "symbol": "USDG",
+          "usd": 2573715953.934608
+        }
+      ],
+      "observation_time": "2026-11-25T23:15:53.322Z",
+      "url": "https://stablecoins.llama.fi/stablecoins?includePrices=true",
+      "note": "Circulação observada; não equivale a fluxos de exchange ou stablecoins líquidos."
+    },
+    "liquidation_lab": {
+      "pairs": {
+        "BTCUSDT": {
+          "observation_time": "2026-11-25T23:15:53.580Z",
+          "points": [
+            {
+              "t": 1795648553962,
+              "p": 60269,
+              "oi": 37274.16464
+            }
+          ],
+          "funding": 0.0000125,
+          "oi_unit": "BTC",
+          "price_source": "Hyperliquid markPx",
+          "oi_source": "Hyperliquid perp openInterest (base)",
+          "model": "Hipóteses educacionais; variação de OI base não identifica liquidações nem entradas long/short"
+        },
+        "ETHUSDT": {
+          "observation_time": "2026-11-25T23:15:53.580Z",
+          "points": [
+            {
+              "t": 1795648553962,
+              "p": 1689.01,
+              "oi": 637821.9066
+            }
+          ],
+          "funding": 0.0000066542,
+          "oi_unit": "ETH",
+          "price_source": "Hyperliquid markPx",
+          "oi_source": "Hyperliquid perp openInterest (base)",
+          "model": "Hipóteses educacionais; variação de OI base não identifica liquidações nem entradas long/short"
+        },
+        "SOLUSDT": {
+          "observation_time": "2026-11-25T23:15:53.580Z",
+          "points": [
+            {
+              "t": 1795648553962,
+              "p": 70.565,
+              "oi": 4023208.9799999995
+            }
+          ],
+          "funding": 0.0000112626,
+          "oi_unit": "SOL",
+          "price_source": "Hyperliquid markPx",
+          "oi_source": "Hyperliquid perp openInterest (base)",
+          "model": "Hipóteses educacionais; variação de OI base não identifica liquidações nem entradas long/short"
+        }
+      },
+      "observation_time": "2026-11-25T23:15:53.580Z",
+      "methodology": "Risco teórico baseado em delta de OI base da Hyperliquid, níveis hipotéticos 10/25/50/100x. Não representa mapa de liquidações reais nem dados da Binance.",
+      "refresh": "GitHub Actions a cada 15 minutos; histórico disponível somente após coletas reais",
+      "venue": "Hyperliquid",
+      "minimum_points": 3,
+      "observed_stream": "Binance forceOrder opcional, não contabiliza total"
     }
   },
   "history": [
+    {
+      "collected_at": "2026-11-25T23:15:47.763Z",
+      "fear_greed": 13,
+      "tvl_usd": 68330341784.39926,
+      "dex_volume_usd": 7879140356.219996,
+      "stablecoins_usd": null,
+      "btc": 60282.47,
+      "sol": 70.6,
+      "derivatives": {
+        "BTCUSDT": {
+          "oi": 94245.118,
+          "funding": 0.00007903
+        },
+        "ETHUSDT": {
+          "oi": 2334682.909,
+          "funding": 0.00004584
+        },
+        "SOLUSDT": {
+          "oi": 8816097.01,
+          "funding": 0.0001
+        }
+      }
+    },
     {
       "collected_at": "2026-11-25T20:42:44.499Z",
       "fear_greed": 13,
@@ -8155,29 +8305,6 @@
       "stablecoins_usd": null,
       "btc": 60479.42,
       "sol": 71.64,
-      "derivatives": {
-        "BTCUSDT": {
-          "oi": 94245.118,
-          "funding": 0.00007903
-        },
-        "ETHUSDT": {
-          "oi": 2334682.909,
-          "funding": 0.00004584
-        },
-        "SOLUSDT": {
-          "oi": 8816097.01,
-          "funding": 0.0001
-        }
-      }
-    },
-    {
-      "collected_at": "2026-11-23T22:45:15.101Z",
-      "fear_greed": 11,
-      "tvl_usd": 69849773474.92386,
-      "dex_volume_usd": 6190278373.41,
-      "stablecoins_usd": null,
-      "btc": 61178.19,
-      "sol": 72.02,
       "derivatives": {
         "BTCUSDT": {
           "oi": 94245.118,
