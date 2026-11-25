@@ -32,6 +32,14 @@ jobs:
         env:
           COINGECKO_DEMO_KEY: ${{ secrets.COINGECKO_DEMO_KEY }}
         run: node scripts/coingecko.mjs
+      - name: Recuperar fonte stablecoins DefiLlama
+        continue-on-error: true
+        timeout-minutes: 1
+        run: node scripts/source-health.mjs
+      - name: Open Interest Hyperliquid - amostras reais
+        continue-on-error: true
+        timeout-minutes: 2
+        run: node scripts/liquidation-lab.mjs
       - name: Gravar historico no repositorio
         run: |
           git config user.name "xzbit-monitor[bot]"
